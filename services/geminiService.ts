@@ -1,9 +1,48 @@
+
 import { GoogleGenAI, Type } from "@google/genai";
 import { Question, Subject, Grade } from "../types";
+import { storageService } from "./storageService";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+// Lazy initialization to prevent crashes if key is missing on load
+let ai: GoogleGenAI | null = null;
+let currentKey: string | null = null;
+
+const getAI = () => {
+  // Check if user has provided a custom key
+  const customKey = storageService.getCustomApiKey();
+  const envKey = process.env.API_KEY;
+  
+  // Determine which key to use
+  const activeKey = customKey || envKey;
+
+  // If we have no key at all, return null
+  if (!activeKey) return null;
+
+  // If the key has changed (e.g. user updated settings), re-initialize
+  if (!ai || currentKey !== activeKey) {
+    ai = new GoogleGenAI({ apiKey: activeKey });
+    currentKey = activeKey;
+  }
+  return ai;
+};
 
 export const generateDailyQuestions = async (subject: Subject, grade: Grade): Promise<Question[]> => {
+  const aiInstance = getAI();
+  
+  if (!aiInstance) {
+    return [{
+      questionText: "API Key Missing! 🔑",
+      options: [
+        "I need to add a key in Settings",
+        "I need to add VITE_API_KEY",
+        "I need to restart",
+        "All of the above"
+      ],
+      correctAnswerIndex: 0,
+      explanation: "To generate AI questions, please go to your Profile > Settings and add a free Google Gemini API Key, or configure the .env file."
+    }];
+  }
+
   const modelName = "gemini-2.5-flash";
   
   // Refined prompts for Singapore Top School Exam Standard (P3/P4)
@@ -40,7 +79,7 @@ export const generateDailyQuestions = async (subject: Subject, grade: Grade): Pr
   - Return the result as a strict JSON array.`;
 
   try {
-    const response = await ai.models.generateContent({
+    const response = await aiInstance.models.generateContent({
       model: modelName,
       contents: prompt,
       config: {
@@ -68,13 +107,11 @@ export const generateDailyQuestions = async (subject: Subject, grade: Grade): Pr
     if (!text) throw new Error("No response from AI");
     
     // Cleanup: Remove any markdown code blocks that might have slipped through
-    // This ensures JSON.parse doesn't fail if the model adds ```json fences
     text = text.replace(/```json/g, '').replace(/```/g, '').trim();
     
     return JSON.parse(text) as Question[];
   } catch (error) {
     console.error("Error generating questions:", error);
-    // Fallback in case of API error to prevent app crash
     return [
       {
         questionText: "Which planet is known as the Red Planet? (API Error Fallback)",

@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => {
     plugins: [react()],
     // Replace process.env.API_KEY with the value from .env file during build
     define: {
-      'process.env.API_KEY': JSON.stringify(env.VITE_API_KEY)
+      'process.env.API_KEY': JSON.stringify(env.VITE_API_KEY || "") 
     },
     // Base path for GitHub Pages
     // If your repo is https://github.com/user/repo, this should be '/repo/'

@@ -1,22 +1,26 @@
+
 import React, { useState } from 'react';
 import { Grade } from '../types';
 import { Button } from './Button';
-import { UserCircle, GraduationCap } from 'lucide-react';
+import { UserCircle, GraduationCap, Key, Check } from 'lucide-react';
 
 interface OnboardingProps {
-  onComplete: (name: string, grade: Grade) => void;
+  onComplete: (name: string, grade: Grade, apiKey?: string) => void;
 }
 
 export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
   const [step, setStep] = useState(1);
   const [name, setName] = useState('');
   const [grade, setGrade] = useState<Grade | null>(null);
+  const [apiKey, setApiKey] = useState('');
 
   const handleNext = () => {
     if (step === 1 && name.trim()) {
       setStep(2);
     } else if (step === 2 && grade) {
-      onComplete(name, grade);
+      setStep(3);
+    } else if (step === 3) {
+      onComplete(name, grade!, apiKey);
     }
   };
 
@@ -26,8 +30,9 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
         
         {/* Progress Dots */}
         <div className="flex justify-center gap-2 mb-8">
-          <div className={`h-2 w-8 rounded-full transition-colors ${step === 1 ? 'bg-indigo-600' : 'bg-gray-200'}`}></div>
-          <div className={`h-2 w-8 rounded-full transition-colors ${step === 2 ? 'bg-indigo-600' : 'bg-gray-200'}`}></div>
+          <div className={`h-2 w-8 rounded-full transition-colors ${step >= 1 ? 'bg-indigo-600' : 'bg-gray-200'}`}></div>
+          <div className={`h-2 w-8 rounded-full transition-colors ${step >= 2 ? 'bg-indigo-600' : 'bg-gray-200'}`}></div>
+          <div className={`h-2 w-8 rounded-full transition-colors ${step >= 3 ? 'bg-indigo-600' : 'bg-gray-200'}`}></div>
         </div>
 
         {step === 1 && (
@@ -96,7 +101,47 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                 onClick={handleNext}
                 disabled={!grade}
               >
-                Let's Start!
+                Continue
+              </Button>
+            </div>
+          </div>
+        )}
+
+        {step === 3 && (
+          <div className="slide-in">
+            <div className="bg-white p-8 rounded-3xl shadow-lg text-center">
+              <div className="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-6 text-yellow-600">
+                <Key size={40} />
+              </div>
+              <h2 className="text-2xl font-bold text-gray-800 mb-2">Unlock the AI</h2>
+              <p className="text-gray-500 mb-6 text-sm">
+                To generate unlimited questions, please paste your free Google Gemini API Key below.
+              </p>
+              
+              <input
+                type="password"
+                value={apiKey}
+                onChange={(e) => setApiKey(e.target.value)}
+                placeholder="AIzaSy..."
+                className="w-full text-center font-mono text-sm p-4 rounded-xl bg-gray-50 border-2 border-transparent focus:border-indigo-500 focus:bg-white outline-none transition-all mb-4 text-gray-800"
+              />
+
+              <div className="mb-6">
+                <a 
+                  href="https://aistudio.google.com/app/apikey" 
+                  target="_blank" 
+                  rel="noreferrer"
+                  className="text-indigo-500 text-xs font-bold hover:underline"
+                >
+                  Get a free key here →
+                </a>
+              </div>
+              
+              <Button 
+                fullWidth 
+                onClick={handleNext}
+              >
+                {apiKey ? 'Complete Setup' : 'Skip for Now'}
               </Button>
             </div>
           </div>

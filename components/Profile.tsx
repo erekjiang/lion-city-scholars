@@ -1,15 +1,17 @@
+
 import React, { useState } from 'react';
 import { User } from '../types';
 import { Button } from './Button';
 import { CalendarTracker } from './CalendarTracker';
-import { Share2, UserPlus, LogOut, Award, Zap } from 'lucide-react';
+import { Share2, UserPlus, LogOut, Award, Zap, Settings as SettingsIcon } from 'lucide-react';
 
 interface ProfileProps {
   user: User;
   onLogout: () => void;
+  onOpenSettings: () => void;
 }
 
-export const Profile: React.FC<ProfileProps> = ({ user, onLogout }) => {
+export const Profile: React.FC<ProfileProps> = ({ user, onLogout, onOpenSettings }) => {
   const [inviteLink, setInviteLink] = useState('');
 
   const handleInvite = () => {
@@ -21,6 +23,12 @@ export const Profile: React.FC<ProfileProps> = ({ user, onLogout }) => {
 
   return (
     <div className="p-6 pb-24 max-w-lg mx-auto">
+      <div className="flex justify-end mb-2">
+         <button onClick={onOpenSettings} className="p-2 text-gray-400 hover:text-indigo-600 transition-colors">
+            <SettingsIcon size={24} />
+         </button>
+      </div>
+
       <div className="flex flex-col items-center mb-8 slide-in">
         <div className="w-24 h-24 rounded-full bg-gradient-to-br from-indigo-400 to-purple-600 p-1 mb-4 shadow-xl">
            <img 

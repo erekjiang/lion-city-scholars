@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { ViewState, User, Subject, Grade } from './types';
 import { NavBar } from './components/NavBar';
@@ -6,9 +7,10 @@ import { GameScreen } from './components/GameScreen';
 import { Leaderboard } from './components/Leaderboard';
 import { Profile } from './components/Profile';
 import { Onboarding } from './components/Onboarding';
+import { Settings } from './components/Settings';
 import { Button } from './components/Button';
 import { Sparkles } from 'lucide-react';
-import { storageService, getTodayString } from './services/storageService';
+import { storageService } from './services/storageService';
 
 const App: React.FC = () => {
   const [view, setView] = useState<ViewState>(ViewState.LOGIN);
@@ -46,9 +48,15 @@ const App: React.FC = () => {
     }
   };
 
-  const handleOnboardingComplete = (name: string, grade: Grade) => {
+  const handleOnboardingComplete = (name: string, grade: Grade, apiKey?: string) => {
     const avatar = `https://picsum.photos/seed/${name}/200`;
     const newUser = storageService.createUser(name, grade, avatar);
+    
+    // Save Custom API Key if provided
+    if (apiKey && apiKey.trim()) {
+      storageService.setCustomApiKey(apiKey.trim());
+    }
+
     setUser(newUser);
     setView(ViewState.HOME);
   };
@@ -109,6 +117,11 @@ const App: React.FC = () => {
     return <Onboarding onComplete={handleOnboardingComplete} />;
   }
 
+  // Settings View
+  if (view === ViewState.SETTINGS) {
+    return <Settings onBack={() => setView(ViewState.PROFILE)} />;
+  }
+
   // Game View (No NavBar)
   if (view === ViewState.GAME && selectedSubject && user) {
     return (
@@ -156,7 +169,13 @@ const App: React.FC = () => {
 
       {view === ViewState.LEADERBOARD && <Leaderboard />}
       
-      {view === ViewState.PROFILE && user && <Profile user={user} onLogout={handleLogout} />}
+      {view === ViewState.PROFILE && user && (
+        <Profile 
+          user={user} 
+          onLogout={handleLogout} 
+          onOpenSettings={() => setView(ViewState.SETTINGS)} 
+        />
+      )}
 
       <NavBar currentView={view} setView={setView} />
     </div>

@@ -1,3 +1,4 @@
+
 export enum Subject {
   ENGLISH = 'English',
   MATH = 'Math',
@@ -40,7 +41,8 @@ export enum ViewState {
   HOME,
   GAME,
   LEADERBOARD,
-  PROFILE
+  PROFILE,
+  SETTINGS
 }
 
 export const SUBJECT_THEMES: Record<Subject, { color: string; bg: string; icon: string }> = {

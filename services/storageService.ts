@@ -1,6 +1,8 @@
+
 import { User, Grade } from '../types';
 
 const STORAGE_KEY = 'lion_city_scholars_user';
+const API_KEY_STORAGE = 'lion_city_scholars_api_key';
 
 // Helper to get today's date string YYYY-MM-DD
 export const getTodayString = () => new Date().toISOString().split('T')[0];
@@ -67,5 +69,18 @@ export const storageService = {
   clearSession: () => {
     // We don't delete data on logout to persist it for the same device,
     // but in a real app, this might clear auth tokens.
+  },
+
+  // Custom API Key Management
+  setCustomApiKey: (key: string) => {
+    if (!key.trim()) {
+      localStorage.removeItem(API_KEY_STORAGE);
+    } else {
+      localStorage.setItem(API_KEY_STORAGE, key.trim());
+    }
+  },
+
+  getCustomApiKey: (): string | null => {
+    return localStorage.getItem(API_KEY_STORAGE);
   }
 };
