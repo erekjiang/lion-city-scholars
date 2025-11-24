@@ -31,13 +31,25 @@ const App: React.FC = () => {
 
   // Check for redirect result on mount (for mobile auth errors)
   useEffect(() => {
-    checkRedirectResult().catch(console.error);
+    checkRedirectResult()
+      .then(user => {
+        if (user) {
+          alert(`Redirect success! User: ${user.email}`);
+        } else {
+          alert('Redirect result: No user found (Context lost?)');
+        }
+      })
+      .catch(error => {
+        alert(`Redirect Error: ${error.message}`);
+        console.error(error);
+      });
   }, []);
 
   // Listen to Firebase auth state
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(async (firebaseUser) => {
       setAuthLoading(true);
+      // alert(`Auth State Changed: ${firebaseUser ? firebaseUser.email : 'No User'}`);
 
       if (firebaseUser) {
         setFirebaseUser(firebaseUser);
