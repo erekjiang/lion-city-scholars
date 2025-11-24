@@ -38,10 +38,10 @@ export const storageService = {
 
     const user: User = JSON.parse(data);
     const today = getTodayString();
-    
+
     // Update Score
     user.totalScore += score;
-    
+
     // Update Level (simple logic: 1000 pts per level)
     user.level = Math.floor(user.totalScore / 1000) + 1;
 
@@ -51,13 +51,13 @@ export const storageService = {
       const yesterday = new Date();
       yesterday.setDate(yesterday.getDate() - 1);
       const yesterdayStr = yesterday.toISOString().split('T')[0];
-      
+
       if (user.completedDates.includes(yesterdayStr)) {
         user.streak += 1;
       } else {
         user.streak = 1; // Reset streak if missed yesterday, or 1 if it's the first day
       }
-      
+
       user.completedDates.push(today);
     }
 
@@ -69,18 +69,5 @@ export const storageService = {
   clearSession: () => {
     // We don't delete data on logout to persist it for the same device,
     // but in a real app, this might clear auth tokens.
-  },
-
-  // Custom API Key Management
-  setCustomApiKey: (key: string) => {
-    if (!key.trim()) {
-      localStorage.removeItem(API_KEY_STORAGE);
-    } else {
-      localStorage.setItem(API_KEY_STORAGE, key.trim());
-    }
-  },
-
-  getCustomApiKey: (): string | null => {
-    return localStorage.getItem(API_KEY_STORAGE);
   }
 };

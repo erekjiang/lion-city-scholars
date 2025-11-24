@@ -1,56 +1,159 @@
-import React from 'react';
-import { LeaderboardEntry } from '../types';
-import { Trophy, Medal } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { getLeaderboard, LeaderboardEntry } from '../services/firestoreService';
+import { Trophy, Medal, Award, Loader2, TrendingUp } from 'lucide-react';
+import { Button } from './Button';
 
-export const Leaderboard: React.FC = () => {
-  // Mock data
-  const players: LeaderboardEntry[] = [
-    { id: '1', name: 'Wei Jie', score: 4520, rank: 1, avatar: 'https://picsum.photos/100/100?random=1' },
-    { id: '2', name: 'Sarah Tan', score: 4350, rank: 2, avatar: 'https://picsum.photos/100/100?random=2' },
-    { id: '3', name: 'Ahmad', score: 4100, rank: 3, avatar: 'https://picsum.photos/100/100?random=3' },
-    { id: '4', name: 'You (Alex)', score: 3800, rank: 4, avatar: 'https://picsum.photos/100/100?random=4' },
-    { id: '5', name: 'Muthu', score: 3650, rank: 5, avatar: 'https://picsum.photos/100/100?random=5' },
-    { id: '6', name: 'Chloe', score: 3200, rank: 6, avatar: 'https://picsum.photos/100/100?random=6' },
-  ];
+interface LeaderboardProps {
+  currentUserId?: string;
+  onClose: () => void;
+}
+
+export const Leaderboard: React.FC<LeaderboardProps> = ({ currentUserId, onClose }) => {
+  const [entries, setEntries] = useState<LeaderboardEntry[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    loadLeaderboard();
+  }, []);
+
+  const loadLeaderboard = async () => {
+    setLoading(true);
+    setError(null);
+
+    try {
+      const data = await getLeaderboard(10);
+      setEntries(data);
+    } catch (err) {
+      console.error('Error loading leaderboard:', err);
+      setError('Failed to load leaderboard');
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const getRankIcon = (rank: number) => {
+    switch (rank) {
+      case 1:
+        return <Trophy className="w-6 h-6 text-yellow-500" />;
+      case 2:
+        return <Medal className="w-6 h-6 text-gray-400" />;
+      case 3:
+        return <Award className="w-6 h-6 text-amber-600" />;
+      default:
+        return <div className="w-6 h-6 flex items-center justify-center text-sm font-bold text-gray-400">#{rank}</div>;
+    }
+  };
+
+  const getRankBgColor = (rank: number) => {
+    switch (rank) {
+      case 1:
+        return 'bg-gradient-to-r from-yellow-50 to-amber-50 border-yellow-200';
+      case 2:
+        return 'bg-gradient-to-r from-gray-50 to-slate-50 border-gray-200';
+      case 3:
+        return 'bg-gradient-to-r from-orange-50 to-amber-50 border-orange-200';
+      default:
+        return 'bg-white border-gray-100';
+    }
+  };
 
   return (
-    <div className="p-4 pb-24 max-w-lg mx-auto">
-      <div className="flex items-center justify-between mb-6 px-2">
-        <div>
-          <h1 className="text-2xl font-bold text-gray-800">Leaderboard</h1>
-          <p className="text-gray-500 text-sm">Top Scholars this Week</p>
+    <div className="flex flex-col h-full max-w-2xl mx-auto p-4">
+      {/* Header */}
+      <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center gap-3">
+          <div className="w-12 h-12 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-2xl flex items-center justify-center">
+            <TrendingUp className="w-6 h-6 text-white" />
+          </div>
+          <div>
+            <h1 className="text-2xl font-black text-gray-900">Leaderboard</h1>
+            <p className="text-sm text-gray-500">Top Scholars</p>
+          </div>
         </div>
-        <div className="bg-yellow-100 p-3 rounded-2xl text-yellow-600">
-          <Trophy size={24} />
-        </div>
+        <Button onClick={onClose} variant="secondary">
+          Close
+        </Button>
       </div>
 
-      <div className="bg-white rounded-3xl shadow-sm border border-gray-100 overflow-hidden">
-        {players.map((player) => (
-          <div 
-            key={player.id} 
-            className={`flex items-center p-4 border-b border-gray-50 last:border-0 ${player.id === '4' ? 'bg-indigo-50' : ''}`}
-          >
-            <div className="w-8 font-bold text-gray-400 text-center mr-4">
-              {player.rank <= 3 ? (
-                 <Medal className={player.rank === 1 ? 'text-yellow-500' : player.rank === 2 ? 'text-gray-400' : 'text-orange-500'} />
-              ) : (
-                player.rank
-              )}
-            </div>
-            <img src={player.avatar} alt={player.name} className="w-10 h-10 rounded-full mr-4 border border-gray-200" />
-            <div className="flex-1">
-              <h3 className={`font-bold ${player.id === '4' ? 'text-indigo-700' : 'text-gray-800'}`}>
-                {player.name}
-              </h3>
-              <p className="text-xs text-gray-400">Primary 4</p>
-            </div>
-            <div className="font-bold text-indigo-600 bg-indigo-50 px-3 py-1 rounded-full text-sm">
-              {player.score}
-            </div>
-          </div>
-        ))}
-      </div>
+      {/* Content */}
+      {loading ? (
+        <div className="flex flex-col items-center justify-center flex-1 text-center">
+          <Loader2 className="w-12 h-12 text-indigo-600 animate-spin mb-4" />
+          <p className="text-gray-500">Loading rankings...</p>
+        </div>
+      ) : error ? (
+        <div className="flex flex-col items-center justify-center flex-1 text-center">
+          <p className="text-red-500 mb-4">{error}</p>
+          <Button onClick={loadLeaderboard}>Retry</Button>
+        </div>
+      ) : entries.length === 0 ? (
+        <div className="flex flex-col items-center justify-center flex-1 text-center">
+          <Trophy className="w-16 h-16 text-gray-300 mb-4" />
+          <p className="text-gray-500">No rankings yet. Be the first!</p>
+        </div>
+      ) : (
+        <div className="space-y-3 flex-1 overflow-auto">
+          {entries.map((entry, index) => {
+            const rank = index + 1;
+            const isCurrentUser = entry.uid === currentUserId;
+
+            return (
+              <div
+                key={entry.uid}
+                className={`
+                  flex items-center gap-4 p-4 rounded-2xl border-2 transition-all
+                  ${getRankBgColor(rank)}
+                  ${isCurrentUser ? 'ring-2 ring-indigo-500 ring-offset-2' : ''}
+                `}
+              >
+                {/* Rank */}
+                <div className="flex-shrink-0">
+                  {getRankIcon(rank)}
+                </div>
+
+                {/* Avatar */}
+                <div className="flex-shrink-0">
+                  {entry.photoURL ? (
+                    <img
+                      src={entry.photoURL}
+                      alt={entry.name}
+                      className="w-12 h-12 rounded-full border-2 border-white shadow-sm"
+                    />
+                  ) : (
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg">
+                      {entry.name.charAt(0).toUpperCase()}
+                    </div>
+                  )}
+                </div>
+
+                {/* Info */}
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2">
+                    <h3 className="font-bold text-gray-900 truncate">
+                      {entry.name}
+                    </h3>
+                    {isCurrentUser && (
+                      <span className="px-2 py-0.5 bg-indigo-100 text-indigo-700 text-xs font-semibold rounded-full">
+                        You
+                      </span>
+                    )}
+                  </div>
+                  <p className="text-sm text-gray-500">{entry.grade}</p>
+                </div>
+
+                {/* Points */}
+                <div className="flex-shrink-0 text-right">
+                  <div className="text-2xl font-black text-gray-900">
+                    {entry.totalPoints}
+                  </div>
+                  <div className="text-xs text-gray-500">points</div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 };

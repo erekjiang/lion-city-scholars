@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { ViewState, User, Subject, Grade } from './types';
+import { ViewState, User, Subject, Grade, Question } from './types';
 import { NavBar } from './components/NavBar';
 import { SubjectCard } from './components/SubjectCard';
 import { GameScreen } from './components/GameScreen';
@@ -8,24 +8,96 @@ import { Leaderboard } from './components/Leaderboard';
 import { Profile } from './components/Profile';
 import { Onboarding } from './components/Onboarding';
 import { Settings } from './components/Settings';
+import { Login } from './components/Login';
 import { Button } from './components/Button';
-import { Sparkles } from 'lucide-react';
-import { storageService } from './services/storageService';
+import { Sparkles, Loader2 } from 'lucide-react';
+import { generateDailyQuestions } from './services/geminiService';
+import { onAuthStateChanged, signOut } from './services/authService';
+import { getUserProfile, updateUserProfile, saveGameResult } from './services/firestoreService';
 
 const App: React.FC = () => {
   const [view, setView] = useState<ViewState>(ViewState.LOGIN);
   const [user, setUser] = useState<User | null>(null);
+  const [firebaseUser, setFirebaseUser] = useState<any>(null);
+  const [authLoading, setAuthLoading] = useState(true);
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
   const [completedSubjects, setCompletedSubjects] = useState<Subject[]>([]);
+  const [questions, setQuestions] = useState<Question[]>([]);
+  const [loadingQuestions, setLoadingQuestions] = useState(false);
 
-  // Check storage on mount
+  // Listen to Firebase auth state
   useEffect(() => {
-    const storedUser = storageService.getUser();
-    if (storedUser) {
-      setUser(storedUser);
-      setView(ViewState.HOME);
-    }
+    const unsubscribe = onAuthStateChanged(async (firebaseUser) => {
+      setAuthLoading(true);
+
+      if (firebaseUser) {
+        setFirebaseUser(firebaseUser);
+
+        // Fetch user profile from Firestore
+        try {
+          const profile = await getUserProfile(firebaseUser.uid);
+
+          if (profile) {
+            // User exists, load profile
+            setUser({
+              id: profile.uid,
+              name: profile.name,
+              grade: profile.grade,
+              avatar: profile.photoURL || firebaseUser.photoURL || '',
+              totalScore: profile.totalPoints,
+              completedDates: [], // We'll track this differently now
+              streak: 0,
+              level: 1,
+              friends: []
+            });
+            setView(ViewState.HOME);
+          } else {
+            // New user, go to onboarding
+            setView(ViewState.ONBOARDING);
+          }
+        } catch (error) {
+          console.error('Error fetching user profile:', error);
+          setView(ViewState.ONBOARDING);
+        }
+      } else {
+        // Not logged in
+        setFirebaseUser(null);
+        setUser(null);
+        setView(ViewState.LOGIN);
+      }
+
+      setAuthLoading(false);
+    });
+
+    return () => unsubscribe();
   }, []);
+
+  // Fetch questions when subject is selected
+  useEffect(() => {
+    const fetchQuestions = async () => {
+      if (selectedSubject && user) {
+        setLoadingQuestions(true);
+        try {
+          const data = await generateDailyQuestions(selectedSubject, user.grade);
+          setQuestions(data);
+        } catch (error) {
+          console.error("Failed to fetch questions", error);
+          setQuestions([]);
+        } finally {
+          setLoadingQuestions(false);
+        }
+      }
+    };
+
+    if (selectedSubject) {
+      fetchQuestions();
+    } else {
+      setQuestions([]);
+    }
+  }, [selectedSubject, user]); // Note: StrictMode might still trigger this twice, but since we lift state, it's better. 
+  // To truly fix StrictMode flicker for random data, we'd need a ref check, but let's see if this stabilizes the "in-game" refresh first.
+  // The user said "auto refresh when in question page", which implies continuous or unexpected refreshing.
+  // By moving it here, it only refreshes if selectedSubject changes.
 
   // Update completed subjects based on today's date
   useEffect(() => {
@@ -33,83 +105,106 @@ const App: React.FC = () => {
     // For now, we keep it simple in state, but in production, we'd check `user.completedDates` matches today
   }, [user]);
 
-  const handleGoogleLogin = () => {
-    // Simulate Google Login
-    // In a real app, this would return an ID token
-    // We check if a user exists locally
-    const storedUser = storageService.getUser();
-    
-    if (storedUser) {
-      setUser(storedUser);
+  const handleOnboardingComplete = async (name: string, grade: Grade) => {
+    if (!firebaseUser) return;
+
+    try {
+      // Save profile to Firestore
+      await updateUserProfile(firebaseUser.uid, {
+        uid: firebaseUser.uid,
+        name,
+        grade,
+        email: firebaseUser.email || '',
+        photoURL: firebaseUser.photoURL || undefined,
+        totalPoints: 0,
+        gamesPlayed: 0,
+        createdAt: null as any, // Will be set by service
+        lastActive: null as any
+      });
+
+      // Update local state
+      setUser({
+        id: firebaseUser.uid,
+        name,
+        grade,
+        avatar: firebaseUser.photoURL || '',
+        totalScore: 0,
+        completedDates: [],
+        streak: 0,
+        level: 1,
+        friends: []
+      });
+
       setView(ViewState.HOME);
-    } else {
-      // New User -> Go to Onboarding
-      setView(ViewState.ONBOARDING);
+    } catch (error) {
+      console.error('Error saving profile:', error);
+      alert('Failed to save profile. Please try again.');
     }
-  };
-
-  const handleOnboardingComplete = (name: string, grade: Grade, apiKey?: string) => {
-    const avatar = `https://picsum.photos/seed/${name}/200`;
-    const newUser = storageService.createUser(name, grade, avatar);
-    
-    // Save Custom API Key if provided
-    if (apiKey && apiKey.trim()) {
-      storageService.setCustomApiKey(apiKey.trim());
-    }
-
-    setUser(newUser);
-    setView(ViewState.HOME);
-  };
-
-  const handleLogout = () => {
-    storageService.clearSession(); // Optional: Clear tokens
-    setUser(null);
-    setView(ViewState.LOGIN);
-    setSelectedSubject(null);
-    setCompletedSubjects([]);
   };
 
   const handleSubjectSelect = (subject: Subject) => {
+    if (subject === selectedSubject) return; // Prevent re-select
+    setQuestions([]); // Clear previous
     setSelectedSubject(subject);
     setView(ViewState.GAME);
   };
 
-  const handleGameComplete = (score: number) => {
-    if (user && selectedSubject) {
-      // Update persistent storage
-      const updatedUser = storageService.updateProgress(score);
-      if (updatedUser) {
-        setUser(updatedUser);
+  const handleGameComplete = async (score: number) => {
+    if (user && selectedSubject && firebaseUser) {
+      try {
+        // Save game result to Firestore
+        await saveGameResult(
+          firebaseUser.uid,
+          selectedSubject,
+          user.grade,
+          score,
+          10 // Total questions
+        );
+
+        // Update local user state
+        setUser(prev => prev ? {
+          ...prev,
+          totalScore: prev.totalScore + score
+        } : null);
+
+        setCompletedSubjects(prev => [...prev, selectedSubject]);
+      } catch (error) {
+        console.error('Error saving game result:', error);
       }
-      setCompletedSubjects(prev => [...prev, selectedSubject]);
     }
+
     setView(ViewState.HOME);
     setSelectedSubject(null);
+    setQuestions([]);
     alert(`Great job! You earned ${score} points!`);
   };
 
-  // Login View
-  if (view === ViewState.LOGIN) {
+  const handleLogout = async () => {
+    try {
+      await signOut();
+      setUser(null);
+      setFirebaseUser(null);
+      setView(ViewState.LOGIN);
+    } catch (error) {
+      console.error('Error signing out:', error);
+    }
+  };
+
+  // Auth loading
+  if (authLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-500 to-indigo-600 flex flex-col items-center justify-center p-6 text-white text-center">
-        <div className="bg-white/20 p-6 rounded-full mb-6 backdrop-blur-sm">
-          <Sparkles size={48} className="text-yellow-300" />
-        </div>
-        <h1 className="text-4xl font-bold mb-2 tracking-tight">Lion City Scholars</h1>
-        <p className="text-blue-100 mb-12 text-lg">Join the challenge, master your subjects!</p>
-        
-        <div className="bg-white rounded-3xl p-8 w-full max-w-md shadow-2xl text-gray-800">
-          <h2 className="font-bold text-2xl mb-6">Welcome!</h2>
-          <Button fullWidth onClick={handleGoogleLogin} className="flex items-center justify-center gap-3 relative">
-             <img src="https://www.svgrepo.com/show/475656/google-color.svg" className="w-5 h-5" alt="Google" />
-             Sign in with Google
-          </Button>
-          <p className="text-xs text-gray-400 mt-4">
-            By joining, you agree to become the smartest kid in Singapore (probably).
-          </p>
+      <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 flex items-center justify-center">
+        <div className="text-center">
+          <Loader2 className="w-12 h-12 text-indigo-600 animate-spin mx-auto mb-4" />
+          <p className="text-gray-600">Loading...</p>
         </div>
       </div>
     );
+  }
+
+  // Login View
+  if (view === ViewState.LOGIN) {
+    return <Login onLoginSuccess={() => { }} />;
   }
 
   // Onboarding View
@@ -126,10 +221,12 @@ const App: React.FC = () => {
   if (view === ViewState.GAME && selectedSubject && user) {
     return (
       <div className="min-h-screen bg-gray-50">
-        <GameScreen 
-          subject={selectedSubject} 
+        <GameScreen
+          subject={selectedSubject}
           grade={user.grade}
-          onExit={() => setView(ViewState.HOME)} 
+          questions={questions}
+          loading={loadingQuestions}
+          onExit={() => setView(ViewState.HOME)}
           onComplete={handleGameComplete}
         />
       </div>
@@ -139,7 +236,7 @@ const App: React.FC = () => {
   // Main App Shell
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
-      
+
       {view === ViewState.HOME && user && (
         <div className="p-6 max-w-lg mx-auto">
           <header className="flex justify-between items-center mb-8 pt-4">
@@ -156,9 +253,9 @@ const App: React.FC = () => {
           <div className="grid gap-4">
             <h2 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">Today's Quests</h2>
             {Object.values(Subject).map((sub) => (
-              <SubjectCard 
-                key={sub} 
-                subject={sub} 
+              <SubjectCard
+                key={sub}
+                subject={sub}
                 onClick={() => handleSubjectSelect(sub)}
                 dailyComplete={completedSubjects.includes(sub)}
               />
@@ -167,13 +264,18 @@ const App: React.FC = () => {
         </div>
       )}
 
-      {view === ViewState.LEADERBOARD && <Leaderboard />}
-      
+      {view === ViewState.LEADERBOARD && (
+        <Leaderboard
+          currentUserId={firebaseUser?.uid}
+          onClose={() => setView(ViewState.HOME)}
+        />
+      )}
+
       {view === ViewState.PROFILE && user && (
-        <Profile 
-          user={user} 
-          onLogout={handleLogout} 
-          onOpenSettings={() => setView(ViewState.SETTINGS)} 
+        <Profile
+          user={user}
+          onOpenSettings={() => setView(ViewState.SETTINGS)}
+          onLogout={handleLogout}
         />
       )}
 

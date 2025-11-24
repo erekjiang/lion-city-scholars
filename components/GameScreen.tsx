@@ -8,33 +8,23 @@ import confetti from 'canvas-confetti';
 interface GameScreenProps {
   subject: Subject;
   grade: Grade;
+  questions: Question[];
+  loading: boolean;
   onExit: () => void;
   onComplete: (score: number) => void;
 }
 
-export const GameScreen: React.FC<GameScreenProps> = ({ subject, grade, onExit, onComplete }) => {
-  const [questions, setQuestions] = useState<Question[]>([]);
+export const GameScreen: React.FC<GameScreenProps> = ({ subject, grade, questions, loading, onExit, onComplete }) => {
+  // const [questions, setQuestions] = useState<Question[]>([]); // Removed
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true); // Removed
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
   const [isAnswered, setIsAnswered] = useState(false);
   const [score, setScore] = useState(0);
   const [showExplanation, setShowExplanation] = useState(false);
 
-  useEffect(() => {
-    const fetchQuestions = async () => {
-      setLoading(true);
-      try {
-        const data = await generateDailyQuestions(subject, grade);
-        setQuestions(data);
-      } catch (err) {
-        console.error(err);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchQuestions();
-  }, [subject, grade]);
+  // Effect removed as data is passed in
+
 
   const handleOptionSelect = (index: number) => {
     if (isAnswered) return;
@@ -74,6 +64,18 @@ export const GameScreen: React.FC<GameScreenProps> = ({ subject, grade, onExit, 
     );
   }
 
+  // Safety check for empty questions
+  if (!questions || questions.length === 0) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[60vh] text-center p-8">
+        <AlertCircle className="w-12 h-12 text-amber-500 mb-4" />
+        <h2 className="text-xl font-bold text-gray-800">No questions available</h2>
+        <p className="text-gray-500 mt-2">Please try again or select a different subject.</p>
+        <Button onClick={onExit} className="mt-4">Go Back</Button>
+      </div>
+    );
+  }
+
   const currentQ = questions[currentIndex];
   const progress = ((currentIndex + 1) / questions.length) * 100;
 
@@ -90,7 +92,7 @@ export const GameScreen: React.FC<GameScreenProps> = ({ subject, grade, onExit, 
             <span>{score} Pts</span>
           </div>
           <div className="h-2 w-full bg-gray-200 rounded-full overflow-hidden">
-            <div 
+            <div
               className="h-full bg-indigo-500 transition-all duration-500 ease-out"
               style={{ width: `${progress}%` }}
             />
@@ -139,7 +141,7 @@ export const GameScreen: React.FC<GameScreenProps> = ({ subject, grade, onExit, 
       {/* Explanation & Next Button */}
       {showExplanation && (
         <div className="slide-in pb-8">
-           <div className={`rounded-2xl p-4 mb-6 ${selectedOption === currentQ.correctAnswerIndex ? 'bg-green-100 text-green-800' : 'bg-orange-50 text-orange-800'}`}>
+          <div className={`rounded-2xl p-4 mb-6 ${selectedOption === currentQ.correctAnswerIndex ? 'bg-green-100 text-green-800' : 'bg-orange-50 text-orange-800'}`}>
             <div className="flex items-start gap-3">
               <AlertCircle className="shrink-0 mt-0.5" size={20} />
               <div>

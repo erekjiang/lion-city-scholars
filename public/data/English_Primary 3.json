@@ -1,0 +1,4402 @@
+[
+  {
+    "questionText": "Raju was known for his _________ in resolving conflicts; he could always find a solution that satisfied everyone involved.",
+    "options": [
+      "astuteness",
+      "finesse",
+      "levity",
+      "naivete"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The best answer is 'finesse'. Finesse means skillful handling of a situation. Astuteness means shrewdness or cleverness, levity means humor or lack of seriousness which doesn't fit the context, and naivete means lack of experience or wisdom."
+  },
+  {
+    "questionText": "After the heavy rain, the river ________ its banks and flooded the nearby village, causing widespread damage.",
+    "options": [
+      "exceeded",
+      "overflew",
+      "overflowed",
+      "surpassed"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct answer is 'overflowed'. While 'exceeded' and 'surpassed' could describe going over a limit, 'overflowed' specifically describes water spilling over the banks of a river. 'Overflew' is not grammatically correct in this context."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'grave' correctly?",
+    "options": [
+      "The clown's antics caused a grave injury.",
+      "We visited the grave of our ancestor.",
+      "He made a grave mistake of dropping the cake.",
+      "The building was grave with decorations."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Grave' as a noun refers to a burial site. While it can also mean serious or important (as in 'grave mistake'), only option B uses it correctly in the context of a noun."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct punctuation:",
+    "options": [
+      "Wow what a beautiful sunset?",
+      "Wow, what a beautiful sunset!",
+      "Wow, what a beautiful sunset.",
+      "Wow what a beautiful sunset!"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The sentence should start with an interjection ('Wow'), followed by a comma, and end with an exclamation mark to express strong emotion."
+  },
+  {
+    "questionText": "Which word best completes the analogy: Teacher is to school as doctor is to ______.",
+    "options": [
+      "Classroom",
+      "Hospital",
+      "Patient",
+      "Medicine"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A teacher works in a school. A doctor works in a hospital. The analogy demonstrates the place where each profession typically works."
+  },
+  {
+    "questionText": "Select the option with the correct sequence of adjectives to describe a car:",
+    "options": [
+      "Red a small shiny car",
+      "A small shiny red car",
+      "A shiny small red car",
+      "Red shiny a small car"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct order of adjectives is typically: opinion, size, shape, age, colour, origin, material, and purpose. Therefore, 'a small shiny red car' is the most appropriate order."
+  },
+  {
+    "questionText": "Which of these sentences demonstrates the correct use of the word 'affect'?",
+    "options": [
+      "The weather will effect our picnic.",
+      "The weather will affect our picnic.",
+      "The weather will effect a change in our picnic plans.",
+      "The weather will affect a change in our picnic plans."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Affect' (verb) means to influence or have an impact on something. 'Effect' (noun) means a result or consequence. Therefore, 'affect' is the correct word to use in this context."
+  },
+  {
+    "questionText": "Identify the sentence with the correct use of the past perfect tense:",
+    "options": [
+      "I had ate my lunch before I went out to play.",
+      "I have eaten my lunch before I went out to play.",
+      "I had eaten my lunch before I went out to play.",
+      "I ate my lunch before I had went out to play."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The past perfect tense ('had eaten') is used to describe an action that was completed before another action in the past ('went')."
+  },
+  {
+    "questionText": "Which sentence uses a simile correctly?",
+    "options": [
+      "He ran fastly towards the park.",
+      "The moon was a big pizza in the sky.",
+      "She was as brave as a lion.",
+      "The sun is smiling at me."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A simile compares two things using 'like' or 'as'. 'She was as brave as a lion' is the only sentence that makes a comparison using 'as'."
+  },
+  {
+    "questionText": "Choose the word that is closest in meaning to 'melancholy':",
+    "options": [
+      "Joyful",
+      "Excited",
+      "Sad",
+      "Angry"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Melancholy' means a feeling of pensive sadness, typically with no obvious cause. Therefore, 'sad' is the closest in meaning."
+  },
+  {
+    "questionText": "Which of the following is a compound sentence?",
+    "options": [
+      "Because it was raining, we stayed inside.",
+      "We stayed inside because it was raining.",
+      "It was raining, so we stayed inside.",
+      "Raining, we stayed inside."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A compound sentence contains two or more independent clauses joined by a coordinating conjunction (e.g., and, but, so) or a semicolon. 'It was raining, so we stayed inside' has two independent clauses joined by 'so'."
+  },
+  {
+    "questionText": "Select the correct possessive form of the noun 'children':",
+    "options": [
+      "Childrens toys",
+      "Children's toys",
+      "Childrens' toys",
+      "Children toys"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The possessive form of a plural noun that does not end in 's' (like 'children') is formed by adding an apostrophe and 's' ('s)."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'presently' in the most appropriate way?",
+    "options": [
+      "Presently, I will like to have some tea.",
+      "The manager is presently in a meeting and cannot be disturbed.",
+      "She will presently go to the library after lunch.",
+      "Presently, he is a student, but he aspires to be a doctor."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Presently' means 'at the present time; now'. Option B correctly uses it to indicate the manager is currently in a meeting."
+  },
+  {
+    "questionText": "Which of the following is the MOST suitable collective noun to describe a group of singers?",
+    "options": [
+      "A troop of singers",
+      "A choir of singers",
+      "A team of singers",
+      "A band of singers"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The most suitable collective noun for a group of singers is 'choir'. A 'troop' usually refers to soldiers or monkeys, a 'team' to sports, and a 'band' to musicians playing instruments."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct tense of the verb to describe an action that started in the past and is still continuing.",
+    "options": [
+      "She is learning to play the piano since last year.",
+      "She learns to play the piano since last year.",
+      "She has been learning to play the piano since last year.",
+      "She was learning to play the piano since last year."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The present perfect continuous tense ('has been learning') is used to describe an action that started in the past and is still continuing in the present. 'Since last year' indicates a time frame from the past to the present."
+  },
+  {
+    "questionText": "Which sentence is grammatically INCORRECT?",
+    "options": [
+      "Neither John nor Mary is going to the party.",
+      "Either John or Mary are going to the party.",
+      "Both John and Mary are going to the party.",
+      "Not only John but also Mary is going to the party."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "When using 'either...or', the verb should agree with the noun closest to it. Therefore, it should be 'Either John or Mary is going to the party', not 'are'."
+  },
+  {
+    "questionText": "Select the option that best replaces the underlined word without changing the meaning of the sentence: The old house looked *desolate* after the family moved out.",
+    "options": [
+      "cheerful",
+      "abandoned",
+      "crowded",
+      "modern"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Desolate' means deserted and empty, conveying a sense of emptiness and sadness. 'Abandoned' best captures this meaning."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The sun was a shining star.",
+      "Her smile was as bright than the sun.",
+      "He ran fast like a cheetah.",
+      "The snow is like a blanket."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A simile compares two things using 'like' or 'as'. The snow is being directly compared to a blanket. Option B uses the incorrect comparative form (than instead of as)."
+  },
+  {
+    "questionText": "Choose the correct preposition to complete the sentence: The cat jumped ______ the table.",
+    "options": [
+      "over",
+      "above",
+      "onto",
+      "in"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Onto' indicates movement to a surface. The cat moved from somewhere else to the surface of the table. 'Over' implies jumping across, 'above' is static, and 'in' implies enclosure."
+  },
+  {
+    "questionText": "Which word is an antonym of 'generous'?",
+    "options": [
+      "kind",
+      "stingy",
+      "charitable",
+      "benevolent"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An antonym is a word with the opposite meaning. 'Stingy' (unwilling to give or spend) is the opposite of 'generous' (willing to give or share)."
+  },
+  {
+    "questionText": "Which of the following sentences demonstrates correct subject-verb agreement?",
+    "options": [
+      "The children is playing in the park.",
+      "The children are playing in the park.",
+      "The child are playing in the park.",
+      "The child is playing in the park."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Children' is a plural noun, so it requires the plural verb 'are'. 'Child' is singular and correctly takes the singular verb 'is', but the option uses 'are' incorrectly."
+  },
+  {
+    "questionText": "Select the most suitable word to fill in the blank: The detective needed to ________ the crime scene for clues.",
+    "options": [
+      "watch",
+      "observe",
+      "glance",
+      "stare"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Observe' means to watch carefully, especially to learn something. The detective needs to carefully look for clues. 'Watch' is too general, 'glance' is too quick, and 'stare' is too intense and doesn't necessarily imply a search for clues."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The cat ran as quickly to the tree.",
+      "The moon was shining as brightly a star.",
+      "He is as brave as a lion.",
+      "She sings like a bird than anyone else."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A simile compares two things using 'like' or 'as'. Only 'He is as brave as a lion' correctly uses 'as' to make a comparison."
+  },
+  {
+    "questionText": "Read the following sentence: 'The old, wooden chair creaked loudly.' Which word is an adjective describing the noun 'chair'?",
+    "options": [
+      "creaked",
+      "loudly",
+      "old",
+      "the"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Adjectives describe nouns. In this sentence, 'old' describes the chair, indicating its age."
+  },
+  {
+    "questionText": "Choose the best word to complete the sentence: The detective was _________ as he tried to solve the mystery.",
+    "options": [
+      "curious",
+      "careless",
+      "excited",
+      "unhappy"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'Curious' best fits the context of a detective trying to solve a mystery. Detectives need to be inquisitive."
+  },
+  {
+    "questionText": "Which of the following is a compound sentence?",
+    "options": [
+      "The dog barked loudly.",
+      "Because it was raining, we stayed inside.",
+      "She likes to read, and he likes to play.",
+      "After the movie."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A compound sentence contains two or more independent clauses joined by a coordinating conjunction (and, but, or, so, etc.). 'She likes to read, and he likes to play' fits this description."
+  },
+  {
+    "questionText": "Which of the following sentences uses the correct form of the verb 'to be' in the past tense?",
+    "options": [
+      "I is going to the market",
+      "They was at the park yesterday.",
+      "He were very tired after the game.",
+      "She was happy to see her friend."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Was' is the correct past tense form of 'to be' for singular subjects like 'she'."
+  },
+  {
+    "questionText": "Select the sentence that uses the correct punctuation:",
+    "options": [
+      "My favourite colour is blue.",
+      "My favourite colour is: blue",
+      "My favourite colour is, blue",
+      "My favourite colour is blue"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The sentence 'My favourite colour is blue.' uses correct end punctuation."
+  },
+  {
+    "questionText": "Choose the most suitable conjunction to complete the sentence: He studied hard, _________ he failed the test.",
+    "options": [
+      "so",
+      "and",
+      "but",
+      "because"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'But' is the most suitable conjunction because it shows a contrast between studying hard and failing the test."
+  },
+  {
+    "questionText": "Which of the following words is an antonym of 'generous'?",
+    "options": [
+      "kind",
+      "stingy",
+      "giving",
+      "caring"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An antonym is a word with the opposite meaning. 'Stingy' is the opposite of 'generous'."
+  },
+  {
+    "questionText": "Read the following sentence: 'The swift cheetah sprinted across the savanna.' Which word is an adverb?",
+    "options": [
+      "cheetah",
+      "swift",
+      "sprinted",
+      "across"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "An Adverb typically modifies a verb, adjective, or another adverb, often describing how, when, where, or to what extent something is done or is. 'swift' modifies 'cheetah', further describing it."
+  },
+  {
+    "questionText": "What is the best title for a story about a lost puppy finding its way home?",
+    "options": [
+      "My Day at School",
+      "A Puppy's Adventure",
+      "The Big Blue Boat",
+      "Eating Ice Cream"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'A Puppy's Adventure' is the most relevant and engaging title for a story about a lost puppy finding its way home."
+  },
+  {
+    "questionText": "Which of the following sentences uses the past perfect tense correctly?",
+    "options": [
+      "I had saw the movie before I read the book.",
+      "I have seen the movie before I read the book.",
+      "I had seen the movie before I had read the book.",
+      "I had seen the movie before I read the book."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The past perfect tense is used to describe an action completed before another action in the past. The correct sentence is 'I had seen the movie before I read the book.'"
+  },
+  {
+    "questionText": "Choose the most suitable word to complete the sentence: The old house stood ______ on the hill, a silent witness to the changing seasons.",
+    "options": [
+      "lonely",
+      "alone",
+      "lonesome",
+      "solitary"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Solitary' implies being alone and isolated, fitting the context of the house standing alone as a 'witness'. While the other options convey aloneness, 'solitary' has a more formal and descriptive tone."
+  },
+  {
+    "questionText": "Which sentence uses a simile correctly?",
+    "options": [
+      "The moon was a silver coin.",
+      "He ran fast like a cheetah.",
+      "Her smile is the sun.",
+      "The clouds are cotton candy."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'. 'He ran fast like a cheetah' is the only sentence that uses 'like' to make a comparison."
+  },
+  {
+    "questionText": "Select the correct collective noun to fill in the blank: A ______ of musicians played beautifully at the concert.",
+    "options": [
+      "group",
+      "band",
+      "choir",
+      "troupe"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "While 'group' is a general term, 'band' is the more specific and commonly used collective noun for musicians playing instruments together."
+  },
+  {
+    "questionText": "Which of the following sentences contains a gerund?",
+    "options": [
+      "She likes to swim.",
+      "Swimming is her favourite sport.",
+      "The swimming pool is clean.",
+      "She is swimming now."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A gerund is a verb acting as a noun. In 'Swimming is her favourite sport', 'swimming' functions as the subject of the sentence."
+  },
+  {
+    "questionText": "Choose the correct preposition to complete the sentence: The cat jumped ______ the table.",
+    "options": [
+      "on",
+      "over",
+      "above",
+      "upon"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Over' implies movement across and above the surface of something. Therefore, the correct sentence is 'The cat jumped over the table.'"
+  },
+  {
+    "questionText": "Identify the sentence that uses the superlative degree of an adjective correctly.",
+    "options": [
+      "This is the goodest apple I have ever eaten.",
+      "This is the better apple I have ever eaten.",
+      "This is the bestest apple I have ever eaten.",
+      "This is the best apple I have ever eaten."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The superlative degree compares three or more things. The correct superlative form of 'good' is 'best'. The sentence should be 'This is the best apple I have ever eaten.'"
+  },
+  {
+    "questionText": "Which of the following sentences uses a metaphor correctly?",
+    "options": [
+      "The classroom was like a zoo.",
+      "The teacher's words were a soothing balm.",
+      "He eats like a horse.",
+      "She is as quiet as a mouse."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A metaphor directly compares two unlike things without using 'like' or 'as'. 'The teacher's words were a soothing balm' is a metaphor comparing words to a balm."
+  },
+  {
+    "questionText": "Select the correct word to complete the sentence: The athlete trained ______ to win the competition.",
+    "options": [
+      "hardly",
+      "hard",
+      "more hardly",
+      "more harder"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Hard' is an adverb that describes the intensity of the training. 'Hardly' means 'barely' or 'scarcely', which doesn't fit the context."
+  },
+  {
+    "questionText": "Which of the following sentences uses a relative clause correctly?",
+    "options": [
+      "The book, which I read it, was interesting.",
+      "The book which I read was interesting.",
+      "The book, that I read, was interesting.",
+      "The book, I read, was interesting."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A relative clause adds extra information about a noun. The correct sentence is 'The book which I read was interesting.' because it has a relative pronoun, which and is closely connected to the noun book. 'It' is redundant in the other sentences."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The sun was shining brightly yesterday.",
+      "Her smile was bright like the sun.",
+      "He ran quick like a cheetah.",
+      "The cat slept peacefully."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'. Option B correctly compares her smile to the sun using 'like'."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct punctuation for direct speech.",
+    "options": [
+      "She said, \"I am going to the park\".",
+      "She said \"I am going to the park.\"",
+      "She said, I am going to the park.",
+      "She said, \"I am going to the park.\""
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Direct speech needs to be enclosed in quotation marks, and the punctuation (period in this case) must be inside the quotation marks."
+  },
+  {
+    "questionText": "Which word is closest in meaning to 'astonished'?",
+    "options": [
+      "Amused",
+      "Surprised",
+      "Angry",
+      "Sad"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Astonished means greatly surprised or amazed. 'Surprised' is the closest synonym."
+  },
+  {
+    "questionText": "Select the sentence with the correct subject-verb agreement.",
+    "options": [
+      "The birds flies south for the winter.",
+      "The bird fly south for the winter.",
+      "The birds fly south for the winter.",
+      "The bird flies south for the winter."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Birds' is plural, so the verb should be 'fly'. 'Bird' is singular so the verb should be 'flies'."
+  },
+  {
+    "questionText": "Which of these is an example of personification?",
+    "options": [
+      "The wind howled through the night.",
+      "The cat is as fluffy as a cloud.",
+      "The car is red.",
+      "He ran very fast."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Personification gives human qualities to non-human things. 'The wind howled' gives the wind a human action."
+  },
+  {
+    "questionText": "Complete the sentence with the most suitable adjective: The ______ puppy wagged its tail excitedly.",
+    "options": [
+      "happily",
+      "happy",
+      "happiness",
+      "more happy"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Happy' is the adjective that describes the puppy. 'Happily' is an adverb. 'Happiness' is a noun."
+  },
+  {
+    "questionText": "Identify the sentence that uses a possessive pronoun correctly.",
+    "options": [
+      "That book is hers.",
+      "That book is her.",
+      "That book is she's.",
+      "That book is she."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'Hers' is the possessive pronoun that shows ownership. 'Her' is a pronoun, but not possessive in this context."
+  },
+  {
+    "questionText": "Choose the correct collective noun to complete the sentence: The farmer has a ______ of cows.",
+    "options": [
+      "flock",
+      "herd",
+      "swarm",
+      "pack"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A 'herd' is the correct collective noun for a group of cows. 'Flock' is for birds or sheep, 'swarm' is for insects, and 'pack' is for wolves or dogs."
+  },
+  {
+    "questionText": "Which sentence contains a relative clause?",
+    "options": [
+      "The dog barked loudly.",
+      "The girl, who was wearing a red dress, waved at me.",
+      "He went to the shop.",
+      "She enjoys playing games."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A relative clause adds extra information to a noun. 'who was wearing a red dress' adds information about the girl."
+  },
+  {
+    "questionText": "Select the correct preposition to complete the sentence: The cat jumped ______ the table.",
+    "options": [
+      "in",
+      "at",
+      "onto",
+      "to"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Onto' is the correct preposition as it indicates movement to a surface."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'peer' correctly?",
+    "options": [
+      "The mountain climber had to peer down the cliff to see the base.",
+      "The jeweller polished the diamond until it was peer.",
+      "The king's peer were invited to the royal wedding.",
+      "The sound of the peer filled the auditorium."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Peer' in this context refers to someone of equal rank or social standing. The other options misuse the word."
+  },
+  {
+    "questionText": "Select the sentence that contains a simile.",
+    "options": [
+      "The old house stood silently on the hill.",
+      "The moon was a silver coin in the night sky.",
+      "He ran quickly towards the finish line.",
+      "The wind howled through the trees."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'. Only 'The moon was a silver coin in the night sky' makes a comparison using 'was'."
+  },
+  {
+    "questionText": "Which sentence demonstrates the correct use of the word 'affect' or 'effect'?",
+    "options": [
+      "The medicine had a strong affect on his recovery.",
+      "The effect of the storm was devastating.",
+      "Her singing did not effect the audience.",
+      "The movie will affect her mood."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Effect' as a noun means a result or consequence. 'Affect' as a verb means to influence."
+  },
+  {
+    "questionText": "Identify the sentence with the correct punctuation.",
+    "options": [
+      "After the game; we went for ice cream.",
+      "My favorite colors are blue, green, and red.",
+      "She said \"I am going to the store\".",
+      "The dog's bone was buried in the yard."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A comma is correctly used to separate items in a list. A semicolon is not needed, quotation marks require attention to placement, and the apostrophe is used correctly in 'dog's'."
+  },
+  {
+    "questionText": "Which of the following is an example of onomatopoeia?",
+    "options": [
+      "The sun smiled down on us.",
+      "The book was heavy.",
+      "The bacon sizzled in the pan.",
+      "He walked slowly."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Onomatopoeia is a word that imitates a sound. 'Sizzled' sounds like the sound it represents."
+  },
+  {
+    "questionText": "Choose the best conjunction to complete the following sentence: 'She studied hard, ______ she failed the test.'",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "because"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'But' indicates a contrast or unexpected outcome. Even though she studied hard, the unexpected result was failing the test."
+  },
+  {
+    "questionText": "Which sentence uses the correct tense?",
+    "options": [
+      "I will went to the park yesterday.",
+      "She is going to the store tomorrow.",
+      "They was playing football now.",
+      "He have finished his homework."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Is going' indicates a future action that is planned."
+  },
+  {
+    "questionText": "Select the sentence where the underlined word is an adjective.",
+    "options": [
+      "The cat slept *soundly*.",
+      "She wore a *beautiful* dress.",
+      "He *ran* quickly.",
+      "They went *home*."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An adjective describes a noun. 'Beautiful' describes the dress. 'Soundly' is an adverb, 'ran' is a verb, and 'home' is an adverb in this context."
+  },
+  {
+    "questionText": "Which word is a synonym for 'brave'?",
+    "options": [
+      "Cowardly",
+      "Timid",
+      "Fearful",
+      "Courageous"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A synonym is a word with a similar meaning. 'Courageous' has a similar meaning to 'brave'."
+  },
+  {
+    "questionText": "Choose the sentence with the correct subject-verb agreement.",
+    "options": [
+      "The dogs barks loudly.",
+      "The dog bark loudly.",
+      "The dogs bark loudly.",
+      "The dog barks loudly."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "When the subject is singular (dog), the verb takes an 's' (barks). When the subject is plural (dogs), the verb does not take an 's' (bark)."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'council' correctly?",
+    "options": [
+      "The school council gave me good counsel.",
+      "The lawyer gave his council to the defendant.",
+      "The town council decided to build a new library.",
+      "I need some council on how to bake a cake."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Council' refers to a body of people elected to manage the affairs of a city, county, or other district. 'Counsel' refers to advice."
+  },
+  {
+    "questionText": "Choose the sentence with the correct use of the articles 'a', 'an', and 'the'.",
+    "options": [
+      "I saw the eagle flying in the sky.",
+      "I saw a eagle flying in the sky.",
+      "I saw an eagle flying in the sky.",
+      "I saw eagle flying in the sky."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The article 'an' is used before words that begin with a vowel sound. 'Eagle' begins with a vowel sound, so 'an eagle' is correct."
+  },
+  {
+    "questionText": "Which sentence uses the correct form of the verb 'to lie'?",
+    "options": [
+      "He lied down for a nap after lunch.",
+      "He layed down for a nap after lunch.",
+      "He lies down for a nap after lunch yesterday.",
+      "He is laying down for a nap after lunch."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The past tense of 'to lie' (to recline) is 'lay'. 'Lied' is the past tense of 'to lie' (to tell an untruth). 'Laying' means placing something down."
+  },
+  {
+    "questionText": "Identify the sentence that uses the correct punctuation.",
+    "options": [
+      "\"That’s my favourite book\" Sarah exclaimed.",
+      "\"That’s my favourite book,\" Sarah exclaimed!",
+      "\"That's my favourite book,\" Sarah exclaimed.",
+      "\"That's my favourite book Sarah exclaimed\""
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct punctuation requires a comma after the dialogue and before the speaker's name, inside the quotation marks. The exclamation mark should be outside if it refers to the entire sentence."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The night was a dark blanket.",
+      "She ran as fast as the wind.",
+      "He is a lion in the fight.",
+      "My heart beat loudly in my chest."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'. 'As fast as the wind' directly compares her speed to the wind's speed using 'as'."
+  },
+  {
+    "questionText": "Choose the correct collective noun to complete the sentence: The ______ of fish swam together in the ocean.",
+    "options": [
+      "flock",
+      "herd",
+      "school",
+      "pack"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The correct collective noun for a group of fish is 'school'."
+  },
+  {
+    "questionText": "Which sentence has a misplaced modifier?",
+    "options": [
+      "Covered in mud, the dog wagged its tail.",
+      "The dog wagged its tail covered in mud.",
+      "The dog, covered in mud, wagged its tail.",
+      "The muddy dog wagged its tail."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "In 'The dog wagged its tail covered in mud,' it sounds like the tail is covered in mud, not the whole dog. The modifier 'covered in mud' should be closer to the noun it modifies, the dog."
+  },
+  {
+    "questionText": "Select the sentence with the correct use of 'affect' and 'effect'.",
+    "options": [
+      "The loud noise had an affect on my hearing.",
+      "The loud noise had an effect on my hearing.",
+      "The loud noise effected my hearing.",
+      "The loud noise affected my hearing."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Affect' is usually a verb, meaning to influence. 'Effect' is usually a noun, meaning a result. Therefore, 'affected' is the correct choice."
+  },
+  {
+    "questionText": "Which sentence uses the correct tense?",
+    "options": [
+      "Yesterday, I will go to the park.",
+      "Tomorrow, I went to the park.",
+      "Last week, I go to the park.",
+      "Today, I am going to the park."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Today, I am going to the park' uses the present continuous tense, which is suitable for an action happening now or around now."
+  },
+  {
+    "questionText": "Choose the best word to complete the analogy: Happy is to sad as fast is to ______.",
+    "options": [
+      "quick",
+      "slow",
+      "speed",
+      "race"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The analogy is based on opposites. The opposite of 'happy' is 'sad', and the opposite of 'fast' is 'slow'."
+  },
+  {
+    "questionText": "Which of the following sentences uses the past perfect tense correctly?",
+    "options": [
+      "I had saw the movie before I read the book.",
+      "I have seen the movie before I read the book.",
+      "I had seen the movie before I read the book.",
+      "I seen the movie before I had read the book."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The past perfect tense is used to describe an action completed before another action in the past. The correct structure is 'had + past participle'. Only option C uses this structure correctly."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct form of the verb 'to lie'.",
+    "options": [
+      "He laid on the grass for an hour.",
+      "He lay on the grass for an hour.",
+      "He lies on the grass for an hour yesterday.",
+      "He has lain on the grass for an hour tomorrow."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The past tense of 'to lie' (to recline) is 'lay'. 'Laid' is the past tense of 'to lay' (to place something down). Option B is the only one to have correct usage of the verb and context."
+  },
+  {
+    "questionText": "Which sentence contains a simile?",
+    "options": [
+      "The wind howled through the trees.",
+      "Her eyes were bright stars.",
+      "The snow was as white as a ghost.",
+      "Time is a thief."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A simile compares two things using 'like' or 'as'. Option C uses 'as' to compare the whiteness of the snow to a ghost."
+  },
+  {
+    "questionText": "Identify the sentence with a misplaced modifier.",
+    "options": [
+      "Covered in dew, the spider web glistened in the morning sun.",
+      "The spider web covered in dew glistened in the morning sun.",
+      "The man ate the cold pizza quickly.",
+      "Glistening in the morning sun, the spider web was covered in dew."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A misplaced modifier is a phrase or clause placed awkwardly in a sentence so that it appears to modify or refer to an unintended word. In option D 'Glistening in the morning sun' incorrectly modifies 'the spider web'."
+  },
+  {
+    "questionText": "Choose the option that best completes the analogy: Optimist : Hopeful :: Pessimist : ?",
+    "options": [
+      "Happy",
+      "Sad",
+      "Doubtful",
+      "Angry"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "An optimist is known for being hopeful. A pessimist is known for being doubtful. Therefore, doubtful is the best answer."
+  },
+  {
+    "questionText": "Which of these sentences uses correct subject-verb agreement?",
+    "options": [
+      "Each of the students have a book.",
+      "Each of the students has a book.",
+      "Each of the students are having a book.",
+      "Each of the students were having a book."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The subject 'each' is singular, so the verb must also be singular. 'Has' is the singular form of the verb."
+  },
+  {
+    "questionText": "Which sentence uses a hyperbole?",
+    "options": [
+      "The car was moving fast.",
+      "I'm so hungry I could eat a horse.",
+      "The rain fell softly on the roof.",
+      "He is as tall as a tree."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A hyperbole is an exaggerated statement or claim not meant to be taken literally. Saying you could eat a horse is an obvious exaggeration to express extreme hunger."
+  },
+  {
+    "questionText": "Select the correct word to complete the sentence: The cat is ______ than the mouse.",
+    "options": [
+      "more big",
+      "bigger",
+      "most big",
+      "biger"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "For most one-syllable adjectives, we add '-er' to form the comparative. 'Bigger' is the correct comparative form of 'big'."
+  },
+  {
+    "questionText": "Which sentence uses the correct punctuation?",
+    "options": [
+      "My favorite colors are: blue, green, and red.",
+      "My favorite colors are blue, green, and red.",
+      "My favorite colors are; blue, green, and red.",
+      "My favorite colors are, blue, green, and red."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A colon is used to introduce a list. When the list is simple, commas are sufficient without a colon. So, the correct punctuation is to include the commas and not the colon."
+  },
+  {
+    "questionText": "Choose the correct sentence that uses the appropriate article (a, an, the):",
+    "options": [
+      "I saw a elephant at the zoo.",
+      "I saw an elephant at a zoo.",
+      "I saw the elephant at an zoo.",
+      "I saw an elephant at the zoo."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'An' is used before words that start with a vowel sound. 'Elephant' begins with a vowel sound. 'The' is used for specific nouns, like 'the zoo' in this context, indicating a particular zoo."
+  },
+  {
+    "questionText": "Which of the following sentences uses a verb that agrees with the subject?",
+    "options": [
+      "The flock of birds are flying south for the winter.",
+      "Each of the students have submitted their assignments.",
+      "Neither John nor his brother is going to the party.",
+      "The committee disagree on the best course of action."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct answer is 'Neither John nor his brother is going to the party.' When 'neither/nor' connects singular subjects, the verb agrees with the subject closer to it. Hence, 'is' is the correct form."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct tense.",
+    "options": [
+      "By the time she arrives, we already ate dinner.",
+      "She will be graduating next year if she studies hard.",
+      "I am knowing the answer to that question.",
+      "He has been living in Singapore since ten years."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct answer is 'She will be graduating next year if she studies hard.' This sentence correctly uses the future continuous tense to describe an action that will be in progress at a specific time in the future."
+  },
+  {
+    "questionText": "Which sentence uses the superlative degree of the adjective correctly?",
+    "options": [
+      "This is the most tallest building in the city.",
+      "She is the more intelligent student in the class.",
+      "He is the best of the two players.",
+      "Mount Everest is the highest mountain in the world."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The correct answer is 'Mount Everest is the highest mountain in the world.' The superlative degree (highest) is used to compare three or more things."
+  },
+  {
+    "questionText": "Select the sentence with the correct use of the article 'a' or 'an'.",
+    "options": [
+      "She is an university student.",
+      "He ate a apple for lunch.",
+      "They live in a unique house.",
+      "I saw an cat in the garden."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct answer is 'They live in a unique house.' Although 'unique' starts with a vowel, it has a consonant sound, so 'a' is used instead of 'an'."
+  },
+  {
+    "questionText": "Which of the following sentences demonstrates the correct use of a possessive pronoun?",
+    "options": [
+      "That book is mine's.",
+      "Theirs car is parked outside.",
+      "That is her's pen.",
+      "The cat is theirs."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The correct answer is 'The cat is theirs.' 'Theirs' is the possessive pronoun that correctly shows ownership without an apostrophe."
+  },
+  {
+    "questionText": "Choose the option that best completes the following analogy: Teacher : School :: Doctor : ?",
+    "options": [
+      "Classroom",
+      "Hospital",
+      "Student",
+      "Medicine"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct answer is 'Hospital'. A teacher works in a school, just as a doctor works in a hospital."
+  },
+  {
+    "questionText": "Which of the following sentences contains a simile?",
+    "options": [
+      "The rain fell softly on the roof.",
+      "Her eyes were like sparkling diamonds.",
+      "The wind whispered through the trees.",
+      "He is a brave lion."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct answer is 'Her eyes were like sparkling diamonds.' A simile compares two things using 'like' or 'as'."
+  },
+  {
+    "questionText": "Which sentence correctly uses a reflexive pronoun?",
+    "options": [
+      "He bought presents for myself.",
+      "She made the cake herself.",
+      "They helped she with her homework.",
+      "We saw him at the store yesterday."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct answer is 'She made the cake herself.' Reflexive pronouns refer back to the subject of the sentence."
+  },
+  {
+    "questionText": "Which of the following is a synonym for 'arduous'?",
+    "options": [
+      "Easy",
+      "Simple",
+      "Difficult",
+      "Pleasant"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct answer is 'Difficult'. 'Arduous' means involving strenuous effort; difficult and tiring."
+  },
+  {
+    "questionText": "Choose the correct preposition to complete the sentence: The cat jumped ______ the table.",
+    "options": [
+      "in",
+      "at",
+      "over",
+      "under"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct answer is 'over'. The cat jumped 'over' the table implies that it went across the table."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'present' as a verb?",
+    "options": [
+      "The teacher gave me a present for my birthday.",
+      "I have to be present at the meeting tomorrow.",
+      "The students will present their projects next week.",
+      "The present situation is quite challenging."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The word 'present' can be a noun (a gift) or a verb (to show or give). Only in the third option is 'present' used as a verb, meaning 'to show'."
+  },
+  {
+    "questionText": "Which sentence uses the correct tense?",
+    "options": [
+      "Yesterday, I will go to the library.",
+      "I am going to the park yesterday.",
+      "I will go to the cinema tomorrow.",
+      "She is ate all her dinner."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The third option uses the future tense ('will go') correctly with the time marker 'tomorrow'. The other options have incorrect tense usage."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct punctuation.",
+    "options": [
+      "The dog ran fast it caught the ball.",
+      "The dog ran fast, it caught the ball.",
+      "The dog ran fast; it caught the ball.",
+      "The dog ran fast: it caught the ball."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A semicolon (;) is used to connect two independent clauses that are closely related in thought. The clauses 'The dog ran fast' and 'it caught the ball' can be connected this way."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The moon is a bright star.",
+      "The car drove very fast.",
+      "Her smile was as bright as the sun.",
+      "He is a very tall boy."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A simile compares two things using 'like' or 'as'. The third option compares 'her smile' to 'the sun' using 'as'."
+  },
+  {
+    "questionText": "Which word is an antonym of 'generous'?",
+    "options": [
+      "Kind",
+      "Selfish",
+      "Helpful",
+      "Giving"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An antonym is a word that means the opposite. 'Selfish' is the opposite of 'generous'."
+  },
+  {
+    "questionText": "Which sentence uses the correct article?",
+    "options": [
+      "I saw a elephant at the zoo.",
+      "I ate a apple for lunch.",
+      "He is an honest man.",
+      "She is a unique person."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The article 'an' is used before words that begin with a vowel sound. 'Honest' begins with a vowel sound, even though the letter 'h' is silent."
+  },
+  {
+    "questionText": "Choose the sentence with the correct subject-verb agreement.",
+    "options": [
+      "The children plays in the park every day.",
+      "The children play in the park every day.",
+      "The child play in the park every day.",
+      "The child plays in the park every day."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "When the subject is plural ('children'), the verb should be in its base form ('play')."
+  },
+  {
+    "questionText": "Which of the following is a compound word?",
+    "options": [
+      "Happy",
+      "Book",
+      "Football",
+      "Quickly"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A compound word is made up of two or more words combined. 'Football' is made up of 'foot' and 'ball'."
+  },
+  {
+    "questionText": "Select the sentence that contains a metaphor.",
+    "options": [
+      "The sun shone brightly.",
+      "He is as strong as an ox.",
+      "The classroom was a zoo.",
+      "She sings very well."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A metaphor is a figure of speech that directly compares two unlike things without using 'like' or 'as'. The classroom isn't literally a zoo, but the sentence suggests it was chaotic and noisy."
+  },
+  {
+    "questionText": "Which sentence demonstrates the correct use of 'there', 'their', or 'they're'?",
+    "options": [
+      "There going to the beach tomorrow.",
+      "Their is a cat in the garden.",
+      "They're house is very big.",
+      "They're going to the park now."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'They're' is a contraction of 'they are'. The sentence 'They're going to the park now' correctly uses the contraction."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The cat purred loudly like a machine.",
+      "The sun was shining brightly, like a happy song.",
+      "He ran as slow as a cheetah.",
+      "Her hair was gold like a treasure."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A simile uses 'like' or 'as' to compare two unlike things. Only 'The cat purred loudly like a machine' correctly compares the cat's purr to a machine using 'like'."
+  },
+  {
+    "questionText": "Select the sentence with the correct use of the apostrophe to show possession.",
+    "options": [
+      "The dogs' bone was buried in the garden.",
+      "The dog's bones were buried in the garden.",
+      "The dogs bone was buried in the garden.",
+      "The dog' bone was buried in the garden."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'The dog's bones were buried in the garden' indicates that the bones belong to one dog (singular possessive)."
+  },
+  {
+    "questionText": "Which of the following is an example of onomatopoeia?",
+    "options": [
+      "The gentle breeze whispered through the trees.",
+      "The car zoomed past quickly.",
+      "The leaves danced in the wind.",
+      "The bacon sizzled in the pan."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Onomatopoeia is a word that imitates a sound. 'Sizzled' imitates the sound of bacon cooking."
+  },
+  {
+    "questionText": "Choose the most suitable collective noun to complete the sentence: 'The _______ of fish swam gracefully through the coral reef.'",
+    "options": [
+      "flock",
+      "herd",
+      "school",
+      "pack"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A 'school' is the correct collective noun used to describe a group of fish."
+  },
+  {
+    "questionText": "Which sentence uses the correct form of the verb 'to be' in the past tense?",
+    "options": [
+      "Yesterday, I is at the park with my friends.",
+      "Yesterday, I were at the park with my friends.",
+      "Yesterday, I was at the park with my friends.",
+      "Yesterday, I be at the park with my friends."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The past tense of 'to be' for 'I' is 'was'. Therefore, the correct sentence is 'Yesterday, I was at the park with my friends.'"
+  },
+  {
+    "questionText": "Select the word that best replaces 'excited' in the following sentence without changing its meaning: 'The children were very excited about the school trip.'",
+    "options": [
+      "bored",
+      "anxious",
+      "eager",
+      "upset"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Eager' means having or showing keen interest or enthusiasm, which is closest in meaning to 'excited'."
+  },
+  {
+    "questionText": "Which of the following sentences demonstrates correct subject-verb agreement?",
+    "options": [
+      "They was playing in the garden.",
+      "She sing beautifully.",
+      "He are going to the library.",
+      "The dog barks loudly."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "In the sentence 'The dog barks loudly,' the singular subject 'dog' agrees with the singular verb 'barks'."
+  },
+  {
+    "questionText": "Identify the sentence that uses a metaphor correctly.",
+    "options": [
+      "The baby was as cute as a button.",
+      "The rain was a curtain falling from the sky.",
+      "He is like his father.",
+      "Her smile shone brighter than the sun."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A metaphor directly compares two unlike things without using 'like' or 'as'.  'The rain was a curtain' implies a direct comparison."
+  },
+  {
+    "questionText": "Choose the correct punctuation to complete the sentence: 'My favourite colours are blue green and purple______'",
+    "options": [
+      ".",
+      "!",
+      "?",
+      ","
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The sentence is a statement, therefore it needs to end with a period/full stop."
+  },
+  {
+    "questionText": "Which word is the antonym of 'generous'?",
+    "options": [
+      "kind",
+      "selfish",
+      "caring",
+      "giving"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An antonym is a word with the opposite meaning. 'Selfish' is the opposite of 'generous'."
+  },
+  {
+    "questionText": "Which of the following sentences uses the correct tense to describe an action that started in the past and is still continuing?",
+    "options": [
+      "She is learning to play the piano since last year.",
+      "She was learning to play the piano since last year.",
+      "She has been learning to play the piano since last year.",
+      "She learns to play the piano since last year."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The present perfect continuous tense ('has been learning') is used to describe an action that started in the past and is still ongoing."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct article (a, an, the) for the underlined word: 'My sister is studying to become _ engineer.'",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "None of the above"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The word 'engineer' begins with a vowel sound, so the correct article to use is 'an'."
+  },
+  {
+    "questionText": "Which of the following sentences uses the correct punctuation?",
+    "options": [
+      "The cat sat on the mat. She was very comfortable.",
+      "The cat sat on the mat, she was very comfortable.",
+      "The cat sat on the mat; she was very comfortable.",
+      "The cat sat on the mat she was very comfortable."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A semicolon (;) is used to connect two independent clauses that are closely related."
+  },
+  {
+    "questionText": "Select the best word to complete the following analogy: Happy is to joyful as sad is to ______.",
+    "options": [
+      "angry",
+      "melancholy",
+      "excited",
+      "scared"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Melancholy means a feeling of pensive sadness, typically with no obvious cause, which is the closest synonym to 'sad' among the options."
+  },
+  {
+    "questionText": "Which sentence uses the correct comparative adjective?",
+    "options": [
+      "This cake is more tastier than that one.",
+      "This cake is tastier than that one.",
+      "This cake is more taste than that one.",
+      "This cake is taste than that one."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "For short adjectives (like 'tasty'), we add '-er' to form the comparative.  'More tastier' is redundant."
+  },
+  {
+    "questionText": "Choose the option that best replaces the underlined word with a synonym: 'The old house looked very *creepy* in the dark.'",
+    "options": [
+      "bright",
+      "cheerful",
+      "eerie",
+      "inviting"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Eerie' is a synonym for 'creepy', both suggesting something that is unsettling or frightening."
+  },
+  {
+    "questionText": "Identify the sentence that contains a simile.",
+    "options": [
+      "The wind howled through the trees.",
+      "Her eyes were shining stars.",
+      "He ran quickly to the store.",
+      "The sun is a giant ball of fire."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'.  'Her eyes were shining stars' implies a comparison and uses 'were' to connect the two."
+  },
+  {
+    "questionText": "Which word is an antonym for 'generous'?",
+    "options": [
+      "kind",
+      "selfish",
+      "caring",
+      "thoughtful"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An antonym is a word with the opposite meaning. 'Selfish' is the opposite of 'generous'."
+  },
+  {
+    "questionText": "Select the sentence that uses the correct form of the verb 'to lie' (to recline) in the past tense.",
+    "options": [
+      "He layed on the beach all day.",
+      "He lied on the beach all day.",
+      "He lay on the beach all day.",
+      "He lain on the beach all day."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The past tense of 'to lie' (to recline) is 'lay'."
+  },
+  {
+    "questionText": "Choose the sentence with the correct subject-verb agreement.",
+    "options": [
+      "The group of singers are performing tonight.",
+      "The group of singers is performing tonight.",
+      "The group of singer are performing tonight.",
+      "The group of singer is performing tonight."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The subject is 'group', which is singular, so the verb should be 'is'."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'address' as a verb?",
+    "options": [
+      "The address on the letter was difficult to read.",
+      "Please address the envelope before mailing it.",
+      "The speaker gave a wonderful address to the graduates.",
+      "What is your home address?"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "In the correct sentence, 'address' means to write the address on or speak to (someone)."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct tense and agreement:",
+    "options": [
+      "The flock of birds are flying south for the winter.",
+      "The flock of birds is flying south for the winter.",
+      "The flock of birds were flying south for the winter.",
+      "The flock of birds was flying south for the winter."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The word 'flock' is a collective noun and takes a singular verb, 'is'. Since the action is happening now, present continuous 'is flying' is correct."
+  },
+  {
+    "questionText": "Which of the following is a compound sentence?",
+    "options": [
+      "Although it was raining, we went to the park.",
+      "We went to the park because it was sunny.",
+      "The dog barked loudly at the mailman.",
+      "The cat sat on the mat, and the dog slept on the rug."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A compound sentence has two or more independent clauses joined by a coordinating conjunction (and, but, or, nor, for, so, yet)."
+  },
+  {
+    "questionText": "Identify the sentence with a misplaced modifier:",
+    "options": [
+      "Covered in mud, the children ran inside.",
+      "The children, covered in mud, ran inside.",
+      "Covered in mud, the house was a mess.",
+      "The house was a mess, covered in mud."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A misplaced modifier is a phrase or clause that is intended to modify a certain word, but is placed in the sentence so that it seems to modify a different word. In this case, it sounds like the house is covered in mud, not the children."
+  },
+  {
+    "questionText": "Which sentence uses the correct form of the word 'lie'?",
+    "options": [
+      "I laid down for a nap yesterday.",
+      "I lied down for a nap yesterday.",
+      "I lay down for a nap yesterday.",
+      "I lain down for a nap yesterday."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The past tense of 'lie' (to recline) is 'lay'. 'Laid' is the past tense of 'lay' (to place something down)."
+  },
+  {
+    "questionText": "Choose the best word to complete the following sentence: The detective was _________ in his pursuit of the truth.",
+    "options": [
+      "relentless",
+      "reluctant",
+      "relative",
+      "relaxed"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'Relentless' means determined and persistent, which best describes a detective's pursuit of truth."
+  },
+  {
+    "questionText": "Select the sentence that uses the correct punctuation:",
+    "options": [
+      "The cat, a furry friend, purred loudly.",
+      "The cat a furry friend purred loudly.",
+      "The cat a furry friend, purred loudly.",
+      "The cat, a furry friend purred loudly."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The phrase 'a furry friend' is an appositive, which requires commas before and after if it is nonessential to the sentence."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile?",
+    "options": [
+      "The moon was a silver coin in the sky.",
+      "The wind whispered through the trees.",
+      "He is a bright student.",
+      "The sun shone brightly."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A simile compares two things using 'like' or 'as'.  The moon is being compared to a silver coin."
+  },
+  {
+    "questionText": "Identify the antonym of the word 'benevolent'.",
+    "options": [
+      "Kind",
+      "Generous",
+      "Malevolent",
+      "Helpful"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Benevolent' means kind and well-meaning. 'Malevolent' means having or showing a wish to do evil to others."
+  },
+  {
+    "questionText": "Choose the correct order of adjectives in the following sentence: I saw a _______ dog.",
+    "options": [
+      "black small cute",
+      "small black cute",
+      "cute small black",
+      "black cute small"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The typical order of adjectives is: opinion, size, age, shape, colour, origin, material, type, purpose. In this case: opinion (cute), size (small), colour (black)."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The moon shone brightly like a diamond.",
+      "He ran quick as a cheetah.",
+      "She sings as good as an angel.",
+      "The car is resembling a rocket."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A simile compares two unlike things using 'like' or 'as'. Option A correctly uses 'like' to compare the moon to a diamond. Option B should be 'as quickly as', Option C should be 'as well as', and Option D uses the word incorrectly, as 'resembling' already implies comparison."
+  },
+  {
+    "questionText": "Choose the sentence with the correct use of the past perfect tense.",
+    "options": [
+      "I had ate my dinner before they arrived.",
+      "She had been finish her work when I called.",
+      "They had gone to the market before it rained.",
+      "He has saw the movie yesterday."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The past perfect tense uses 'had' + past participle. Option C is correct: 'had gone'. Option A is incorrect as 'ate' should be 'eaten'. Option B is grammatically incorrect. Option D is in present perfect tense."
+  },
+  {
+    "questionText": "Which sentence demonstrates the correct use of a reflexive pronoun?",
+    "options": [
+      "He bought a present for myself.",
+      "She saw herself in the mirror.",
+      "They helped you with your homework.",
+      "We gave the book to him."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A reflexive pronoun refers back to the subject of the sentence. Only Option B uses it correctly: 'herself' refers back to 'she'. 'Myself' in option A should be 'himself'."
+  },
+  {
+    "questionText": "Identify the sentence with the correct use of articles (a, an, the).",
+    "options": [
+      "I saw a elephant at the zoo.",
+      "She is reading a very interesting book.",
+      "The sun gives a light.",
+      "He is the honest man I know."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Option B correctly uses 'a' before 'very', a consonant sound. Option A should be 'an elephant'. Option C should be 'light'. Option D should be 'the most honest'."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'effect' correctly?",
+    "options": [
+      "The medicine had a good affect on her health.",
+      "The special effects in the movie were amazing.",
+      "His actions will affect the outcome.",
+      "The loud noise had no effect on me."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Effect' as a noun means a result or consequence. In option D, the loud noise *had* an effect. Option B is correct as well, 'special effects' is a common term. Option A should use 'effect' and option C should use 'affect'."
+  },
+  {
+    "questionText": "Choose the sentence with the most appropriate use of a conjunction to show contrast.",
+    "options": [
+      "I like to read books, so I go to the library.",
+      "She was tired, but she continued to work.",
+      "He ate quickly, because he was hungry.",
+      "They went to the park, and they played games."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'But' is used to show contrast. Option B shows that despite being tired, she still worked. 'So' shows cause and effect. 'Because' explains why. 'And' adds information."
+  },
+  {
+    "questionText": "Which sentence correctly uses a possessive pronoun?",
+    "options": [
+      "The toy is mine.",
+      "Theirs toy is broken.",
+      "That is your's book.",
+      "The cat is his's."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'Mine' is a possessive pronoun that shows ownership. Option A is correct. Option B should be 'Their toy'. Option C should be 'your book'. Option D should be 'his'."
+  },
+  {
+    "questionText": "Identify the sentence that uses an adverb of manner correctly.",
+    "options": [
+      "She sings beautiful.",
+      "He ran quick to catch the bus.",
+      "The sun shines brightly.",
+      "They arrived late."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "An adverb of manner describes how something is done. 'Brightly' describes how the sun shines. Option A should be 'beautifully'. Option B should be 'quickly'."
+  },
+  {
+    "questionText": "Select the sentence with the correct subject-verb agreement.",
+    "options": [
+      "The dog bark loudly at the mailman.",
+      "The children plays in the park.",
+      "She have many books.",
+      "He has a red car."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The verb must agree with the subject in number. 'He' is singular, so it takes 'has'. Option A should be 'barks', Option B should be 'play', and Option C should be 'has'."
+  },
+  {
+    "questionText": "Which of the following sentences contains a metaphor?",
+    "options": [
+      "The snow was like a white blanket.",
+      "Time is a thief.",
+      "He is as tall as his father.",
+      "Her smile is bright."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A metaphor directly compares two unlike things without using 'like' or 'as'. Option B is a metaphor, comparing time to a thief. Option A is a simile. Options C and D are literal descriptions."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The car zoomed past like a cheetah in the sky.",
+      "The moon was shining brightly like a giant pizza.",
+      "Her smile was as bright as the sun.",
+      "He ran quickly like a fast car yesterday."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A simile compares two things using 'like' or 'as'. Only 'Her smile was as bright as the sun' correctly compares her smile to the sun using 'as'."
+  },
+  {
+    "questionText": "Choose the sentence with the correct use of articles (a, an, the).",
+    "options": [
+      "I saw a elephant at the zoo yesterday.",
+      "The sun is a star that gives us light.",
+      "She ate an apple for a breakfast.",
+      "He is a honest man."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'The sun is a star that gives us light' is the only option with the correct use of articles. 'The' is used for the sun because it is a specific entity. 'A' is correct for star, as it's a general one. "
+  },
+  {
+    "questionText": "Which word best completes the following sentence: The old house was ______ after the storm.",
+    "options": [
+      "destroy",
+      "destroyed",
+      "destroying",
+      "destroys"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The sentence requires a past participle to describe the state of the house after the storm. 'Destroyed' is the correct past participle."
+  },
+  {
+    "questionText": "Identify the sentence with the correct punctuation.",
+    "options": [
+      "Why is the sky blue",
+      "Why is the sky blue?",
+      "Why is the sky blue!",
+      "Why is the sky blue.."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The sentence is a question, so it requires a question mark at the end."
+  },
+  {
+    "questionText": "Which of these is an example of personification?",
+    "options": [
+      "The wind howled through the night.",
+      "The cat sat on the mat.",
+      "The flower is red.",
+      "The car is very fast."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Personification is giving human qualities to non-human things. 'The wind howled through the night' gives the wind a human quality (howling)."
+  },
+  {
+    "questionText": "Choose the correct pronoun to complete the sentence: Mary and ______ went to the library.",
+    "options": [
+      "I",
+      "me",
+      "myself",
+      "she"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'I' is the correct subject pronoun to use in this sentence. 'Mary and I' are the subjects performing the action."
+  },
+  {
+    "questionText": "Which of the following is an antonym for the word 'generous'?",
+    "options": [
+      "kind",
+      "selfish",
+      "giving",
+      "caring"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An antonym is a word with the opposite meaning. 'Selfish' is the opposite of 'generous'."
+  },
+  {
+    "questionText": "Select the sentence that uses the correct tense agreement.",
+    "options": [
+      "Yesterday, she will go to the park.",
+      "Today, she is going to the park.",
+      "Tomorrow, she went to the park.",
+      "Every day, she was going to the park."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Today, she is going to the park' is the only sentence that uses correct tense agreement (present continuous tense for an action happening now)."
+  },
+  {
+    "questionText": "Which sentence uses the word 'too' correctly?",
+    "options": [
+      "I want to go to to the beach.",
+      "She is too kind.",
+      "He has to many toys.",
+      "They are going their."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'She is too kind' is the only sentence where 'too' is used correctly to mean 'excessively'."
+  },
+  {
+    "questionText": "Identify the sentence with the correct use of commas.",
+    "options": [
+      "My favourite colours are blue green and yellow.",
+      "My favourite colours are, blue, green, and yellow.",
+      "My favourite colours are blue, green, and yellow.",
+      "My favourite colours are blue green, and yellow."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Commas are used to separate items in a list. 'My favourite colours are blue, green, and yellow' uses commas correctly to separate the colours."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'address' as a verb?",
+    "options": [
+      "The Prime Minister gave an important address to the nation.",
+      "Please write your address clearly on the envelope.",
+      "The student tried to address the teacher respectfully.",
+      "What is the address of your new school?"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "In the sentence 'The student tried to address the teacher respectfully,' 'address' means to speak to or deal with, which is its verb form. The other options use 'address' as a noun, referring to a location or a speech."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct tense and subject-verb agreement.",
+    "options": [
+      "Each of the girls have a beautiful dress.",
+      "Each of the girls has a beautiful dress.",
+      "Each of the girls are having a beautiful dress.",
+      "Each of the girls were having a beautiful dress."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct answer is 'Each of the girls has a beautiful dress.' 'Each' is singular, so it requires a singular verb, 'has'."
+  },
+  {
+    "questionText": "Which sentence uses a simile correctly?",
+    "options": [
+      "The moon was shining like a diamond.",
+      "The sun is hotter than a hotdog.",
+      "His heart is a stone.",
+      "She is happy."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A simile compares two things using 'like' or 'as'. 'The moon was shining like a diamond' compares the moon's shine to a diamond's shine, using 'like'. Option B isn't a simile. Option C is a metaphor."
+  },
+  {
+    "questionText": "Identify the sentence with the correct punctuation.",
+    "options": [
+      "Isnt it a beautiful day?",
+      "Isn't it a beautiful day!",
+      "Isnt it a beautiful day!",
+      "Isn't it a beautiful day."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The correct sentence is 'Isn't it a beautiful day.' It uses the contraction 'Isn't' correctly with an apostrophe, and ends with a period to indicate a statement phrased as a question or mild surprise."
+  },
+  {
+    "questionText": "Which of the following sentences contains a prepositional phrase?",
+    "options": [
+      "The cat slept soundly.",
+      "She quickly ate her dinner.",
+      "The bird flew to its nest.",
+      "He enjoys playing football."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A prepositional phrase begins with a preposition and ends with a noun or pronoun. In the sentence 'The bird flew to its nest,' 'to its nest' is the prepositional phrase, with 'to' as the preposition."
+  },
+  {
+    "questionText": "Choose the correct collective noun to fill in the blank: The farmer has a _____ of cows.",
+    "options": [
+      "flock",
+      "herd",
+      "swarm",
+      "pack"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct collective noun for cows is 'herd.' 'Flock' is used for birds or sheep, 'swarm' is used for insects, and 'pack' is used for dogs or wolves."
+  },
+  {
+    "questionText": "Which sentence uses a metaphor correctly?",
+    "options": [
+      "The baby laughed like a hyena.",
+      "The snow was a white blanket over the town.",
+      "He ran as fast as a cheetah.",
+      "Her eyes are like the stars."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A metaphor directly compares two unlike things without using 'like' or 'as'. 'The snow was a white blanket over the town' directly compares the snow to a blanket, implying it covered the town completely. The other options use 'like' or 'as', making them similes."
+  },
+  {
+    "questionText": "Select the sentence where the underlined word is an adverb.",
+    "options": [
+      "The *happy* dog wagged its tail.",
+      "She sang *beautifully* at the concert.",
+      "The *old* house stood on the hill.",
+      "He is a *fast* runner."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An adverb modifies a verb, adjective, or another adverb. In the sentence 'She sang beautifully at the concert,' 'beautifully' modifies the verb 'sang,' describing how she sang. The other options have underlined adjectives."
+  },
+  {
+    "questionText": "Which of these sentences uses the correct form of the word 'lie'?",
+    "options": [
+      "He layed down for a nap.",
+      "The book is laying on the table.",
+      "She lies down every afternoon.",
+      "He lies the book on the table."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Lie' (to recline) has different forms than 'lay' (to place). The correct sentence is 'She lies down every afternoon.' because it accurately uses the present tense form of 'lie'."
+  },
+  {
+    "questionText": "Choose the best word to complete the sentence: The detective needed to _____ the crime scene carefully for clues.",
+    "options": [
+      "inspect",
+      "expect",
+      "suspect",
+      "respect"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The best word is 'inspect,' which means to look at something carefully in order to discover information. 'The detective needed to inspect the crime scene carefully for clues' makes the most sense in the context of finding evidence."
+  },
+  {
+    "questionText": "Which of the following sentences uses the past perfect tense correctly?",
+    "options": [
+      "I have ate my dinner before they arrived.",
+      "She had finished her homework when the guests arrived.",
+      "They will had gone to the park yesterday.",
+      "He is seen the movie last week."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The past perfect tense (had + past participle) is used to show that an action was completed before another action in the past. 'She had finished her homework' happened before 'the guests arrived.'"
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct punctuation.",
+    "options": [
+      "The dog ran fast it caught the ball",
+      "The dog ran fast, it caught the ball.",
+      "The dog ran fast; it caught the ball.",
+      "The dog ran fast: it caught the ball"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A semicolon (;) is used to join two independent clauses that are closely related in thought. Both 'The dog ran fast' and 'it caught the ball' are independent clauses."
+  },
+  {
+    "questionText": "Which word is closest in meaning to 'meticulous'?",
+    "options": [
+      "Careless",
+      "Hasty",
+      "Detailed",
+      "Sloppy"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Meticulous means showing great attention to detail; very careful and precise. Therefore, 'detailed' is the closest in meaning."
+  },
+  {
+    "questionText": "Select the sentence with the correct subject-verb agreement.",
+    "options": [
+      "The books on the shelf is very old.",
+      "The books on the shelf are very old.",
+      "The book on the shelf are very old.",
+      "The books on the shelf am very old."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The subject 'books' is plural, so the verb must also be plural. 'Are' is the plural form of the verb 'to be'."
+  },
+  {
+    "questionText": "Identify the sentence that uses a simile correctly.",
+    "options": [
+      "The sun was a warm blanket.",
+      "Her smile was as bright as the sun.",
+      "He is a brave lion.",
+      "Time is a thief."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'. 'Her smile was as bright as the sun' compares her smile to the sun using 'as'."
+  },
+  {
+    "questionText": "Which sentence contains a correctly used prepositional phrase?",
+    "options": [
+      "She went to the store by foot.",
+      "He sat besides her at the concert.",
+      "The cat jumped on top of the table.",
+      "They are traveling to overseas next month."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'On top of the table' is the correctly used prepositional phrase. It shows the relationship between the cat and the table."
+  },
+  {
+    "questionText": "Choose the best word to complete the following sentence: The detective was __________ in solving the mystery.",
+    "options": [
+      "persistent",
+      "hesitant",
+      "reluctant",
+      "indifferent"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'Persistent' means continuing firmly or obstinately in a course of action in spite of difficulty or opposition. A detective would need to be persistent to solve a mystery."
+  },
+  {
+    "questionText": "What is the most suitable conjunction to join these two sentences: 'The rain stopped.' 'We went for a walk.'",
+    "options": [
+      "Because",
+      "Although",
+      "Therefore",
+      "After"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'After' indicates that the walk happened after the rain stopped. 'After the rain stopped, we went for a walk' makes the most logical sense."
+  },
+  {
+    "questionText": "Which of the following is an example of personification?",
+    "options": [
+      "The wind howled through the trees.",
+      "The car was as fast as a cheetah.",
+      "The rain fell softly on the roof.",
+      "The stars twinkled in the night sky."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Personification is giving human qualities to non-human things. 'The wind howled' gives the wind the human action of howling."
+  },
+  {
+    "questionText": "Select the correct plural form of the word 'shelf'.",
+    "options": [
+      "Shelfs",
+      "Shelves",
+      "Shelfes",
+      "Shelf's"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The plural of 'shelf' is 'shelves'. Many words ending in '-f' or '-fe' change to '-ves' in the plural form."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'grave' correctly?",
+    "options": [
+      "The clown's performance was grave, making the children laugh.",
+      "The situation is grave; we need to act quickly.",
+      "He visited his grandfather's grave yesterday.",
+      "The artist tried to grave a beautiful picture."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The word 'grave' means serious or critical in this context. Option B uses it correctly to describe a serious situation. A refers to a grave demeanor (serious and solemn). C refers to the place of burial, and D is used incorrectly and it should be carve."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct tense:",
+    "options": [
+      "Yesterday, I will go to the park.",
+      "I am going to the library tomorrow.",
+      "She is eat her lunch now.",
+      "They was playing football last week."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Option B is the only sentence that uses the correct tense (future tense). A uses future tense but needs to be past tense. C needs to change to \"She is eating her lunch now\". D should be \"They were playing football last week\"."
+  },
+  {
+    "questionText": "Which of these sentences uses a simile correctly?",
+    "options": [
+      "The sun was a giant ball of fire.",
+      "Her smile was as bright as the sun.",
+      "He ran faster than the wind.",
+      "The car is very fast."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'. Option B directly compares her smile to the sun using 'as bright as'."
+  },
+  {
+    "questionText": "What is the most suitable conjunction to complete this sentence? 'I wanted to go to the beach, ______ it was raining.'",
+    "options": [
+      "so",
+      "but",
+      "and",
+      "because"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'But' is the best conjunction because it shows a contrast between wanting to go to the beach and the rain preventing it. It means in spite of the fact that."
+  },
+  {
+    "questionText": "Identify the sentence that contains a possessive pronoun.",
+    "options": [
+      "She has a red bicycle.",
+      "The book is mine.",
+      "They went to the store.",
+      "He is my brother."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A possessive pronoun shows ownership. 'Mine' is a possessive pronoun indicating that the book belongs to the speaker."
+  },
+  {
+    "questionText": "Choose the correct order of adjectives: 'He has a _______ car.'",
+    "options": [
+      "old blue German",
+      "blue old German",
+      "German blue old",
+      "blue German old"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The correct order is usually: opinion, size, age, shape, colour, origin, material, purpose. Therefore, the correct order is 'old blue German'."
+  },
+  {
+    "questionText": "Which of the following sentences has a verb in the past perfect tense?",
+    "options": [
+      "She is going to the market.",
+      "They had finished their homework.",
+      "He will eat dinner later.",
+      "I am reading a book."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The past perfect tense is formed using 'had' + past participle. Option B, 'had finished,' is in the past perfect tense."
+  },
+  {
+    "questionText": "Which sentence uses the correct punctuation?",
+    "options": [
+      "My favorite colors are blue green and red.",
+      "My favorite colors are blue, green, and red.",
+      "My favorite colors are blue green, and red",
+      "My favorite colors are blue green and, red"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Option B uses commas correctly to separate items in a list, including an optional Oxford comma before 'and'."
+  },
+  {
+    "questionText": "Select the best word to replace 'very happy' in the sentence: 'She was very happy to receive the gift.'",
+    "options": [
+      "Sad",
+      "Delighted",
+      "Angry",
+      "Upset"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Delighted' is a stronger and more descriptive synonym for 'very happy'."
+  },
+  {
+    "questionText": "Which of the following is an example of onomatopoeia?",
+    "options": [
+      "The sun shone brightly.",
+      "The car zoomed past quickly.",
+      "The bees buzzed loudly.",
+      "He walked slowly down the street."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Onomatopoeia is a word that imitates the sound it represents. 'Buzz' imitates the sound made by bees."
+  },
+  {
+    "questionText": "Which of the following sentences uses the past perfect tense correctly?",
+    "options": [
+      "I had saw the movie before you told me about it.",
+      "She has went to the market before I arrived.",
+      "They had eaten dinner by the time we got there.",
+      "He will finished his homework before going to bed."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The past perfect tense is formed with 'had' + past participle. Option C, 'They had eaten dinner by the time we got there,' is the only sentence that correctly uses the past perfect tense."
+  },
+  {
+    "questionText": "Choose the sentence that uses a simile correctly.",
+    "options": [
+      "The moon shone brightly last night.",
+      "Her smile was the sun.",
+      "He ran fast like a cheetah.",
+      "The wind whispered secrets through the trees."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A simile compares two things using 'like' or 'as'. Option C, 'He ran fast like a cheetah,' is the only sentence that uses a simile correctly."
+  },
+  {
+    "questionText": "Which word is closest in meaning to 'arduous'?",
+    "options": [
+      "Easy",
+      "Simple",
+      "Difficult",
+      "Pleasant"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Arduous' means involving or requiring strenuous effort; difficult and tiring. Therefore, 'Difficult' is the closest in meaning."
+  },
+  {
+    "questionText": "Identify the sentence with the correct use of a collective noun.",
+    "options": [
+      "The flock of birds are flying south.",
+      "The team is playing well this season.",
+      "The committee have made their decision.",
+      "The family are going on holiday."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Collective nouns refer to a group. When the group acts as a single unit, a singular verb is used. 'The team is playing well this season' is the only option where the singular verb 'is' is correctly used with 'team'."
+  },
+  {
+    "questionText": "Which of the following sentences contains a subordinate clause?",
+    "options": [
+      "The cat sat on the mat.",
+      "She sang a song and danced.",
+      "Although it was raining, we went for a walk.",
+      "He is a very tall boy."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A subordinate clause cannot stand alone as a sentence. 'Although it was raining' is a subordinate clause because it starts with 'although' and needs the main clause 'we went for a walk' to make a complete sentence."
+  },
+  {
+    "questionText": "Choose the correct order of adjectives: The ______ old ______ house.",
+    "options": [
+      "wooden, beautiful",
+      "beautiful, wooden",
+      "old, beautiful",
+      "wooden, old"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct order of adjectives is generally: Opinion, Size, Age, Shape, Colour, Origin, Material, Type, Purpose. 'Beautiful' is an opinion and 'wooden' is a material, so the correct order is 'beautiful, wooden'."
+  },
+  {
+    "questionText": "Which sentence uses the correct preposition?",
+    "options": [
+      "He is good in playing football.",
+      "She is interested on learning Spanish.",
+      "They are waiting at the bus stop.",
+      "I am angry to her."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'They are waiting at the bus stop' correctly uses the preposition 'at' to indicate a specific location."
+  },
+  {
+    "questionText": "Select the word that is an antonym of 'generous'.",
+    "options": [
+      "Kind",
+      "Selfish",
+      "Caring",
+      "Helpful"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An antonym is a word that means the opposite. The opposite of 'generous' (willing to give or share) is 'selfish' (lacking consideration for others)."
+  },
+  {
+    "questionText": "Which of the following is an example of personification?",
+    "options": [
+      "The car was as fast as a cheetah.",
+      "The sun smiled down on us.",
+      "The rain fell heavily.",
+      "The house was very big."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Personification is giving human qualities to non-human things. 'The sun smiled down on us' gives the sun the human quality of smiling."
+  },
+  {
+    "questionText": "Choose the sentence with the correct punctuation.",
+    "options": [
+      "My favourite colours are; blue, green and red.",
+      "My favourite colours are blue, green, and red.",
+      "My favourite colours are blue green and red.",
+      "My favourite colours are blue, green and, red."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct punctuation uses commas to separate items in a list. The Oxford comma (the comma before 'and') is optional but should be used consistently. Option B is the most correct and widely accepted format."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The moon shone brightly like a diamond in the sky.",
+      "He ran fastly to catch the bus.",
+      "The cat purred softly with happiness.",
+      "She sings beautiful a song."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A simile compares two things using 'like' or 'as'. Only the first sentence uses 'like' to compare the moon's brightness to a diamond."
+  },
+  {
+    "questionText": "Choose the correct collective noun to complete the sentence: The farmer led his ______ of cows to the pasture.",
+    "options": [
+      "flock",
+      "herd",
+      "swarm",
+      "group"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A 'herd' is the correct collective noun for a group of cows."
+  },
+  {
+    "questionText": "Which sentence uses the correct punctuation?",
+    "options": [
+      "My favorite colors are blue, green and red.",
+      "My favorite colors are blue, green, and red.",
+      "My favorite colors are blue green and red",
+      "My favorite colors are blue, green and, red."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The Oxford comma (the comma before 'and') is generally preferred in formal writing. Option B uses it correctly."
+  },
+  {
+    "questionText": "Select the most suitable word to fill in the blank: The detective tried to ______ the truth from the unreliable witness.",
+    "options": [
+      "elicit",
+      "illicit",
+      "evoke",
+      "revoke"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'Elicit' means to draw out or obtain information from someone, especially with effort."
+  },
+  {
+    "questionText": "Which of the following is an example of personification?",
+    "options": [
+      "The leaves danced in the wind.",
+      "The car was red.",
+      "The water was cold.",
+      "He ran quickly."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Personification gives human qualities to non-human things. 'The leaves danced' gives the leaves the human action of dancing."
+  },
+  {
+    "questionText": "Choose the antonym of the word 'arduous'.",
+    "options": [
+      "difficult",
+      "easy",
+      "tiring",
+      "strenuous"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Arduous' means difficult or tiring. The antonym is 'easy'."
+  },
+  {
+    "questionText": "Which of the following sentences contains a compound sentence?",
+    "options": [
+      "The dog barked loudly.",
+      "The sun was shining, and the birds were singing.",
+      "Because it was raining, we stayed inside.",
+      "After the movie, we went home."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A compound sentence contains two or more independent clauses joined by a conjunction (like 'and', 'but', 'or')."
+  },
+  {
+    "questionText": "Identify the sentence with the correct use of homophones.",
+    "options": [
+      "They're going to the beach.",
+      "Their going to the beach.",
+      "There going to the beach.",
+      "Theyre going to the beach."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'They're' is a contraction of 'they are'. 'Their' shows possession, and 'There' indicates a place."
+  },
+  {
+    "questionText": "Select the word that best completes the analogy: Happy is to joyful as sad is to ______.",
+    "options": [
+      "angry",
+      "depressed",
+      "excited",
+      "content"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Joyful' is a stronger version of 'happy', so we need a stronger version of 'sad'. 'Depressed' fits this relationship."
+  },
+  {
+    "questionText": "Choose the correct preposition to complete the sentence: The cat jumped ______ the table.",
+    "options": [
+      "in",
+      "at",
+      "on",
+      "under"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'On' is the correct preposition to indicate that the cat jumped and landed on the surface of the table."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The cat ran as fast a car.",
+      "The moon was like a pizza tonight.",
+      "He sings good like an angel.",
+      "Her smile was as bright as the sun."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A simile compares two unlike things using 'like' or 'as'. Only 'Her smile was as bright as the sun' correctly uses 'as' to compare the smile's brightness to the sun."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct tense:",
+    "options": [
+      "Yesterday, I will go to the park.",
+      "I am going to the library tomorrow.",
+      "She eat her dinner quickly.",
+      "They was playing football now."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'I am going to the library tomorrow' uses the present continuous tense to describe a future plan. The other options have incorrect tense usage."
+  },
+  {
+    "questionText": "Which word is a synonym for 'enormous'?",
+    "options": [
+      "Tiny",
+      "Gigantic",
+      "Average",
+      "Little"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A synonym is a word with a similar meaning. 'Gigantic' means very large, which is similar to 'enormous'."
+  },
+  {
+    "questionText": "Identify the sentence with the correct punctuation:",
+    "options": [
+      "Where is johns book.",
+      "The dog barked loudly!",
+      "She asked why are you late",
+      "I think she is nice"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The sentence 'The dog barked loudly!' uses a correct exclamation mark to show strong emotion. The other options have missing or incorrect punctuation."
+  },
+  {
+    "questionText": "Which of the following sentences uses a preposition correctly?",
+    "options": [
+      "The book is in the table.",
+      "He walked among the street.",
+      "She sat besides me.",
+      "The cat jumped over the fence."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A preposition shows the relationship between a noun or pronoun and other words in the sentence. 'Over' is correctly used in 'The cat jumped over the fence' to show the cat's movement relative to the fence."
+  },
+  {
+    "questionText": "Choose the correct collective noun to complete the sentence: The shepherd led his ______ of sheep to the pasture.",
+    "options": [
+      "swarm",
+      "flock",
+      "herd",
+      "pack"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct collective noun for sheep is 'flock'. A 'swarm' is for insects, a 'herd' is for cattle, and a 'pack' is for dogs or wolves."
+  },
+  {
+    "questionText": "Which sentence uses the correct form of the verb 'to be' in the past tense?",
+    "options": [
+      "I is going to the store.",
+      "They was at the beach yesterday.",
+      "She were a talented artist.",
+      "He was happy to see his friend."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'He was happy to see his friend' correctly uses 'was' as the past tense of 'to be' for a singular subject. 'Was' is used with 'he', 'she', and 'it', while 'were' is used with 'they', 'we', and 'you'."
+  },
+  {
+    "questionText": "Select the sentence that uses a correct possessive pronoun.",
+    "options": [
+      "The toy is mine.",
+      "That is her's pen.",
+      "Their going to the park.",
+      "Its a beautiful day."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'The toy is mine' correctly uses 'mine' as a possessive pronoun. 'Hers' does not have an apostrophe, 'Their' is a different word altogether and 'Its' requires an apostrophe to be correct."
+  },
+  {
+    "questionText": "Which sentence uses the correct degree of comparison for the adjective 'tall'?",
+    "options": [
+      "He is the taller boy in the class.",
+      "She is more taller than her brother.",
+      "The giraffe is the tallest animal.",
+      "This building is tallerer than that one."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "When comparing more than two things, we use the superlative degree, which is 'tallest'. 'The giraffe is the tallest animal' correctly uses this form."
+  },
+  {
+    "questionText": "Choose the word that is an antonym for 'brave'.",
+    "options": [
+      "Courageous",
+      "Fearful",
+      "Bold",
+      "Heroic"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An antonym is a word with the opposite meaning. 'Fearful' means feeling or showing fear, which is the opposite of 'brave'."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'sole' correctly?",
+    "options": [
+      "He put his sole into writing the essay.",
+      "The sole of his shoe was worn out.",
+      "She ate a sole for lunch.",
+      "They are sole mates."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The word 'sole' means the bottom of a shoe. Option B uses it correctly. The other options use incorrect spellings or meanings (soul, a type of fish, soulmate)."
+  },
+  {
+    "questionText": "Choose the sentence with the correct punctuation.",
+    "options": [
+      "Where are you going she asked?",
+      "Where are you going, she asked?",
+      "Where are you going\" she asked.",
+      "Where are you going she asked."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A comma is needed to separate the dialogue from the rest of the sentence when the dialogue comes first, and a question mark because it is a question."
+  },
+  {
+    "questionText": "Which of the following is an example of a simile?",
+    "options": [
+      "The wind whispered through the trees.",
+      "Her eyes were like sparkling diamonds.",
+      "The sun was a giant ball of fire.",
+      "Time is a thief."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'. Option B uses 'like' to compare eyes and diamonds."
+  },
+  {
+    "questionText": "Select the most appropriate collective noun to complete this sentence: The farmer saw a _____ of crows in the field.",
+    "options": [
+      "herd",
+      "flock",
+      "murder",
+      "swarm"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct collective noun for crows is 'murder'. A herd is for cattle, a flock is for birds like sheep, and a swarm is for insects."
+  },
+  {
+    "questionText": "Which sentence demonstrates the correct use of the word 'affect' or 'effect'?",
+    "options": [
+      "The affect of the rain was obvious.",
+      "The medicine had no effect on his cough.",
+      "How will this effect my grade?",
+      "His smile did not affect me."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Effect' as a noun means a result or consequence. 'Affect' as a verb means to influence. Only option B uses 'effect' correctly as a noun in this context. Option D uses 'affect' correctly as a verb."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct tense consistently.",
+    "options": [
+      "Yesterday, I will go to the park and play football.",
+      "Today, I went to the park and play football.",
+      "Tomorrow, I will go to the park and play football.",
+      "Last week, I will be going to the park."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Option C uses 'will go' indicating future tense, and references 'tomorrow', making it consistent. The other options mix tenses incorrectly."
+  },
+  {
+    "questionText": "Identify the sentence with the correct subject-verb agreement.",
+    "options": [
+      "The dogs barks loudly at night.",
+      "The dog bark loudly at night.",
+      "The dogs bark loudly at night.",
+      "The dog barks loudly at night."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "When the subject is singular (dog), the verb needs to end with 's' (barks). When the subject is plural (dogs), the verb should not have an 's' (bark)."
+  },
+  {
+    "questionText": "Which of these sentences uses a metaphor?",
+    "options": [
+      "The clouds are like cotton candy.",
+      "He runs as fast as a cheetah.",
+      "The classroom was a zoo.",
+      "She is as tall as her brother."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A metaphor is a direct comparison stating something *is* something else, without using 'like' or 'as'.  Option C implies the classroom *is* chaotic like a zoo."
+  },
+  {
+    "questionText": "Select the most suitable word to complete the sentence: The athlete showed great _____ despite losing the race.",
+    "options": [
+      "soreness",
+      "sportsmanship",
+      "bitterness",
+      "disappointment"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Sportsmanship' is the most appropriate word because it describes the quality of being fair, respectful, and gracious, even in defeat."
+  },
+  {
+    "questionText": "Choose the sentence with the correct use of articles (a, an, the).",
+    "options": [
+      "I saw an elephant in the zoo.",
+      "I saw a elephant in the zoo.",
+      "I saw the elephant in zoo.",
+      "I saw the elephant in a zoo."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'An' is used before words that begin with a vowel sound. 'Elephant' begins with a vowel sound, so 'an' is correct. 'The' implies a specific zoo, but in this case, any zoo will do."
+  },
+  {
+    "questionText": "The old gate creaked _________ in the wind, sending shivers down the children's spines.",
+    "options": [
+      "merrily",
+      "ominously",
+      "joyfully",
+      "gleefully"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "\"Ominously\" suggests something bad or threatening is going to happen, which fits the scary context of the sentence."
+  },
+  {
+    "questionText": "Despite the heavy rain, the determined hikers _________ on their journey to the mountain peak.",
+    "options": [
+      "dawdled",
+      "lingered",
+      "persevered",
+      "staggered"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "\"Persevered\" means to continue despite difficulties, which best describes the hikers' determination in the rain."
+  },
+  {
+    "questionText": "The magician's trick was so _________ that the audience gasped in amazement.",
+    "options": [
+      "mundane",
+      "commonplace",
+      "extraordinary",
+      "typical"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "\"Extraordinary\" means very unusual or remarkable, which is appropriate for a magician's trick that amazes the audience."
+  },
+  {
+    "questionText": "After the argument, Sarah felt a pang of _________ for what she had said to her friend.",
+    "options": [
+      "euphoria",
+      "contentment",
+      "remorse",
+      "gratitude"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "\"Remorse\" means deep regret or guilt for a wrong committed, which fits the feeling after an argument."
+  },
+  {
+    "questionText": "The detective examined the crime scene with a _________ eye, searching for any clues.",
+    "options": [
+      "cursory",
+      "hasty",
+      "meticulous",
+      "careless"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "\"Meticulous\" means showing great attention to detail; very careful and precise, which is essential for a detective examining a crime scene."
+  },
+  {
+    "questionText": "The little boy tried to _________ his tears as he told his mother what had happened.",
+    "options": [
+      "repress",
+      "express",
+      "release",
+      "encourage"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "\"Repress\" means to restrain or hold back, which is what someone would do with tears they are trying not to show."
+  },
+  {
+    "questionText": "The old house stood _________ on the hill, a silent witness to the changing seasons.",
+    "options": [
+      "majestically",
+      "precariously",
+      "modestly",
+      "awkwardly"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "\"Majestically\" suggests a grand and impressive presence, fitting for an old house standing prominently on a hill."
+  },
+  {
+    "questionText": "The chef used a _________ of herbs and spices to create a unique and flavorful dish.",
+    "options": [
+      "fraction",
+      "handful",
+      "assortment",
+      "iota"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "\"Assortment\" means a variety of things, which describes a mix of herbs and spices."
+  },
+  {
+    "questionText": "Despite his small size, the young athlete had a _________ determination to win the race.",
+    "options": [
+      "feeble",
+      "weak",
+      "tenacious",
+      "fragile"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "\"Tenacious\" means tending to keep a firm hold of something; clinging or adhering closely, which implies strong determination."
+  },
+  {
+    "questionText": "The teacher gave _________ instructions, ensuring that all the students understood the task clearly.",
+    "options": [
+      "ambiguous",
+      "vague",
+      "explicit",
+      "obscure"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "\"Explicit\" means stated clearly and in detail, leaving no room for confusion or doubt; making sure everyone understands."
+  },
+  {
+    "questionText": "Which of the following sentences uses the correct tense?",
+    "options": [
+      "Yesterday, John will go to the market.",
+      "She is eat her dinner now.",
+      "They had been playing football before it started to rain.",
+      "He going to school tomorrow."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct answer is 'They had been playing football before it started to rain.' because it correctly uses the past perfect continuous tense to describe an action that was in progress before another action in the past."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct punctuation.",
+    "options": [
+      "Lets go to the park",
+      "Let's go to the park.",
+      "Lets go to the park.",
+      "Lets go to the park!"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct answer is 'Let's go to the park.' because it uses an apostrophe to show the contraction of 'let us'."
+  },
+  {
+    "questionText": "Which of the following is an example of a simile?",
+    "options": [
+      "The sun is a giant ball of fire.",
+      "Her smile was as bright as the sun.",
+      "The wind whispered through the trees.",
+      "Time flies when you're having fun."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct answer is 'Her smile was as bright as the sun.' because it compares her smile to the sun using 'as', which is characteristic of a simile."
+  },
+  {
+    "questionText": "Select the best word to complete the sentence: The _______ puppy wagged its tail excitedly.",
+    "options": [
+      "mischievous",
+      "mischief",
+      "mischievously",
+      "mischiefs"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The correct answer is 'mischievous' because it's an adjective that describes the puppy's nature. The other options are either nouns or adverbs, which do not fit grammatically."
+  },
+  {
+    "questionText": "Which of the following sentences contains a plural noun?",
+    "options": [
+      "The cat sat on the mat.",
+      "The boy has a ball.",
+      "The children are playing in the park.",
+      "My sister likes to read a book."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct answer is 'The children are playing in the park.' because 'children' is the plural form of 'child'."
+  },
+  {
+    "questionText": "Choose the word that is an antonym of 'generous'.",
+    "options": [
+      "Kind",
+      "Selfish",
+      "Giving",
+      "Caring"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct answer is 'Selfish' because it is the opposite of generous. Generous means willing to give or share, while selfish means concerned chiefly with one's own personal profit or pleasure."
+  },
+  {
+    "questionText": "Which sentence uses the correct form of the verb 'to be' in the past tense?",
+    "options": [
+      "I is happy yesterday.",
+      "She were at the library.",
+      "They was tired after the game.",
+      "We were excited about the trip."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The correct answer is 'We were excited about the trip.' because 'were' is the correct past tense form of 'to be' used with the pronoun 'we'."
+  },
+  {
+    "questionText": "Select the sentence with the correct subject-verb agreement.",
+    "options": [
+      "The birds is singing in the trees.",
+      "The dog bark loudly at the mailman.",
+      "My friends enjoys playing video games.",
+      "My sister and I are going to the movies."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The correct answer is 'My sister and I are going to the movies.' because the plural subject 'My sister and I' agrees with the plural verb 'are'."
+  },
+  {
+    "questionText": "What is the most suitable word to fill in the blank: The librarian asked us to _______ our voices.",
+    "options": [
+      "lower",
+      "louder",
+      "low",
+      "loudly"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The correct answer is 'lower'. The librarian would ask people to reduce the volume of their voices, hence 'lower' is the most appropriate word."
+  },
+  {
+    "questionText": "Which of the following sentences uses a preposition correctly?",
+    "options": [
+      "The book is under the table.",
+      "He went to home yesterday.",
+      "She sat beside of me.",
+      "They arrived in Singapore at yesterday."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The correct answer is 'The book is under the table.' because it correctly uses the preposition 'under' to show the relationship between the book and the table."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'literally' correctly?",
+    "options": [
+      "I was so hungry I literally ate a horse.",
+      "The news was so shocking, I literally died.",
+      "He literally jumped for joy when he won the prize.",
+      "She was literally glued to her phone all day."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Literally' means 'in a literal manner or sense; exactly'. Option 2 correctly uses it to describe someone jumping for joy."
+  },
+  {
+    "questionText": "Which sentence uses the correct tense consistently?",
+    "options": [
+      "Yesterday, she will go to the market and buys some fruits.",
+      "Every morning, he is drinking a cup of coffee before he leaves for work.",
+      "Last week, they planned a surprise party for their mother's birthday.",
+      "She is going to the library tomorrow and borrowed some books."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Option 2 uses the past tense consistently throughout the sentence. The other options mix tenses incorrectly."
+  },
+  {
+    "questionText": "Choose the best word to complete the following sentence: The detective was ______ to find the missing evidence.",
+    "options": [
+      "determination",
+      "determined",
+      "determine",
+      "determining"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The sentence requires an adjective to describe the detective. 'Determined' is the correct adjective form."
+  },
+  {
+    "questionText": "Which of the following sentences contains a simile?",
+    "options": [
+      "The sun was a giant eye in the sky.",
+      "Her smile was as bright as the sun.",
+      "The wind whispered secrets through the trees.",
+      "Time is a thief."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile uses 'like' or 'as' to compare two things. Option 2 compares the brightness of her smile to the sun using 'as'."
+  },
+  {
+    "questionText": "Select the sentence where the underlined word is used as a verb:",
+    "options": [
+      "She wore a beautiful flower in her hair.",
+      "Please water the plants in the garden.",
+      "The water was clear and refreshing.",
+      "He gave her a glass of water."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A verb is an action word. In option 2, 'water' is used as an action - to provide water to the plants."
+  },
+  {
+    "questionText": "Which sentence contains an example of personification?",
+    "options": [
+      "The car zoomed down the street.",
+      "The flowers danced in the breeze.",
+      "The cat sat on the mat.",
+      "The book was heavy."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Personification gives human qualities to inanimate objects. 'Flowers danced' gives the flowers a human-like action."
+  },
+  {
+    "questionText": "Which of the following is a compound sentence?",
+    "options": [
+      "The dog barked loudly.",
+      "She went to the store and bought some milk.",
+      "Because it was raining, we stayed inside.",
+      "The boy with the blue shirt is my friend."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A compound sentence contains two or more independent clauses joined by a conjunction (and, but, or, so, yet). Option 2 contains 'She went to the store' and 'bought some milk' joined by 'and'."
+  },
+  {
+    "questionText": "Choose the correct preposition to complete the sentence: The cat jumped ______ the table.",
+    "options": [
+      "in",
+      "on",
+      "at",
+      "over"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'On' is the correct preposition to show that the cat jumped onto the surface of the table."
+  },
+  {
+    "questionText": "Which word is the antonym of 'generous'?",
+    "options": [
+      "kind",
+      "selfish",
+      "caring",
+      "friendly"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An antonym is a word with the opposite meaning. 'Selfish' is the opposite of 'generous'."
+  },
+  {
+    "questionText": "Select the word that best fits the following analogy: Happy is to sad as tall is to ______.",
+    "options": [
+      "big",
+      "short",
+      "high",
+      "small"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An analogy shows a relationship between two pairs of words. 'Happy' and 'sad' are opposites, so we need the opposite of 'tall', which is 'short'."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'address' as a verb meaning 'to speak to'?",
+    "options": [
+      "The letter had the wrong address on the envelope.",
+      "The president will address the nation tonight.",
+      "My new address is 123 Main Street.",
+      "She gave a kind address to her friend."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The word 'address' can be a noun (a location) or a verb (to speak to). Only in the sentence 'The president will address the nation tonight' is it used as a verb meaning to speak to."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct tense and word order to describe an action that started in the past and is still happening now.",
+    "options": [
+      "I am learning English since two years.",
+      "I have been learning English for two years.",
+      "I learn English for two years.",
+      "I was learning English for two years."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The present perfect continuous tense ('have been learning') is used to describe an action that started in the past and is still continuing. 'For two years' indicates the duration of the action."
+  },
+  {
+    "questionText": "Which of the following is the best synonym for the word 'arduous'?",
+    "options": [
+      "Easy",
+      "Simple",
+      "Difficult",
+      "Enjoyable"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The word 'arduous' means involving or requiring strenuous effort; difficult and tiring. Therefore, 'difficult' is the best synonym."
+  },
+  {
+    "questionText": "Select the sentence with the correct use of the articles 'a,' 'an,' and 'the.'",
+    "options": [
+      "I saw a elephant at the zoo.",
+      "I saw an elephant at a zoo.",
+      "I saw the elephant at the zoo.",
+      "I saw a elephant at a zoo."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'An' is used before words that start with a vowel sound (elephant). 'A zoo' implies it's just one of many zoos, not a specific zoo already known to both speaker and listener."
+  },
+  {
+    "questionText": "Which sentence contains a simile?",
+    "options": [
+      "The wind howled through the trees.",
+      "Her eyes were sparkling jewels.",
+      "He ran as fast as a cheetah.",
+      "The sun is a giant ball of fire."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A simile compares two unlike things using 'like' or 'as.' 'He ran as fast as a cheetah' is the only option that uses 'as' to make a comparison."
+  },
+  {
+    "questionText": "Choose the correct collective noun to complete the sentence: The shepherd led his ______ of sheep to the pasture.",
+    "options": [
+      "flock",
+      "herd",
+      "pack",
+      "swarm"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The correct collective noun for sheep is 'flock.' 'Herd' is usually used for cattle, 'pack' for wolves or dogs, and 'swarm' for insects."
+  },
+  {
+    "questionText": "Identify the sentence that uses a gerund correctly.",
+    "options": [
+      "I enjoy to swim in the sea.",
+      "Swimming is my favourite hobby.",
+      "I going swimming tomorrow.",
+      "To swimming is fun."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A gerund is a verb form ending in '-ing' that functions as a noun. 'Swimming is my favourite hobby' uses 'swimming' as the subject of the sentence."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'fair' as an adjective meaning 'light in colour'?",
+    "options": [
+      "The judge made a fair decision.",
+      "She has fair skin and blue eyes.",
+      "Let's go to the fair this weekend.",
+      "It's not fair that I have to do all the work."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The word 'fair' has multiple meanings. Only in the sentence 'She has fair skin and blue eyes' does it mean 'light in colour'."
+  },
+  {
+    "questionText": "Select the word that is an antonym for 'optimistic'.",
+    "options": [
+      "Hopeful",
+      "Positive",
+      "Pessimistic",
+      "Cheerful"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "An antonym is a word that has the opposite meaning. 'Optimistic' means having a positive outlook, while 'pessimistic' means having a negative outlook."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct form of the verb 'lie'.",
+    "options": [
+      "I will lay down for a nap.",
+      "He lied on the sofa all day.",
+      "The book is laying on the table.",
+      "She lies down when she is tired."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Lie' means to recline or rest. 'Lay' means to put something down. The present tense form is 'lies'. Therefore, the correct usage is 'She lies down when she is tired.'"
+  },
+  {
+    "questionText": "Which of the following sentences uses the past perfect tense correctly?",
+    "options": [
+      "I had saw the movie before you recommended it.",
+      "She has ate all the cookies before I arrived.",
+      "They had finished their dinner when the guests arrived.",
+      "He have gone to the store yesterday."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The past perfect tense is formed with 'had' + past participle. Only 'They had finished their dinner when the guests arrived' uses the past perfect tense correctly."
+  },
+  {
+    "questionText": "Choose the sentence that uses a simile correctly.",
+    "options": [
+      "The sun was a warm blanket.",
+      "Her smile was brighter than the sun.",
+      "He ran quickly to the store.",
+      "The car moved like a snail."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A simile compares two things using 'like' or 'as'. 'The car moved like a snail' is the only option that uses 'like' to compare."
+  },
+  {
+    "questionText": "Which word is closest in meaning to 'meticulous'?",
+    "options": [
+      "Careless",
+      "Haphazard",
+      "Diligent",
+      "Reckless"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Meticulous' means showing great attention to detail; very careful and precise. 'Diligent' means showing care and conscientiousness in one's work or duties, which is the closest in meaning."
+  },
+  {
+    "questionText": "Identify the sentence with correct subject-verb agreement.",
+    "options": [
+      "The children plays in the park every day.",
+      "My brother and I is going to the zoo.",
+      "She don't like broccoli.",
+      "The dog barks loudly at strangers."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The subject 'dog' is singular, and the verb 'barks' is the singular form, so 'The dog barks loudly at strangers' has correct subject-verb agreement."
+  },
+  {
+    "questionText": "Which of the following sentences uses a preposition of place correctly?",
+    "options": [
+      "The cat is sitting at the roof.",
+      "The book is under the table.",
+      "He is going through school tomorrow.",
+      "She walked besides the park."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Under' is used as a preposition of place to describe the location of the book in relation to the table."
+  },
+  {
+    "questionText": "Complete the following analogy: Happy is to sad as energetic is to ______.",
+    "options": [
+      "Excited",
+      "Tired",
+      "Joyful",
+      "Lively"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The relationship between 'happy' and 'sad' is one of antonyms (opposites). The opposite of 'energetic' is 'tired'."
+  },
+  {
+    "questionText": "Choose the best word to complete the sentence: The artist painted a ______ landscape.",
+    "options": [
+      "Beautifully",
+      "Beauty",
+      "Beautiful",
+      "Beautify"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The word 'beautiful' is an adjective that describes the noun 'landscape'. The other options are not grammatically correct in this context."
+  },
+  {
+    "questionText": "Which sentence contains a metaphor?",
+    "options": [
+      "The moon was like a silver coin.",
+      "Her voice was music to his ears.",
+      "He ran as fast as a cheetah.",
+      "The flower smelled sweet."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A metaphor is a figure of speech that directly compares two unlike things without using 'like' or 'as'. 'Her voice was music to his ears' directly compares her voice to music."
+  },
+  {
+    "questionText": "Select the sentence that demonstrates correct use of 'there', 'their', or 'they're'.",
+    "options": [
+      "There going to the beach.",
+      "Their is a cat on the roof.",
+      "They're house is very big.",
+      "They're going to the store."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'They're' is a contraction of 'they are'. 'They're going to the store' correctly uses the contraction."
+  },
+  {
+    "questionText": "Which of the following sentences uses correct punctuation?",
+    "options": [
+      "Apples oranges and bananas are my favorite fruits.",
+      "Apples, oranges, and bananas are my favorite fruits.",
+      "Apples, oranges and bananas are my favorite fruits",
+      "Apples oranges, and bananas are my favorite fruits"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A comma is used to separate items in a list. The last item in the list is preceded by a comma and 'and'. 'Apples, oranges, and bananas are my favorite fruits' follows this rule."
+  },
+  {
+    "questionText": "Which of the following sentences uses the correct tense to describe an action that started in the past and is still happening now?",
+    "options": [
+      "She is learning English since last year.",
+      "She learns English since last year.",
+      "She has been learning English since last year.",
+      "She was learning English since last year."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The present perfect continuous tense (has/have been + -ing) is used to describe an action that began in the past and is still continuing. 'She has been learning English since last year' is the correct usage."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct article (a, an, the).",
+    "options": [
+      "I saw a elephant at the zoo yesterday.",
+      "I saw an elephant at a zoo yesterday.",
+      "I saw an elephant at the zoo yesterday.",
+      "I saw the elephant at an zoo yesterday."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'An' is used before vowel sounds. 'The' is used when referring to a specific zoo."
+  },
+  {
+    "questionText": "Which of the following sentences contains a simile?",
+    "options": [
+      "The sun was shining brightly.",
+      "Her smile was as bright as the sun.",
+      "The sun is a bright star.",
+      "The sun shone on her face."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A simile compares two things using 'as' or 'like'. 'Her smile was as bright as the sun' compares her smile to the sun using 'as'."
+  },
+  {
+    "questionText": "Complete the sentence with the most suitable conjunction: I wanted to go to the park, ______ it was raining heavily.",
+    "options": [
+      "so",
+      "but",
+      "because",
+      "and"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'But' is used to show a contrast. I wanted to go, BUT it was raining which prevented me."
+  },
+  {
+    "questionText": "Identify the sentence with the correct punctuation.",
+    "options": [
+      "My favourite colours are blue, green and yellow?",
+      "My favourite colours are blue, green, and yellow.",
+      "My favourite colours are blue green and yellow.",
+      "My favourite colours are blue green, and yellow."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A comma is used to separate items in a list. The Oxford comma (the comma before 'and') is generally preferred. A question mark is not appropriate."
+  },
+  {
+    "questionText": "Which word is closest in meaning to 'astonished'?",
+    "options": [
+      "Happy",
+      "Surprised",
+      "Angry",
+      "Bored"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Astonished' means greatly surprised or amazed. 'Surprised' is the closest synonym."
+  },
+  {
+    "questionText": "Choose the correct pronoun to complete the sentence: The dog wagged ______ tail.",
+    "options": [
+      "its",
+      "it's",
+      "it",
+      "his"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'Its' is the possessive pronoun, showing that the tail belongs to the dog. 'It's' is a contraction of 'it is'."
+  },
+  {
+    "questionText": "Which sentence uses the correct form of the verb 'to be' in the past tense?",
+    "options": [
+      "They was playing in the garden.",
+      "They is playing in the garden.",
+      "They were playing in the garden.",
+      "They be playing in the garden."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Were' is the correct form of 'to be' in the past tense for the pronoun 'they'."
+  },
+  {
+    "questionText": "Which of the following sentences has the correct subject-verb agreement?",
+    "options": [
+      "The birds is singing in the trees.",
+      "The bird sing in the trees.",
+      "The bird are singing in the trees.",
+      "The bird sings in the trees."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Since 'bird' is singular, the verb must be 'sings' (singular form) to agree with the subject."
+  },
+  {
+    "questionText": "Select the sentence where the underlined word is an adjective.",
+    "options": [
+      "The cat jumped *quickly*.",
+      "She wore a *blue* dress.",
+      "He *ran* to the store.",
+      "They *are* happy."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An adjective describes a noun. In the sentence 'She wore a blue dress,' the word 'blue' describes the noun 'dress'."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The car zoomed past as slow as a snail.",
+      "Her smile was bright like the sun.",
+      "He sings louder than a quiet mouse.",
+      "The cake tasted bitter such as lemon."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'. Option B correctly compares her smile to the sun using 'like'."
+  },
+  {
+    "questionText": "Which word is closest in meaning to 'melancholy'?",
+    "options": [
+      "Joyful",
+      "Thoughtful",
+      "Sorrowful",
+      "Energetic"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Melancholy' means a feeling of pensive sadness, typically with no obvious cause. 'Sorrowful' is the closest synonym."
+  },
+  {
+    "questionText": "Choose the sentence with the correct punctuation:",
+    "options": [
+      "My favorite fruits are apples, bananas and oranges.",
+      "My favorite fruits are apples bananas and oranges.",
+      "My favorite fruits are; apples, bananas, and oranges.",
+      "My favorite fruits are: apples, bananas, and oranges"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A comma is needed to separate items in a list. The Oxford comma before 'and' is optional but is often preferred in formal writing."
+  },
+  {
+    "questionText": "Which of the following sentences uses the correct tense?",
+    "options": [
+      "Yesterday, I will go to the park.",
+      "I am going to the zoo tomorrow.",
+      "She eat an apple every day.",
+      "They was playing football last week."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Option B uses the future tense correctly with 'am going'. Option A should be 'went', option C should be 'eats', and option D should be 'were'."
+  },
+  {
+    "questionText": "What is the meaning of the idiom 'to spill the beans'?",
+    "options": [
+      "To make a mess.",
+      "To reveal a secret.",
+      "To plant beans.",
+      "To cook beans."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The idiom 'to spill the beans' means to reveal a secret, often unintentionally."
+  },
+  {
+    "questionText": "Choose the sentence with the correct use of articles (a, an, the):",
+    "options": [
+      "I saw a elephant at the zoo.",
+      "I saw an elephant at the zoo.",
+      "I saw the elephant at zoo.",
+      "I saw the elephant at a zoo."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "We use 'an' before a vowel sound ('elephant'). The first mention of the zoo is non-specific, so 'the' is inappropriate; therefore, the best answer is 'an elephant at the zoo'."
+  },
+  {
+    "questionText": "Which of the following is an example of personification?",
+    "options": [
+      "The cat is as black as night.",
+      "The wind whispered through the trees.",
+      "The sun is a bright star.",
+      "The book is on the table."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Personification is giving human qualities to non-human things. 'The wind whispered' gives the wind the human action of whispering."
+  },
+  {
+    "questionText": "Select the most suitable conjunction to complete the sentence: She studied hard ______ she failed the test.",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "because"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'But' is the most suitable conjunction as it indicates a contrast: she studied hard, but unexpectedly, she failed."
+  },
+  {
+    "questionText": "Which word is an antonym of 'generous'?",
+    "options": [
+      "Kind",
+      "Selfish",
+      "Helpful",
+      "Charitable"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "An antonym is a word with the opposite meaning. 'Selfish' is the opposite of 'generous'."
+  },
+  {
+    "questionText": "Which sentence demonstrates correct subject-verb agreement?",
+    "options": [
+      "They was going to the beach.",
+      "He have a new bicycle.",
+      "She is reading a book.",
+      "We is playing in the park."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'She' is a singular subject and requires the singular verb 'is'. The other options have incorrect subject-verb pairings."
+  },
+  {
+    "questionText": "Which of the following sentences uses the past perfect tense correctly?",
+    "options": [
+      "I have ate all my dinner before my father came home.",
+      "She is going to finished her project before the deadline.",
+      "They had already left when I arrived at the party.",
+      "He will seen the movie before you do."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The past perfect tense is formed using 'had' + past participle. Only 'They had already left when I arrived at the party' uses it correctly."
+  },
+  {
+    "questionText": "Choose the sentence that uses a simile correctly.",
+    "options": [
+      "The sun is a big star.",
+      "Her smile was bright like the sun.",
+      "He ran quickly to school.",
+      "The dog barked loudly."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'. 'Her smile was bright like the sun' is the only sentence using a simile."
+  },
+  {
+    "questionText": "Which of these sentences uses the correct punctuation?",
+    "options": [
+      "My favorite colors are blue green and yellow.",
+      "My favorite colors are blue, green, and yellow.",
+      "My favorite colors are blue green, and yellow.",
+      "My favorite colors are blue, green and yellow"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Commas are needed to separate items in a list. An Oxford comma (the comma before 'and') is preferred in formal writing."
+  },
+  {
+    "questionText": "Select the best word to complete the following analogy: Happy is to sad as excited is to ______.",
+    "options": [
+      "joyful",
+      "calm",
+      "angry",
+      "hyper"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Happy and sad are antonyms (opposites). The opposite of excited is calm."
+  },
+  {
+    "questionText": "Which sentence uses a possessive pronoun correctly?",
+    "options": [
+      "Theirs dog is very friendly.",
+      "That is mine's book.",
+      "The cat ate it's food.",
+      "The toys are theirs."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Theirs' is a possessive pronoun that shows ownership without an apostrophe. 'The toys are theirs' is the correct usage."
+  },
+  {
+    "questionText": "Choose the correct sentence with the proper subject-verb agreement.",
+    "options": [
+      "The group of singers are performing tonight.",
+      "The group of singers is performing tonight.",
+      "The group of singers am performing tonight.",
+      "The group of singers were performing tonight."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The subject is 'group,' which is singular, so the verb must also be singular. Therefore, 'is performing' is correct."
+  },
+  {
+    "questionText": "Which of the following sentences contains a metaphor?",
+    "options": [
+      "The snow was as white as cotton.",
+      "He is a lion when he is angry.",
+      "The wind howled through the night.",
+      "She sings like an angel."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A metaphor is a direct comparison, stating something *is* something else. 'He is a lion when he is angry' implies he possesses the qualities of a lion."
+  },
+  {
+    "questionText": "Identify the sentence with an adjective clause.",
+    "options": [
+      "The boy ran quickly.",
+      "The book, which was very interesting, was returned to the library.",
+      "She went to the store.",
+      "Because it was raining, we stayed inside."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "An adjective clause modifies a noun or pronoun. 'which was very interesting' modifies 'book'."
+  },
+  {
+    "questionText": "Which sentence uses the word 'affect' correctly?",
+    "options": [
+      "The weather will effect our plans.",
+      "The medicine had no affect on his cough.",
+      "How will this affect the environment?",
+      "He tried to effect the outcome of the game."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Affect' is usually a verb meaning 'to influence'. 'Effect' is usually a noun meaning 'result'. The sentence 'How will this affect the environment?' uses affect as a verb correctly."
+  },
+  {
+    "questionText": "Which of the following sentences uses a superlative adjective correctly?",
+    "options": [
+      "She is the taller of the two sisters.",
+      "He is the more intelligent student in the class.",
+      "This is the most delicious cake I have ever eaten.",
+      "That was the goodest movie I have ever seen."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Superlative adjectives compare three or more things. The correct form is 'most' + adjective, or adjective + '-est'. 'This is the most delicious cake I have ever eaten' is the correct usage. Also, 'goodest' is not proper usage. It should be 'best'. The question uses the word 'delicious' which is three or more syllables. So 'most delicious' is correct, not 'deliciousest'."
+  },
+  {
+    "questionText": "Which of the following sentences uses the correct tense to describe an action that started in the past and is still continuing?",
+    "options": [
+      "She is learning piano since last year.",
+      "She learns piano since last year.",
+      "She has been learning piano since last year.",
+      "She was learning piano since last year."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The present perfect continuous tense (has been learning) is used to describe an action that started in the past and is still ongoing. 'Since last year' indicates the start of the action."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct article (a, an, the) before the noun.",
+    "options": [
+      "He is an honest boy.",
+      "He is a honest boy.",
+      "He is the honest boy.",
+      "He is honest boy."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The word 'honest' begins with a vowel sound, even though it starts with the consonant 'h'. Therefore, 'an' is the correct article to use."
+  },
+  {
+    "questionText": "Which of the following sentences uses the correct preposition of time?",
+    "options": [
+      "The meeting will be at Monday.",
+      "The meeting will be on Monday.",
+      "The meeting will be in Monday.",
+      "The meeting will be with Monday."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "We use 'on' with days of the week to indicate when something will happen."
+  },
+  {
+    "questionText": "Select the sentence that uses the correct conjunction to join the two ideas.",
+    "options": [
+      "She was tired and she still went to the party.",
+      "She was tired so she still went to the party.",
+      "Although she was tired, but she still went to the party.",
+      "Although she was tired, she still went to the party."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Although' indicates a contrast. 'Although' and 'but' should not be used together as they serve the same purpose. The sentence expresses that despite being tired, she went to the party."
+  },
+  {
+    "questionText": "Identify the sentence that uses the correct plural form of the noun.",
+    "options": [
+      "The childs were playing in the park.",
+      "The child were playing in the park.",
+      "The children was playing in the park.",
+      "The children were playing in the park."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The plural form of 'child' is 'children'. 'Were' is the correct verb conjugation to agree with the plural noun 'children'."
+  },
+  {
+    "questionText": "Choose the sentence with the correct use of a possessive pronoun.",
+    "options": [
+      "That book is mine.",
+      "That book is my.",
+      "That book is me.",
+      "That book is myself."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'Mine' is the correct possessive pronoun to indicate that the book belongs to the speaker. 'My' requires a noun after it (e.g., my book)."
+  },
+  {
+    "questionText": "Which sentence demonstrates the correct use of 'there', 'their', or 'they're'?",
+    "options": [
+      "There going to the zoo.",
+      "Their going to the zoo.",
+      "They're going to the zoo.",
+      "There book is red."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'They're' is a contraction of 'they are'. The sentence means 'They are going to the zoo'."
+  },
+  {
+    "questionText": "Identify the sentence that uses the superlative adjective correctly.",
+    "options": [
+      "Mount Everest is the highest mountain in the world.",
+      "Mount Everest is the more high mountain in the world.",
+      "Mount Everest is the most high mountain in the world.",
+      "Mount Everest is a highest mountain in the world."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The superlative form of 'high' is 'highest', used to compare three or more things.  'The highest' correctly shows Mount Everest's superiority compared to all other mountains."
+  },
+  {
+    "questionText": "Choose the option that best completes the following analogy: Happy is to joyful as sad is to ____.",
+    "options": [
+      "angry",
+      "miserable",
+      "excited",
+      "calm"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Joyful' is a synonym for 'happy'. Therefore, the best analogy is to find a synonym for 'sad', which is 'miserable'."
+  },
+  {
+    "questionText": "Which of the following sentences uses the correct punctuation?",
+    "options": [
+      "She said 'I am going to the store'.",
+      "She said, 'I am going to the store.'",
+      "She said I am going to the store.",
+      "She said: 'I am going to the store'."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "When reporting direct speech, a comma is used after 'said' to introduce the quoted sentence, and the quotation marks enclose the exact words spoken. The period goes inside the closing quotation mark."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The sun shone brightly like a diamond.",
+      "He ran quick like a cheetah.",
+      "She sings as a bird.",
+      "The cat is sleeping like log."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A simile compares two things using 'like' or 'as'. Only 'The sun shone brightly like a diamond' correctly uses 'like' to compare the sun's brightness to a diamond."
+  },
+  {
+    "questionText": "Choose the best word to complete the sentence: The crowd was ______ when the singer came on stage.",
+    "options": [
+      "mute",
+      "boisterous",
+      "silent",
+      "quiet"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Boisterous' means noisy, energetic, and cheerful; rowdy. This best describes a crowd's reaction to a singer appearing on stage."
+  },
+  {
+    "questionText": "Which sentence uses the correct punctuation?",
+    "options": [
+      "My favourite colours are; blue, green and red.",
+      "My favourite colours are: blue, green, and red.",
+      "My favourite colours are, blue, green, and red?",
+      "My favourite colours are blue, green, and red."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A colon (:) is used to introduce a list. Therefore, 'My favourite colours are: blue, green, and red.' is the correct sentence."
+  },
+  {
+    "questionText": "Identify the sentence with the correct subject-verb agreement.",
+    "options": [
+      "The dogs barks loudly at night.",
+      "The dog bark loudly at night.",
+      "The dog barks loudly at night.",
+      "The dogs bark loudly at night."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "With a plural subject ('dogs'), the verb should be plural ('bark'). Therefore, 'The dogs bark loudly at night' is correct."
+  },
+  {
+    "questionText": "Choose the most suitable collective noun to complete the sentence: The farmer led his ______ of cows to the field.",
+    "options": [
+      "flock",
+      "herd",
+      "swarm",
+      "pack"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A 'herd' is the correct collective noun for a group of cows."
+  },
+  {
+    "questionText": "Which of the following is an example of personification?",
+    "options": [
+      "The car was as fast as lightning.",
+      "The wind whispered secrets through the trees.",
+      "The rain fell heavily on the roof.",
+      "The cat slept soundly in the sun."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Personification is giving human qualities to non-human things. 'The wind whispered secrets through the trees' gives the wind the human ability to whisper."
+  },
+  {
+    "questionText": "Select the antonym for the word 'generous'.",
+    "options": [
+      "kind",
+      "stingy",
+      "caring",
+      "liberal"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The antonym of 'generous' (willing to give and share) is 'stingy' (unwilling to give or spend)."
+  },
+  {
+    "questionText": "Which sentence uses the correct tense?",
+    "options": [
+      "I will went to the store yesterday.",
+      "I go to the store yesterday.",
+      "I went to the store yesterday.",
+      "I am going to the store yesterday."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Since the action happened in the past ('yesterday'), the past tense 'went' should be used: 'I went to the store yesterday.'"
+  },
+  {
+    "questionText": "Choose the most appropriate word to fill in the blank: She ______ her keys on the table before leaving.",
+    "options": [
+      "lain",
+      "lay",
+      "lied",
+      "laying"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Lay' (past tense of 'to lay') means to place something down. Thus, 'She lay her keys on the table before leaving' is correct."
+  },
+  {
+    "questionText": "Which of the following sentences demonstrates the correct use of 'there', 'their', or 'they're'?",
+    "options": [
+      "They're dog is very friendly.",
+      "There going to the park later.",
+      "Their is a cat on the roof.",
+      "They're going to the park later."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'They're' is a contraction of 'they are'. Therefore, 'They're going to the park later' is the correct sentence."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'infer' correctly?",
+    "options": [
+      "I infer that you're going to the party because I saw you buying a gift.",
+      "The detective inferred the suspect's guilt based on the evidence.",
+      "We can infer from the text that the character is unhappy.",
+      "All of the above."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Infer' means to deduce or conclude (information) from evidence and reasoning rather than from explicit statements. All options are correct."
+  },
+  {
+    "questionText": "Choose the best word to complete the sentence: Despite feeling _____, she continued to practice her piano piece.",
+    "options": [
+      "dishearten",
+      "disheartens",
+      "disheartened",
+      "disheartening"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Disheartened' is the past participle adjective form, indicating a feeling.  The other options are verb forms or present participle which don't fit the sentence structure."
+  },
+  {
+    "questionText": "Which sentence uses the correct punctuation?",
+    "options": [
+      "\"That's my seat!\" John exclaimed.",
+      "\"That's my seat\" John exclaimed!",
+      "That's my seat! John exclaimed.",
+      "\"That's my seat! John exclaimed\"."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The punctuation is correctly placed inside the quotation marks, and the exclamation mark belongs to the quoted sentence."
+  },
+  {
+    "questionText": "Select the sentence that uses a simile correctly.",
+    "options": [
+      "The moon was a silver coin in the sky.",
+      "He ran as fast as a cheetah.",
+      "Her smile is the sun.",
+      "The wind whispered secrets through the trees."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile uses 'like' or 'as' to compare two things. 'He ran as fast as a cheetah' is the only option that uses 'as' correctly for comparison."
+  },
+  {
+    "questionText": "Which of the following is an example of personification?",
+    "options": [
+      "The car was as red as a fire engine.",
+      "The sun smiled down on the beach.",
+      "The children laughed with glee.",
+      "The rain fell heavily on the roof."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Personification is giving human qualities to non-human things.  'The sun smiled down on the beach' gives the sun the human action of smiling."
+  },
+  {
+    "questionText": "Choose the most suitable conjunction to complete the following sentence: She wanted to go to the park, _____ it was raining.",
+    "options": [
+      "so",
+      "but",
+      "and",
+      "because"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'But' shows a contrast. She wanted to go, but the rain prevented it. 'So' would imply the rain caused her to go which doesn't make sense. 'And' is incorrect since it doesn't express contrast. 'Because' would reverse the meaning."
+  },
+  {
+    "questionText": "Which of the following sentences contains a collective noun?",
+    "options": [
+      "The children played in the park.",
+      "The flock of birds flew south for the winter.",
+      "My dog loves to chase squirrels.",
+      "She has a beautiful collection of stamps."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A collective noun refers to a group of things/people/animals as one entity. 'Flock' refers to a group of birds."
+  },
+  {
+    "questionText": "Identify the correct plural form of the word 'cactus'.",
+    "options": [
+      "cactuses",
+      "cacti",
+      "cactuss",
+      "cacta"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct plural form of 'cactus' is 'cacti'. This follows the Latin pluralization rule."
+  },
+  {
+    "questionText": "Select the word that is most similar in meaning to 'arduous'.",
+    "options": [
+      "easy",
+      "simple",
+      "difficult",
+      "enjoyable"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Arduous' means involving strenuous effort; difficult and tiring. Therefore, 'difficult' is the most similar word."
+  },
+  {
+    "questionText": "Which sentence contains an example of alliteration?",
+    "options": [
+      "The cat sat on the mat.",
+      "Peter Piper picked a peck of pickled peppers.",
+      "The sun shone brightly.",
+      "She sells seashells by the seashore."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Alliteration is the repetition of the same consonant sound at the beginning of adjacent or closely connected words. 'Peter Piper picked a peck of pickled peppers' demonstrates this."
+  },
+  {
+    "questionText": "The old gate creaked _______ in the wind, giving the children a fright.",
+    "options": [
+      "noisily",
+      "eerily",
+      "cheerfully",
+      "softly"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Eerily suggests a sound that is unsettling and spooky, which fits the context of children being frightened."
+  },
+  {
+    "questionText": "Despite the heavy rain, the determined hikers continued _______ their journey to the summit.",
+    "options": [
+      "on",
+      "onto",
+      "in",
+      "at"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "\"On\" is the correct preposition to indicate continuing a journey. \"Onto\" implies movement to a surface."
+  },
+  {
+    "questionText": "Which of the following sentences uses the correct punctuation?",
+    "options": [
+      "\"I'm going to the park,\" she said.",
+      "\"Im going to the park\", she said.",
+      "I'm going to the park she said.",
+      "\"I'm going to the park she said\"."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The first sentence correctly uses quotation marks around the spoken words and includes a comma before 'she said'."
+  },
+  {
+    "questionText": "Select the sentence with the correct subject-verb agreement.",
+    "options": [
+      "The group of singers are performing tonight.",
+      "The group of singers is performing tonight.",
+      "The group of singers is perform tonight.",
+      "The group of singers are perform tonight."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Since 'group' is singular, the verb should be 'is'."
+  },
+  {
+    "questionText": "The artist, _______ works are displayed in the gallery, is known for her vibrant colours.",
+    "options": [
+      "whose",
+      "who's",
+      "who",
+      "which"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "\"Whose\" indicates possession and correctly modifies \"works\" in this sentence."
+  },
+  {
+    "questionText": "Choose the most suitable idiom to complete the sentence:  He studied very hard for the exam, burning the _______ to pass with flying colours.",
+    "options": [
+      "candle at both ends",
+      "midnight oil",
+      "bridges behind him",
+      "candle in the wind"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Burning the midnight oil means studying late into the night."
+  },
+  {
+    "questionText": "Which word is the most similar in meaning to 'arduous'?",
+    "options": [
+      "Easy",
+      "Simple",
+      "Difficult",
+      "Pleasant"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Arduous means involving strenuous effort; difficult and tiring."
+  },
+  {
+    "questionText": "After the long race, the athlete was completely _______.",
+    "options": [
+      "depleted",
+      "elated",
+      "exuberant",
+      "animated"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Depleted means to diminish greatly in quantity, size, or power, especially after something is used up. It best describes the athlete's state after a race."
+  },
+  {
+    "questionText": "Complete the analogy: Happy is to Sad as Fast is to _______.",
+    "options": [
+      "Quick",
+      "Slow",
+      "Speedy",
+      "Rapid"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Happy and Sad are antonyms. Fast and Slow are also antonyms."
+  },
+  {
+    "questionText": "Choose the sentence that uses a simile correctly.",
+    "options": [
+      "The car was like a speeding bullet.",
+      "The car was a speeding bullet.",
+      "The car is speed.",
+      "The car speeds"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A simile uses 'like' or 'as' to compare two unlike things. The first sentence uses 'like' to compare the car to a speeding bullet."
+  },
+  {
+    "questionText": "Which of the following sentences uses a verb that agrees with the subject?",
+    "options": [
+      "The team of players are practicing hard.",
+      "My brother, along with his friends, are going to the movies.",
+      "Each of the students have a different opinion.",
+      "Neither my sister nor I am interested in the game."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The correct answer is 'Neither my sister nor I am interested in the game.' because 'am' agrees with 'I'. In the other options, the verbs do not correctly agree with the subject. Option A should be 'is', Option B should be 'is', and Option C should be 'has'."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct tense.",
+    "options": [
+      "Yesterday, I will go to the park.",
+      "I am going to the library tomorrow.",
+      "She is eat her lunch right now.",
+      "They was playing football when it started raining."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The correct answer is 'I am going to the library tomorrow.' because it uses the future tense correctly. 'Yesterday, I will go to the park' should be 'Yesterday, I went to the park'. 'She is eat her lunch right now' should be 'She is eating her lunch right now'. 'They was playing football when it started raining' should be 'They were playing football when it started raining'."
+  },
+  {
+    "questionText": "Which of the following sentences uses the correct punctuation?",
+    "options": [
+      "My favorite colors are blue, green and red.",
+      "My favorite colors are blue green, and red.",
+      "My favorite colors are blue, green, and red?",
+      "My favorite colors, are blue, green, and red."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The correct answer is 'My favorite colors are blue, green and red.' because it uses commas correctly to separate items in a list and ends with a period. The other options either have incorrect or unnecessary punctuation."
+  },
+  {
+    "questionText": "Select the sentence with the correct use of articles (a, an, the).",
+    "options": [
+      "I saw the eagle flying in the sky.",
+      "I saw a eagle flying in the sky.",
+      "I saw an eagle flying in sky.",
+      "I saw eagle flying in a sky."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The correct answer is 'I saw the eagle flying in the sky.' because 'the' is used correctly to refer to a specific eagle and a specific sky. 'An' is used before words that begin with a vowel sound, and 'a' is used before words that begin with a consonant sound. Option B is incorrect as it should be 'an'. Option C is incorrect as it should be 'the sky'. Option D is grammatically incorrect."
+  },
+  {
+    "questionText": "Choose the word that best completes the sentence: The children were ______ to see the animals at the zoo.",
+    "options": [
+      "excite",
+      "exciting",
+      "excited",
+      "excites"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The correct answer is 'excited'. The word 'excited' is an adjective describing the children's feelings. 'Excite' is a verb, 'exciting' describes something that causes excitement, and 'excites' is a verb form used for singular subjects."
+  },
+  {
+    "questionText": "Which sentence uses the correct form of the word 'there'?",
+    "options": [
+      "They're house is over there.",
+      "Their house is over there.",
+      "There house is over their.",
+      "There house is over there."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Their' shows possession, 'there' indicates a place, and 'they're' is a contraction of 'they are'. The correct sentence is 'Their house is over there.' because it correctly uses 'their' to show that the house belongs to them and 'there' to indicate a location."
+  },
+  {
+    "questionText": "Identify the sentence that contains a simile.",
+    "options": [
+      "The sun was shining brightly.",
+      "Her smile was as bright as the sun.",
+      "The wind whispered through the trees.",
+      "He is a very fast runner."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'. The correct answer is 'Her smile was as bright as the sun.' because it uses 'as' to compare her smile to the brightness of the sun. The other options do not make a comparison using 'like' or 'as'."
+  },
+  {
+    "questionText": "Which of the following sentences contains a compound noun?",
+    "options": [
+      "The boy played with his toy car.",
+      "She wore a beautiful red dress.",
+      "He loves eating ice cream after dinner.",
+      "The classroom was filled with students."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A compound noun is a noun made up of two or more words. The correct answer is 'He loves eating ice cream after dinner.' because 'ice cream' is a compound noun. The other options do not contain compound nouns."
+  },
+  {
+    "questionText": "Choose the word that is an antonym of 'generous'.",
+    "options": [
+      "Kind",
+      "Selfish",
+      "Helpful",
+      "Caring"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "An antonym is a word that has the opposite meaning. The correct answer is 'Selfish' because it is the opposite of 'generous'. The other options are synonyms or related words to 'generous'."
+  },
+  {
+    "questionText": "Which of the following is an example of personification?",
+    "options": [
+      "The car moved as fast as a cheetah.",
+      "The flowers danced in the breeze.",
+      "The house was very big.",
+      "He ate a lot of food."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Personification is giving human qualities to non-human things. The correct answer is 'The flowers danced in the breeze.' because it gives the human action of dancing to the flowers. The other options do not give human qualities to non-human things. Option A is simile."
+  },
+  {
+    "questionText": "Which of the following sentences uses the past perfect tense correctly?",
+    "options": [
+      "I had saw the movie before I read the book.",
+      "She has went to the store before I arrived.",
+      "They had eaten dinner when the guests arrived.",
+      "He is finishing his homework before going to bed."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The past perfect tense (had + past participle) is used to show that one action happened before another action in the past. Option 3 correctly uses 'had eaten' to show it happened before 'arrived'."
+  },
+  {
+    "questionText": "Choose the best word to complete the sentence: The old house stood ______ on the hill, a testament to times gone by.",
+    "options": [
+      "lonely",
+      "lonesome",
+      "alone",
+      "solitary"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Solitary' best describes the isolated and enduring nature of the house. While the other options suggest loneliness, 'solitary' carries a sense of resilience and timelessness."
+  },
+  {
+    "questionText": "Which sentence contains a simile?",
+    "options": [
+      "The wind howled through the trees.",
+      "Her eyes were bright stars.",
+      "He ran as fast as a cheetah.",
+      "The sun is a giant ball of fire."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A simile compares two things using 'like' or 'as'. Option 3 uses 'as fast as' to compare his running speed to a cheetah's speed."
+  },
+  {
+    "questionText": "Select the correct collective noun to complete the sentence: The farmer led his ______ of cows to the pasture.",
+    "options": [
+      "herd",
+      "flock",
+      "swarm",
+      "pack"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The correct collective noun for cows is 'herd'. 'Flock' is used for birds or sheep, 'swarm' for insects, and 'pack' for wolves or dogs."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'affect' correctly?",
+    "options": [
+      "The weather will effect our plans.",
+      "The sad movie had a strong affect on her.",
+      "How will this effect me?",
+      "The loud noise did not affect my hearing."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Affect' is a verb meaning to influence. Option 4 correctly uses 'affect' to show the noise didn't influence the hearing. 'Effect' is typically a noun meaning result."
+  },
+  {
+    "questionText": "Choose the best synonym for the word 'arduous'.",
+    "options": [
+      "easy",
+      "simple",
+      "difficult",
+      "enjoyable"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A synonym for 'arduous' is 'difficult'. 'Arduous' means involving strenuous effort; difficult and tiring."
+  },
+  {
+    "questionText": "Which sentence uses a possessive pronoun correctly?",
+    "options": [
+      "The toy is hers.",
+      "The book is mine's.",
+      "That is their's car.",
+      "The dog is his's."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'Hers' is a possessive pronoun that doesn't require an apostrophe. The other options incorrectly use apostrophes with possessive pronouns."
+  },
+  {
+    "questionText": "Identify the sentence with correct punctuation.",
+    "options": [
+      "After the movie, we went to eat.",
+      "After the movie we went to eat.",
+      "After the movie we, went to eat.",
+      "After, the movie we went to eat."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A comma is needed after an introductory phrase. 'After the movie' is an introductory phrase, so a comma should follow it."
+  },
+  {
+    "questionText": "Which word is an antonym of 'benevolent'?",
+    "options": [
+      "kind",
+      "generous",
+      "malicious",
+      "caring"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "An antonym of 'benevolent' (kind and well-meaning) is 'malicious' (intending or intended to do harm)."
+  },
+  {
+    "questionText": "Select the best word to complete the analogy: Sad is to happy as dark is to ______.",
+    "options": [
+      "black",
+      "night",
+      "light",
+      "shadow"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The analogy is about opposites. 'Light' is the opposite of 'dark', just as 'happy' is the opposite of 'sad'."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'address' as a verb?",
+    "options": [
+      "The Prime Minister will address the nation tonight.",
+      "Write the address clearly on the envelope.",
+      "What is your email address?",
+      "I bought a new house at that address."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "In the correct sentence, 'address' means to speak to. In the other options, 'address' is a noun referring to a location."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct tense: Yesterday, the baker ______ many loaves of bread.",
+    "options": [
+      "is baking",
+      "bakes",
+      "baked",
+      "will bake"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The word 'Yesterday' indicates that the action happened in the past. Therefore, the past tense 'baked' should be used."
+  },
+  {
+    "questionText": "Which of the following is an example of personification?",
+    "options": [
+      "The cat sat on the mat.",
+      "The wind whispered secrets through the trees.",
+      "The car was as fast as a cheetah.",
+      "The rain fell heavily."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "Personification is when an inanimate object or animal is given human qualities. The wind 'whispering' is an example of this."
+  },
+  {
+    "questionText": "Complete the sentence with the most suitable collective noun: A ______ of owls.",
+    "options": [
+      "flock",
+      "herd",
+      "parliament",
+      "school"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The collective noun for owls is a 'parliament'."
+  },
+  {
+    "questionText": "Which sentence uses the correct punctuation?",
+    "options": [
+      "My favorite colours are blue, green and, red.",
+      "My favorite colours are blue, green, and red.",
+      "My favorite colours are blue green and red.",
+      "My favorite colours are blue; green; and red."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A comma is used to separate items in a list, including before the 'and' in the final item."
+  },
+  {
+    "questionText": "Choose the sentence with the correct use of the apostrophe:",
+    "options": [
+      "The dogs' bone was buried in the garden.",
+      "The dog's bone's were buried in the garden.",
+      "The dogs bone was buried in the garden.",
+      "The dog's bone was buried in the garden."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'Dog's' indicates possession by one dog. 'Dogs'' would indicate possession by multiple dogs."
+  },
+  {
+    "questionText": "Which word is closest in meaning to 'diligent'?",
+    "options": [
+      "Careless",
+      "Lazy",
+      "Hardworking",
+      "Clumsy"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Diligent' means showing care and perseverance in one's work, which is similar to 'Hardworking'."
+  },
+  {
+    "questionText": "Select the sentence with the correct subject-verb agreement:",
+    "options": [
+      "The children plays in the park every day.",
+      "The children play in the park every day.",
+      "The children is play in the park every day.",
+      "The children was play in the park every day."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The subject 'children' is plural, so the plural verb 'play' should be used."
+  },
+  {
+    "questionText": "Which sentence uses a simile?",
+    "options": [
+      "The moon shone brightly in the sky.",
+      "He is a bright spark.",
+      "She ran as fast as a cheetah.",
+      "The sun smiled down on us."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A simile compares two things using 'like' or 'as'. 'As fast as a cheetah' is a direct comparison."
+  },
+  {
+    "questionText": "Identify the adverb in the sentence: The cat jumped quickly over the fence.",
+    "options": [
+      "The",
+      "Jumped",
+      "Quickly",
+      "Fence"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "An adverb modifies a verb, adjective or another adverb. 'Quickly' modifies the verb 'jumped', describing how the cat jumped."
+  },
+  {
+    "questionText": "Which of the following sentences uses a simile correctly?",
+    "options": [
+      "The rain fell like a sad song.",
+      "He runs quick than a cheetah.",
+      "She is tall as building.",
+      "They are playing happy."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "A simile compares two things using 'like' or 'as'. 'The rain fell like a sad song' correctly compares the rain to a sad song."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct form of the verb 'to be' in the past tense.",
+    "options": [
+      "Yesterday, I is at the library.",
+      "They was excited about the trip.",
+      "He were a talented musician.",
+      "We were at the park last Sunday."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'We' takes the plural past tense form 'were'. Therefore, 'We were at the park last Sunday' is the correct sentence."
+  },
+  {
+    "questionText": "Which word best completes the following sentence: The detective tried to ________ the truth from the witness.",
+    "options": [
+      "elicit",
+      "illicit",
+      "alicit",
+      "solicit"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'Elicit' means to draw out or bring forth. The detective tried to elicit (draw out) the truth."
+  },
+  {
+    "questionText": "Identify the sentence with the correct punctuation.",
+    "options": [
+      "The cat sat on the mat. It purred loudly",
+      "The cat sat on the mat it purred loudly.",
+      "The cat, sat on the mat it purred loudly.",
+      "The cat sat on the mat, it purred loudly"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The first sentence is correct because it contains two sentences that are properly punctuated. 'The cat sat on the mat.' and 'It purred loudly.'"
+  },
+  {
+    "questionText": "Choose the best conjunction to complete the sentence: I wanted to go to the beach, ________ it was raining.",
+    "options": [
+      "so",
+      "but",
+      "and",
+      "because"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'But' is the best conjunction because it shows a contrast between wanting to go to the beach and the fact that it was raining."
+  },
+  {
+    "questionText": "What is the most suitable collective noun to use in the following sentence? The farmer saw a _____ of cows in the field.",
+    "options": [
+      "flock",
+      "herd",
+      "swarm",
+      "group"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A 'herd' is the most appropriate collective noun for cows."
+  },
+  {
+    "questionText": "Which of the following is an example of personification?",
+    "options": [
+      "The leaves danced in the wind.",
+      "The car was red.",
+      "The sun is hot.",
+      "The house is big."
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "Personification is giving human qualities to non-human things. 'The leaves danced in the wind' gives the leaves the human action of dancing."
+  },
+  {
+    "questionText": "Select the correct plural form of the word 'child'.",
+    "options": [
+      "childs",
+      "childes",
+      "children",
+      "childses"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The plural form of 'child' is 'children'."
+  },
+  {
+    "questionText": "Identify the adjective in the following sentence: The fluffy cat slept soundly.",
+    "options": [
+      "cat",
+      "slept",
+      "fluffy",
+      "soundly"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "An adjective describes a noun. 'Fluffy' describes the cat."
+  },
+  {
+    "questionText": "Which sentence demonstrates correct subject-verb agreement?",
+    "options": [
+      "They was going to the store.",
+      "He have a new bicycle.",
+      "She are a good student.",
+      "It is raining outside."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "'It is raining outside' is the only sentence where the subject ('It') agrees with the verb ('is')."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'since' correctly to indicate the passage of time?",
+    "options": [
+      "Since I like to eat ice cream.",
+      "He has been studying diligently since three hours.",
+      "Since last year, she has been learning to play the piano.",
+      "Since the weather is hot, let's go swimming."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Option 3 correctly uses 'since' to indicate a period of time that has passed. 'Since last year' means from last year until now. Options 1 and 4 use 'since' as a reason, and option 2 has incorrect grammar ('since for')."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct tense to describe an action that started in the past and is still continuing.",
+    "options": [
+      "I am knowing him for five years.",
+      "I have known him for five years.",
+      "I know him for five years.",
+      "I knew him for five years."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The present perfect tense ('have known') is used to describe an action that began in the past and continues to the present. Option 2 is the only sentence using the present perfect tense correctly."
+  },
+  {
+    "questionText": "Which sentence uses the correct preposition to complete the following: 'The cat jumped ______ the wall.'?",
+    "options": [
+      "over",
+      "at",
+      "in",
+      "under"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "'Over' is the correct preposition to indicate that the cat jumped across and above the wall. The other options don't fit the context of jumping."
+  },
+  {
+    "questionText": "Identify the sentence with the correct use of articles (a, an, the).",
+    "options": [
+      "I saw a elephant at the zoo.",
+      "She is wearing a unique dress.",
+      "He ate the apple for a lunch.",
+      "They live in the big house near the river."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Option 4 correctly uses 'the' to specify a particular house. Option 1 should be 'an elephant', option 2 is grammatically correct but less commonly used in this context than 'the unique dress', and option 3 should be 'for lunch'."
+  },
+  {
+    "questionText": "Which of the following sentences contains a simile?",
+    "options": [
+      "The wind howled through the trees.",
+      "Her smile was as bright as the sun.",
+      "He is a very fast runner.",
+      "The rain fell softly on the roof."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile is a comparison using 'like' or 'as'. Option 2 compares her smile to the sun using 'as', making it a simile."
+  },
+  {
+    "questionText": "Choose the best word to replace the underlined word in the sentence: 'The food was very *delicious*.'",
+    "options": [
+      "good",
+      "tasty",
+      "nice",
+      "amazing"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "While 'good', 'tasty' and 'nice' are acceptable, 'amazing' is the strongest and most appropriate synonym for 'delicious' in this context, indicating a high degree of enjoyment."
+  },
+  {
+    "questionText": "Which sentence uses a possessive pronoun correctly?",
+    "options": [
+      "The toy is mine's.",
+      "That is her's book.",
+      "Theirs is the blue car.",
+      "Its a beautiful day."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Theirs' is a possessive pronoun that doesn't require an apostrophe. 'Mine's' and 'her's' are incorrect. 'Its' needs an apostrophe ('It's') to indicate 'it is'."
+  },
+  {
+    "questionText": "Select the sentence with the correct subject-verb agreement.",
+    "options": [
+      "The dogs barks loudly.",
+      "The dog bark loudly.",
+      "The dogs bark loudly.",
+      "The dog barks loudly."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "Singular subjects (dog) take singular verbs (barks), and plural subjects (dogs) take plural verbs (bark). Options 1 and 2 are incorrect because the subject and verb do not agree in number, Option 3 is incorrect because the subject is singular, but the verb is plural."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'affect' correctly?",
+    "options": [
+      "The weather will effect our plans.",
+      "How will this affect the outcome?",
+      "She has a nice affect.",
+      "The medicine had no affect."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Affect' is a verb meaning to influence. 'Effect' is usually a noun meaning a result. Option 2 is the only correct usage. 'Affect' in the other options should be 'effect'."
+  },
+  {
+    "questionText": "Identify the sentence that uses the correct form of the verb 'to be' in the past continuous tense.",
+    "options": [
+      "They was playing football.",
+      "He were watching television.",
+      "I were doing my homework.",
+      "She was reading a book."
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The past continuous tense uses 'was' or 'were' with the -ing form of the verb. 'Was' is used with singular subjects (I, he, she, it), and 'were' is used with plural subjects (we, you, they). Option 4 correctly uses 'was' with 'she'."
+  },
+  {
+    "questionText": "Which of the following sentences uses the word 'besides' correctly?",
+    "options": [
+      "Besides I like ice cream, I also enjoy cake.",
+      "Besides studying, he enjoys playing the piano.",
+      "He likes to read books besides watching television.",
+      "Besides of the rain, we still went to the park."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "'Besides' means 'in addition to'. Only the sentence 'Besides studying, he enjoys playing the piano' uses it correctly to mean 'in addition to studying'."
+  },
+  {
+    "questionText": "Choose the sentence that uses the correct tense of the verb 'to lie'.",
+    "options": [
+      "The cat laid on the mat all day.",
+      "He lies the book on the table yesterday.",
+      "She will lie down for a nap later.",
+      "They are lying in the grass yesterday."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'To lie' (to recline) in the present tense is 'lie', past tense is 'lay', and future tense is 'will lie'. Only 'She will lie down for a nap later' is grammatically correct."
+  },
+  {
+    "questionText": "Which of these sentences contains a simile?",
+    "options": [
+      "The wind howled through the trees.",
+      "Her smile was as bright as the sun.",
+      "The rain fell steadily all afternoon.",
+      "He is a very intelligent boy."
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A simile compares two things using 'like' or 'as'. 'Her smile was as bright as the sun' is the only sentence that makes a comparison using 'as'."
+  },
+  {
+    "questionText": "Complete the following analogy: Doctor : Hospital :: Teacher : ______",
+    "options": [
+      "Student",
+      "Classroom",
+      "Textbook",
+      "Principal"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "A doctor works in a hospital, just like a teacher works in a classroom."
+  },
+  {
+    "questionText": "Which of the following is the most suitable adjective to describe a person who is always willing to help others?",
+    "options": [
+      "Greedy",
+      "Selfish",
+      "Generous",
+      "Miserly"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "'Generous' means willing to give help or share, which is the most suitable adjective to describe a person who helps others."
+  },
+  {
+    "questionText": "Choose the sentence with the correct punctuation.",
+    "options": [
+      "Did she say she wanted apples or oranges?",
+      "Did she say she wanted apples, or oranges",
+      "Did she say, she wanted apples or oranges?",
+      "Did she say she wanted, apples or oranges?"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "The sentence 'Did she say she wanted apples or oranges?' uses correct punctuation. It's a direct question and needs a question mark at the end."
+  },
+  {
+    "questionText": "What does the idiom 'a piece of cake' mean?",
+    "options": [
+      "A delicious dessert",
+      "A very easy task",
+      "A generous helping",
+      "A complicated problem"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The idiom 'a piece of cake' means that something is very easy to do."
+  },
+  {
+    "questionText": "Which word is the antonym of 'optimistic'?",
+    "options": [
+      "Cheerful",
+      "Positive",
+      "Pessimistic",
+      "Hopeful"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "The antonym of 'optimistic' (having a positive outlook) is 'pessimistic' (having a negative outlook)."
+  }
+]

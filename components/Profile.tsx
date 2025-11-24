@@ -7,11 +7,11 @@ import { Share2, UserPlus, LogOut, Award, Zap, Settings as SettingsIcon } from '
 
 interface ProfileProps {
   user: User;
-  onLogout: () => void;
   onOpenSettings: () => void;
+  onLogout?: () => void;
 }
 
-export const Profile: React.FC<ProfileProps> = ({ user, onLogout, onOpenSettings }) => {
+export const Profile: React.FC<ProfileProps> = ({ user, onOpenSettings, onLogout }) => {
   const [inviteLink, setInviteLink] = useState('');
 
   const handleInvite = () => {
@@ -24,18 +24,18 @@ export const Profile: React.FC<ProfileProps> = ({ user, onLogout, onOpenSettings
   return (
     <div className="p-6 pb-24 max-w-lg mx-auto">
       <div className="flex justify-end mb-2">
-         <button onClick={onOpenSettings} className="p-2 text-gray-400 hover:text-indigo-600 transition-colors">
-            <SettingsIcon size={24} />
-         </button>
+        <button onClick={onOpenSettings} className="p-2 text-gray-400 hover:text-indigo-600 transition-colors">
+          <SettingsIcon size={24} />
+        </button>
       </div>
 
       <div className="flex flex-col items-center mb-8 slide-in">
         <div className="w-24 h-24 rounded-full bg-gradient-to-br from-indigo-400 to-purple-600 p-1 mb-4 shadow-xl">
-           <img 
-             src={user.avatar} 
-             alt="Profile" 
-             className="w-full h-full rounded-full border-4 border-white object-cover"
-           />
+          <img
+            src={user.avatar}
+            alt="Profile"
+            className="w-full h-full rounded-full border-4 border-white object-cover"
+          />
         </div>
         <h1 className="text-2xl font-bold text-gray-800">{user.name}</h1>
         <div className="flex items-center gap-2 mt-2 bg-indigo-50 px-3 py-1 rounded-full text-indigo-700 text-sm font-semibold">
@@ -82,10 +82,20 @@ export const Profile: React.FC<ProfileProps> = ({ user, onLogout, onOpenSettings
         </Button>
       </div>
 
-      <Button variant="danger" fullWidth onClick={onLogout} className="opacity-80 hover:opacity-100">
-        <LogOut size={18} />
-        Sign Out
-      </Button>
+      {/* Sign Out */}
+      {onLogout && (
+        <div className="slide-in" style={{ animationDelay: '0.3s' }}>
+          <Button
+            variant="outline"
+            fullWidth
+            onClick={onLogout}
+            className="text-red-600 border-red-200 hover:bg-red-50"
+          >
+            <LogOut size={18} />
+            Sign Out
+          </Button>
+        </div>
+      )}
     </div>
   );
 };
