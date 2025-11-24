@@ -271,9 +271,39 @@ const App: React.FC = () => {
     return <Onboarding onComplete={handleOnboardingComplete} />;
   }
 
+  const handleUpdateProfile = async (data: Partial<User>) => {
+    if (!firebaseUser || !user) return;
+
+    try {
+      // Update Firestore
+      await updateUserProfile(firebaseUser.uid, data);
+
+      // Update local state
+      setUser(prev => {
+        if (!prev) return null;
+        return { ...prev, ...data };
+      });
+
+      // If grade changed, clear current questions so they regenerate
+      if (data.grade && data.grade !== user.grade) {
+        setQuestions([]);
+        setSelectedSubject(null);
+      }
+    } catch (error) {
+      console.error('Error updating profile:', error);
+      throw error;
+    }
+  };
+
   // Settings View
-  if (view === ViewState.SETTINGS) {
-    return <Settings onBack={() => setView(ViewState.PROFILE)} />;
+  if (view === ViewState.SETTINGS && user) {
+    return (
+      <Settings
+        user={user}
+        onUpdateProfile={handleUpdateProfile}
+        onBack={() => setView(ViewState.PROFILE)}
+      />
+    );
   }
 
   // Game View (No NavBar)
