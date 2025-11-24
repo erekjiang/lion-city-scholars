@@ -5,17 +5,23 @@ import { Button } from './Button';
 
 interface LeaderboardProps {
   currentUserId?: string;
+  isGuest?: boolean;
   onClose: () => void;
+  onLogin?: () => void;
 }
 
-export const Leaderboard: React.FC<LeaderboardProps> = ({ currentUserId, onClose }) => {
+export const Leaderboard: React.FC<LeaderboardProps> = ({ currentUserId, isGuest, onClose, onLogin }) => {
   const [entries, setEntries] = useState<LeaderboardEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    loadLeaderboard();
-  }, []);
+    if (!isGuest) {
+      loadLeaderboard();
+    } else {
+      setLoading(false);
+    }
+  }, [isGuest]);
 
   const loadLeaderboard = async () => {
     setLoading(true);
@@ -77,7 +83,25 @@ export const Leaderboard: React.FC<LeaderboardProps> = ({ currentUserId, onClose
       </div>
 
       {/* Content */}
-      {loading ? (
+      {isGuest ? (
+        <div className="flex flex-col items-center justify-center flex-1 text-center p-8">
+          <div className="w-20 h-20 bg-indigo-50 rounded-full flex items-center justify-center mb-6">
+            <Trophy className="w-10 h-10 text-indigo-400" />
+          </div>
+          <h2 className="text-xl font-bold text-gray-900 mb-2">Sign in to Compete</h2>
+          <p className="text-gray-500 mb-8 max-w-xs">
+            Join the leaderboard and compete with other scholars by signing in with Google.
+          </p>
+          <div className="flex flex-col gap-3 w-full max-w-xs">
+            <Button onClick={onLogin} fullWidth>
+              Sign In
+            </Button>
+            <Button onClick={onClose} variant="secondary" fullWidth>
+              Back to Home
+            </Button>
+          </div>
+        </div>
+      ) : loading ? (
         <div className="flex flex-col items-center justify-center flex-1 text-center">
           <Loader2 className="w-12 h-12 text-indigo-600 animate-spin mb-4" />
           <p className="text-gray-500">Loading rankings...</p>

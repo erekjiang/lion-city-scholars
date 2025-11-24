@@ -6,9 +6,10 @@ import { UserCircle, GraduationCap } from 'lucide-react';
 
 interface OnboardingProps {
   onComplete: (name: string, grade: Grade) => void;
+  isGuest?: boolean;
 }
 
-export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
+export const Onboarding: React.FC<OnboardingProps> = ({ onComplete, isGuest }) => {
   const [step, setStep] = useState(1);
   const [name, setName] = useState('');
   const [grade, setGrade] = useState<Grade | null>(null);
@@ -38,7 +39,14 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                 <UserCircle size={40} />
               </div>
               <h2 className="text-2xl font-bold text-gray-800 mb-2">What's your name?</h2>
-              <p className="text-gray-500 mb-6">We'll use this for your certificate and leaderboard!</p>
+
+              {isGuest ? (
+                <p className="text-amber-600 mb-6 text-sm bg-amber-50 p-3 rounded-xl border border-amber-100">
+                  Setting up your <strong>Guest Profile</strong>. Data will be stored on this device only.
+                </p>
+              ) : (
+                <p className="text-gray-500 mb-6">We'll use this for your certificate and leaderboard!</p>
+              )}
 
               <input
                 type="text"
@@ -73,8 +81,8 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                 <button
                   onClick={() => setGrade('Primary 3')}
                   className={`w-full p-4 rounded-xl border-2 font-bold transition-all ${grade === 'Primary 3'
-                      ? 'border-indigo-500 bg-indigo-50 text-indigo-700'
-                      : 'border-gray-100 bg-white text-gray-600 hover:bg-gray-50'
+                    ? 'border-indigo-500 bg-indigo-50 text-indigo-700'
+                    : 'border-gray-100 bg-white text-gray-600 hover:bg-gray-50'
                     }`}
                 >
                   Primary 3
@@ -82,8 +90,8 @@ export const Onboarding: React.FC<OnboardingProps> = ({ onComplete }) => {
                 <button
                   onClick={() => setGrade('Primary 4')}
                   className={`w-full p-4 rounded-xl border-2 font-bold transition-all ${grade === 'Primary 4'
-                      ? 'border-indigo-500 bg-indigo-50 text-indigo-700'
-                      : 'border-gray-100 bg-white text-gray-600 hover:bg-gray-50'
+                    ? 'border-indigo-500 bg-indigo-50 text-indigo-700'
+                    : 'border-gray-100 bg-white text-gray-600 hover:bg-gray-50'
                     }`}
                 >
                   Primary 4

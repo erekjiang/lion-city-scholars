@@ -5,9 +5,10 @@ import { BookOpen, Sparkles } from 'lucide-react';
 
 interface LoginProps {
     onLoginSuccess: () => void;
+    onGuestLogin: () => void;
 }
 
-export const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
+export const Login: React.FC<LoginProps> = ({ onLoginSuccess, onGuestLogin }) => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
 
@@ -71,7 +72,7 @@ export const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
                     <button
                         onClick={handleGoogleSignIn}
                         disabled={loading}
-                        className="w-full bg-white hover:bg-gray-50 text-gray-800 border-2 border-gray-300 font-semibold py-4 px-6 rounded-2xl flex items-center justify-center gap-3 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-sm hover:shadow-md"
+                        className="w-full bg-white hover:bg-gray-50 text-gray-800 border-2 border-gray-300 font-semibold py-4 px-6 rounded-2xl flex items-center justify-center gap-3 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-sm hover:shadow-md mb-4"
                     >
                         {loading ? (
                             <>
@@ -101,6 +102,22 @@ export const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
                                 <span className="text-gray-800">Continue with Google</span>
                             </>
                         )}
+                    </button>
+
+                    <div className="relative mb-4">
+                        <div className="absolute inset-0 flex items-center">
+                            <div className="w-full border-t border-gray-200"></div>
+                        </div>
+                        <div className="relative flex justify-center text-sm">
+                            <span className="px-2 bg-white text-gray-500">Or</span>
+                        </div>
+                    </div>
+
+                    <button
+                        onClick={onGuestLogin}
+                        className="w-full bg-gray-50 hover:bg-gray-100 text-gray-600 font-semibold py-3 px-6 rounded-2xl transition-colors text-sm"
+                    >
+                        Continue as Guest
                     </button>
 
                     <p className="text-xs text-gray-400 text-center mt-6">

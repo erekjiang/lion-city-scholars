@@ -14,12 +14,14 @@ import { Sparkles, Loader2, Download } from 'lucide-react';
 import { generateDailyQuestions } from './services/geminiService';
 import { onAuthStateChanged, signOut } from './services/authService';
 import { getUserProfile, updateUserProfile, saveGameResult } from './services/firestoreService';
+import { storageService } from './services/storageService';
 import { usePWAInstall } from './hooks/usePWAInstall';
 
 const App: React.FC = () => {
   const [view, setView] = useState<ViewState>(ViewState.LOGIN);
   const [user, setUser] = useState<User | null>(null);
   const [firebaseUser, setFirebaseUser] = useState<any>(null);
+  const [isGuest, setIsGuest] = useState(false);
   const [authLoading, setAuthLoading] = useState(true);
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
   const [completedSubjects, setCompletedSubjects] = useState<Subject[]>([]);
@@ -34,6 +36,7 @@ const App: React.FC = () => {
 
       if (firebaseUser) {
         setFirebaseUser(firebaseUser);
+        setIsGuest(false);
 
         // Fetch user profile from Firestore
         try {
@@ -79,17 +82,19 @@ const App: React.FC = () => {
           setView(ViewState.ONBOARDING);
         }
       } else {
-        // Not logged in
+        // Not logged in (and not guest yet)
         setFirebaseUser(null);
-        setUser(null);
-        setView(ViewState.LOGIN);
+        if (!isGuest) {
+          setUser(null);
+          setView(ViewState.LOGIN);
+        }
       }
 
       setAuthLoading(false);
     });
 
     return () => unsubscribe();
-  }, []);
+  }, [isGuest]);
 
   // Fetch questions when subject is selected
   useEffect(() => {
@@ -113,40 +118,93 @@ const App: React.FC = () => {
     } else {
       setQuestions([]);
     }
-  }, [selectedSubject, user]); // Note: StrictMode might still trigger this twice, but since we lift state, it's better. 
-  // To truly fix StrictMode flicker for random data, we'd need a ref check, but let's see if this stabilizes the "in-game" refresh first.
-  // The user said "auto refresh when in question page", which implies continuous or unexpected refreshing.
-  // By moving it here, it only refreshes if selectedSubject changes.
+  }, [selectedSubject, user]);
 
   // Update completed subjects based on today's date
   useEffect(() => {
     // Reset completed subjects visual state if needed based on real data
-    // For now, we keep it simple in state, but in production, we'd check `user.completedDates` matches today
   }, [user]);
 
-  const handleOnboardingComplete = async (name: string, grade: Grade) => {
-    if (!firebaseUser) return;
+  const handleGuestLogin = async () => {
+    setIsGuest(true);
+    setAuthLoading(true);
 
     try {
-      // Save profile to Firestore
-      await updateUserProfile(firebaseUser.uid, {
-        uid: firebaseUser.uid,
+      // Check if guest profile exists in localStorage
+      const profile = await storageService.getUserProfile('guest_user');
+
+      if (profile) {
+        // Load existing guest
+        const completedDates = profile.completedDates || [];
+        const sortedDates = [...completedDates].sort().reverse();
+        let streak = 0;
+        let currentDate = new Date();
+
+        for (const dateStr of sortedDates) {
+          const date = new Date(dateStr);
+          const diffDays = Math.floor((currentDate.getTime() - date.getTime()) / (1000 * 60 * 60 * 24));
+
+          if (diffDays === streak) {
+            streak++;
+          } else {
+            break;
+          }
+        }
+
+        setUser({
+          id: 'guest_user',
+          name: profile.name,
+          grade: profile.grade,
+          avatar: profile.photoURL || 'https://api.dicebear.com/7.x/avataaars/svg?seed=Guest',
+          totalScore: profile.totalPoints,
+          completedDates: completedDates,
+          streak,
+          level: 1,
+          friends: []
+        });
+        setView(ViewState.HOME);
+      } else {
+        // New guest, go to onboarding
+        setFirebaseUser({ uid: 'guest_user', photoURL: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Guest' }); // Mock firebaseUser for onboarding
+        setView(ViewState.ONBOARDING);
+      }
+    } catch (error) {
+      console.error('Error loading guest profile:', error);
+    } finally {
+      setAuthLoading(false);
+    }
+  };
+
+  const handleOnboardingComplete = async (name: string, grade: Grade) => {
+    const uid = isGuest ? 'guest_user' : firebaseUser?.uid;
+    if (!uid) return;
+
+    try {
+      const profileData = {
+        uid,
         name,
         grade,
-        email: firebaseUser.email || '',
-        photoURL: firebaseUser.photoURL || undefined,
+        email: isGuest ? '' : (firebaseUser?.email || ''),
+        photoURL: isGuest ? 'https://api.dicebear.com/7.x/avataaars/svg?seed=Guest' : (firebaseUser?.photoURL || undefined),
         totalPoints: 0,
         gamesPlayed: 0,
-        createdAt: null as any, // Will be set by service
+        createdAt: null as any,
         lastActive: null as any
-      });
+      };
+
+      // Save profile
+      if (isGuest) {
+        await storageService.updateUserProfile(uid, profileData);
+      } else {
+        await updateUserProfile(uid, profileData);
+      }
 
       // Update local state
       setUser({
-        id: firebaseUser.uid,
+        id: uid,
         name,
         grade,
-        avatar: firebaseUser.photoURL || '',
+        avatar: profileData.photoURL || '',
         totalScore: 0,
         completedDates: [],
         streak: 0,
@@ -165,13 +223,17 @@ const App: React.FC = () => {
     if (subject === selectedSubject) return; // Prevent re-select
 
     // Check if user has reached daily limit for this subject
-    if (firebaseUser) {
-      const { getGamesPlayedToday } = await import('./services/gameLimitService');
-      const gamesPlayedToday = await getGamesPlayedToday(firebaseUser.uid, subject);
+    if (user) {
+      // For guest, we might want to skip this or implement local limit
+      // For now, let's allow unlimited play for guests or implement local check later
+      if (!isGuest && firebaseUser) {
+        const { getGamesPlayedToday } = await import('./services/gameLimitService');
+        const gamesPlayedToday = await getGamesPlayedToday(firebaseUser.uid, subject);
 
-      if (gamesPlayedToday >= 2) {
-        alert(`You've already played ${subject} twice today! Come back tomorrow to play more. 🎮`);
-        return;
+        if (gamesPlayedToday >= 2) {
+          alert(`You've already played ${subject} twice today! Come back tomorrow to play more. 🎮`);
+          return;
+        }
       }
     }
 
@@ -181,16 +243,16 @@ const App: React.FC = () => {
   };
 
   const handleGameComplete = async (score: number) => {
-    if (user && selectedSubject && firebaseUser) {
+    if (user && selectedSubject) {
       try {
-        // Save game result to Firestore
-        await saveGameResult(
-          firebaseUser.uid,
-          selectedSubject,
-          user.grade,
-          score,
-          10 // Total questions
-        );
+        const uid = user.id;
+
+        // Save game result
+        if (isGuest) {
+          await storageService.saveGameResult(uid, selectedSubject, user.grade, score, 10);
+        } else if (firebaseUser) {
+          await saveGameResult(uid, selectedSubject, user.grade, score, 10);
+        }
 
         // Get today's date in YYYY-MM-DD format
         const today = new Date().toISOString().split('T')[0];
@@ -242,10 +304,16 @@ const App: React.FC = () => {
 
   const handleLogout = async () => {
     try {
-      await signOut();
-      setUser(null);
-      setFirebaseUser(null);
-      setView(ViewState.LOGIN);
+      if (isGuest) {
+        setIsGuest(false);
+        setUser(null);
+        setView(ViewState.LOGIN);
+      } else {
+        await signOut();
+        setUser(null);
+        setFirebaseUser(null);
+        setView(ViewState.LOGIN);
+      }
     } catch (error) {
       console.error('Error signing out:', error);
     }
@@ -265,20 +333,25 @@ const App: React.FC = () => {
 
   // Login View
   if (view === ViewState.LOGIN) {
-    return <Login onLoginSuccess={() => { }} />;
+    return <Login onLoginSuccess={() => { }} onGuestLogin={handleGuestLogin} />;
   }
 
   // Onboarding View
   if (view === ViewState.ONBOARDING) {
-    return <Onboarding onComplete={handleOnboardingComplete} />;
+    return <Onboarding onComplete={handleOnboardingComplete} isGuest={isGuest} />;
   }
 
   const handleUpdateProfile = async (data: Partial<User>) => {
-    if (!firebaseUser || !user) return;
+    if (!user) return;
+    const uid = user.id;
 
     try {
-      // Update Firestore
-      await updateUserProfile(firebaseUser.uid, data);
+      // Update Storage
+      if (isGuest) {
+        await storageService.updateUserProfile(uid, data);
+      } else if (firebaseUser) {
+        await updateUserProfile(uid, data);
+      }
 
       // Update local state
       setUser(prev => {
@@ -381,8 +454,10 @@ const App: React.FC = () => {
 
       {view === ViewState.LEADERBOARD && (
         <Leaderboard
-          currentUserId={firebaseUser?.uid}
+          currentUserId={user?.id}
+          isGuest={isGuest}
           onClose={() => setView(ViewState.HOME)}
+          onLogin={handleLogout}
         />
       )}
 

@@ -1,73 +1,75 @@
 
-import { User, Grade } from '../types';
+import { User, Subject, Grade } from '../types';
+import { UserProfile } from './firestoreService';
 
-const STORAGE_KEY = 'lion_city_scholars_user';
-const API_KEY_STORAGE = 'lion_city_scholars_api_key';
+const STORAGE_KEY = 'lion_city_scholars_guest';
+const GUEST_ID = 'guest_user';
 
 // Helper to get today's date string YYYY-MM-DD
 export const getTodayString = () => new Date().toISOString().split('T')[0];
 
 export const storageService = {
-  // Simulate fetching user from "cloud"
-  getUser: (): User | null => {
-    const data = localStorage.getItem(STORAGE_KEY);
-    return data ? JSON.parse(data) : null;
-  },
-
-  // Simulate creating a new user
-  createUser: (name: string, grade: Grade, avatar: string): User => {
-    const newUser: User = {
-      id: 'user_' + Date.now(),
-      name,
-      grade,
-      avatar,
-      totalScore: 0,
-      streak: 0,
-      level: 1,
-      friends: [],
-      completedDates: []
-    };
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(newUser));
-    return newUser;
-  },
-
-  // Update user progress
-  updateProgress: (score: number) => {
+  // Get user profile (simulating Firestore)
+  getUserProfile: async (uid: string): Promise<UserProfile | null> => {
     const data = localStorage.getItem(STORAGE_KEY);
     if (!data) return null;
 
-    const user: User = JSON.parse(data);
+    const user = JSON.parse(data);
+    // Convert to UserProfile format if needed, or just return compatible object
+    // Since we store User object locally, we might need to map it or just store UserProfile structure
+    // For simplicity, let's store UserProfile structure in localStorage
+    return user as UserProfile;
+  },
+
+  // Update user profile
+  updateUserProfile: async (uid: string, data: Partial<UserProfile>): Promise<void> => {
+    const currentData = localStorage.getItem(STORAGE_KEY);
+    let user: UserProfile;
+
+    if (currentData) {
+      user = { ...JSON.parse(currentData), ...data };
+    } else {
+      // Create new guest profile
+      user = {
+        uid: GUEST_ID,
+        name: 'Guest Scholar',
+        grade: 'Primary 3', // Default
+        email: '',
+        totalPoints: 0,
+        gamesPlayed: 0,
+        completedDates: [],
+        createdAt: { seconds: Date.now() / 1000, nanoseconds: 0 } as any,
+        lastActive: { seconds: Date.now() / 1000, nanoseconds: 0 } as any,
+        ...data
+      } as UserProfile;
+    }
+
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(user));
+  },
+
+  // Save game result
+  saveGameResult: async (
+    userId: string,
+    subject: Subject,
+    grade: Grade,
+    score: number,
+    totalQuestions: number
+  ): Promise<void> => {
+    const currentData = localStorage.getItem(STORAGE_KEY);
+    if (!currentData) return;
+
+    const user: UserProfile = JSON.parse(currentData);
     const today = getTodayString();
 
-    // Update Score
-    user.totalScore += score;
+    // Update stats
+    user.totalPoints += score;
+    user.gamesPlayed += 1;
+    user.lastActive = { seconds: Date.now() / 1000, nanoseconds: 0 } as any;
 
-    // Update Level (simple logic: 1000 pts per level)
-    user.level = Math.floor(user.totalScore / 1000) + 1;
-
-    // Update Streak & Completed Dates
     if (!user.completedDates.includes(today)) {
-      // Check if yesterday was completed for streak calculation
-      const yesterday = new Date();
-      yesterday.setDate(yesterday.getDate() - 1);
-      const yesterdayStr = yesterday.toISOString().split('T')[0];
-
-      if (user.completedDates.includes(yesterdayStr)) {
-        user.streak += 1;
-      } else {
-        user.streak = 1; // Reset streak if missed yesterday, or 1 if it's the first day
-      }
-
       user.completedDates.push(today);
     }
 
     localStorage.setItem(STORAGE_KEY, JSON.stringify(user));
-    return user;
-  },
-
-  // Clear data (logout)
-  clearSession: () => {
-    // We don't delete data on logout to persist it for the same device,
-    // but in a real app, this might clear auth tokens.
   }
 };
