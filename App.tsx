@@ -242,6 +242,10 @@ const App: React.FC = () => {
   };
 
   const handleSubjectSelect = async (subject: Subject) => {
+    console.log('handleSubjectSelect called for:', subject);
+    console.log('Current user state:', user);
+    console.log('Current firebaseUser:', firebaseUser);
+
     if (subject === selectedSubject) return; // Prevent re-select
 
     // Check if user has reached daily limit for this subject
@@ -249,14 +253,23 @@ const App: React.FC = () => {
       // For guest, we might want to skip this or implement local limit
       // For now, let's allow unlimited play for guests or implement local check later
       if (!isGuest && firebaseUser) {
-        const { getGamesPlayedToday } = await import('./services/gameLimitService');
-        const gamesPlayedToday = await getGamesPlayedToday(firebaseUser.uid, subject);
+        try {
+          const { getGamesPlayedToday } = await import('./services/gameLimitService');
+          const gamesPlayedToday = await getGamesPlayedToday(firebaseUser.uid, subject);
 
-        if (gamesPlayedToday >= 2) {
-          alert(`You've already played ${subject} twice today! Come back tomorrow to play more. 🎮`);
-          return;
+          if (gamesPlayedToday >= 2) {
+            alert(`You've already played ${subject} twice today! Come back tomorrow to play more. 🎮`);
+            return;
+          }
+        } catch (error) {
+          console.error('Error checking game limit:', error);
+          // Fallback: allow play if limit check fails
         }
       }
+    } else {
+      console.warn('User is null in handleSubjectSelect');
+      // Potential fix: if user is null but we are in HOME view, something is wrong.
+      // We might need to wait or force a re-render.
     }
 
     setQuestions([]); // Clear previous
