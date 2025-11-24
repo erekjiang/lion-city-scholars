@@ -29,10 +29,10 @@ const App: React.FC = () => {
   const [loadingQuestions, setLoadingQuestions] = useState(false);
   const { isInstallable, install } = usePWAInstall();
 
-  // Scroll to top when view changes
+  // Scroll to top when view or subject changes
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, [view]);
+  }, [view, selectedSubject]);
 
   // Check for redirect result on mount (for mobile auth errors)
   useEffect(() => {
