@@ -54,6 +54,15 @@ export const GameScreen: React.FC<GameScreenProps> = ({ subject, grade, question
     }
   };
 
+  const handlePrevious = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(c => c - 1);
+      setSelectedOption(null);
+      setIsAnswered(false);
+      setShowExplanation(false);
+    }
+  };
+
   if (loading) {
     return (
       <div className="flex flex-col items-center justify-center min-h-[60vh] text-center p-8">
@@ -150,9 +159,24 @@ export const GameScreen: React.FC<GameScreenProps> = ({ subject, grade, question
               </div>
             </div>
           </div>
-          <Button onClick={handleNext} fullWidth className="shadow-lg">
-            {currentIndex === questions.length - 1 ? "Finish Quiz" : "Next Question"}
-          </Button>
+          <div className="flex gap-3">
+            {currentIndex > 0 && (
+              <Button
+                onClick={handlePrevious}
+                variant="outline"
+                className="flex-1"
+              >
+                Previous
+              </Button>
+            )}
+            <Button
+              onClick={handleNext}
+              fullWidth={currentIndex === 0}
+              className={`shadow-lg ${currentIndex > 0 ? 'flex-1' : ''}`}
+            >
+              {currentIndex === questions.length - 1 ? "Finish Quiz" : "Next Question"}
+            </Button>
+          </div>
         </div>
       )}
     </div>

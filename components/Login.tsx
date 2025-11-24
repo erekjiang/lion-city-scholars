@@ -65,15 +65,15 @@ export const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
                         </div>
                     )}
 
-                    <Button
+                    <button
                         onClick={handleGoogleSignIn}
                         disabled={loading}
-                        className="w-full bg-white hover:bg-gray-50 text-gray-700 border-2 border-gray-300 font-semibold py-4 flex items-center justify-center gap-3"
+                        className="w-full bg-white hover:bg-gray-50 text-gray-800 border-2 border-gray-300 font-semibold py-4 px-6 rounded-2xl flex items-center justify-center gap-3 transition-all disabled:opacity-50 disabled:cursor-not-allowed shadow-sm hover:shadow-md"
                     >
                         {loading ? (
                             <>
                                 <div className="w-5 h-5 border-2 border-gray-300 border-t-indigo-600 rounded-full animate-spin" />
-                                Signing in...
+                                <span className="text-gray-800">Signing in...</span>
                             </>
                         ) : (
                             <>
@@ -95,10 +95,10 @@ export const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
                                         d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
                                     />
                                 </svg>
-                                Continue with Google
+                                <span className="text-gray-800">Continue with Google</span>
                             </>
                         )}
-                    </Button>
+                    </button>
 
                     <p className="text-xs text-gray-400 text-center mt-6">
                         By signing in, you agree to sync your progress across devices

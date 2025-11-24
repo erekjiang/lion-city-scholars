@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@google/genai": "^1.30.0",
+    "@google/generative-ai": "^0.24.1",
     "canvas-confetti": "^1.9.2",
     "firebase": "^12.6.0",
     "lucide-react": "^0.344.0",

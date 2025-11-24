@@ -24,6 +24,7 @@ export interface UserProfile {
     photoURL?: string;
     totalPoints: number;
     gamesPlayed: number;
+    completedDates: string[]; // ISO Date strings YYYY-MM-DD
     createdAt: Timestamp;
     lastActive: Timestamp;
 }
@@ -82,6 +83,7 @@ export const updateUserProfile = async (
                 uid,
                 totalPoints: 0,
                 gamesPlayed: 0,
+                completedDates: [],
                 createdAt: Timestamp.now(),
                 lastActive: Timestamp.now(),
                 ...data
@@ -112,11 +114,25 @@ export const saveGameResult = async (
             timestamp: Timestamp.now()
         });
 
-        // Update user stats
+        // Get today's date in YYYY-MM-DD format
+        const today = new Date().toISOString().split('T')[0];
+
+        // Get current user data to check completedDates
         const userRef = doc(db, 'users', userId);
+        const userDoc = await getDoc(userRef);
+        const userData = userDoc.data() as UserProfile;
+
+        // Only add today if it's not already in the array
+        const completedDates = userData.completedDates || [];
+        const updatedDates = completedDates.includes(today)
+            ? completedDates
+            : [...completedDates, today];
+
+        // Update user stats
         await updateDoc(userRef, {
             totalPoints: increment(score),
             gamesPlayed: increment(1),
+            completedDates: updatedDates,
             lastActive: Timestamp.now()
         });
     } catch (error) {

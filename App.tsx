@@ -38,6 +38,23 @@ const App: React.FC = () => {
           const profile = await getUserProfile(firebaseUser.uid);
 
           if (profile) {
+            // Calculate streak from completedDates
+            const completedDates = profile.completedDates || [];
+            const sortedDates = [...completedDates].sort().reverse();
+            let streak = 0;
+            let currentDate = new Date();
+
+            for (const dateStr of sortedDates) {
+              const date = new Date(dateStr);
+              const diffDays = Math.floor((currentDate.getTime() - date.getTime()) / (1000 * 60 * 60 * 24));
+
+              if (diffDays === streak) {
+                streak++;
+              } else {
+                break;
+              }
+            }
+
             // User exists, load profile
             setUser({
               id: profile.uid,
@@ -45,8 +62,8 @@ const App: React.FC = () => {
               grade: profile.grade,
               avatar: profile.photoURL || firebaseUser.photoURL || '',
               totalScore: profile.totalPoints,
-              completedDates: [], // We'll track this differently now
-              streak: 0,
+              completedDates: completedDates,
+              streak,
               level: 1,
               friends: []
             });
@@ -142,8 +159,20 @@ const App: React.FC = () => {
     }
   };
 
-  const handleSubjectSelect = (subject: Subject) => {
+  const handleSubjectSelect = async (subject: Subject) => {
     if (subject === selectedSubject) return; // Prevent re-select
+
+    // Check if user has reached daily limit for this subject
+    if (firebaseUser) {
+      const { getGamesPlayedToday } = await import('./services/gameLimitService');
+      const gamesPlayedToday = await getGamesPlayedToday(firebaseUser.uid, subject);
+
+      if (gamesPlayedToday >= 2) {
+        alert(`You've already played ${subject} twice today! Come back tomorrow to play more. 🎮`);
+        return;
+      }
+    }
+
     setQuestions([]); // Clear previous
     setSelectedSubject(subject);
     setView(ViewState.GAME);
@@ -161,11 +190,41 @@ const App: React.FC = () => {
           10 // Total questions
         );
 
+        // Get today's date in YYYY-MM-DD format
+        const today = new Date().toISOString().split('T')[0];
+
         // Update local user state
-        setUser(prev => prev ? {
-          ...prev,
-          totalScore: prev.totalScore + score
-        } : null);
+        setUser(prev => {
+          if (!prev) return null;
+
+          // Only add today if it's not already in the array
+          const updatedDates = prev.completedDates.includes(today)
+            ? prev.completedDates
+            : [...prev.completedDates, today];
+
+          // Calculate streak
+          const sortedDates = [...updatedDates].sort().reverse();
+          let streak = 0;
+          let currentDate = new Date();
+
+          for (const dateStr of sortedDates) {
+            const date = new Date(dateStr);
+            const diffDays = Math.floor((currentDate.getTime() - date.getTime()) / (1000 * 60 * 60 * 24));
+
+            if (diffDays === streak) {
+              streak++;
+            } else {
+              break;
+            }
+          }
+
+          return {
+            ...prev,
+            totalScore: prev.totalScore + score,
+            completedDates: updatedDates,
+            streak
+          };
+        });
 
         setCompletedSubjects(prev => [...prev, selectedSubject]);
       } catch (error) {
@@ -226,7 +285,11 @@ const App: React.FC = () => {
           grade={user.grade}
           questions={questions}
           loading={loadingQuestions}
-          onExit={() => setView(ViewState.HOME)}
+          onExit={() => {
+            setView(ViewState.HOME);
+            setSelectedSubject(null);
+            setQuestions([]);
+          }}
           onComplete={handleGameComplete}
         />
       </div>
