@@ -1,5 +1,5 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { ArrowLeft, Key, Save, AlertTriangle, GraduationCap, Download } from 'lucide-react';
 import { User, Grade } from '../types';
@@ -15,6 +15,13 @@ export const Settings: React.FC<SettingsProps> = ({ user, onUpdateProfile, onBac
   const [grade, setGrade] = useState<Grade>(user.grade);
   const [saving, setSaving] = useState(false);
   const { isInstallable, install } = usePWAInstall();
+  const [isIOS, setIsIOS] = useState(false);
+
+  useEffect(() => {
+    // Check if user is on iOS
+    const isIOSDevice = /iPad|iPhone|iPod/.test(navigator.userAgent) && !(window as any).MSStream;
+    setIsIOS(isIOSDevice);
+  }, []);
 
   const handleSave = async () => {
     if (grade === user.grade) return;
@@ -78,6 +85,7 @@ export const Settings: React.FC<SettingsProps> = ({ user, onUpdateProfile, onBac
         </Button>
       </div>
 
+      {/* PWA Install Section */}
       {isInstallable && (
         <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 mb-6 slide-in">
           <div className="flex items-center gap-3 mb-4 text-indigo-600">
@@ -90,6 +98,23 @@ export const Settings: React.FC<SettingsProps> = ({ user, onUpdateProfile, onBac
           <Button fullWidth onClick={install}>
             Install App
           </Button>
+        </div>
+      )}
+
+      {/* iOS Instructions */}
+      {isIOS && !isInstallable && (
+        <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 mb-6 slide-in">
+          <div className="flex items-center gap-3 mb-4 text-indigo-600">
+            <Download size={24} />
+            <h2 className="text-lg font-bold">Install App</h2>
+          </div>
+          <p className="text-gray-500 text-sm mb-4">
+            To install on iPhone/iPad:
+          </p>
+          <ol className="list-decimal list-inside text-sm text-gray-600 space-y-2 mb-2">
+            <li>Tap the <strong>Share</strong> button <span className="inline-block bg-gray-100 p-1 rounded">⎋</span></li>
+            <li>Scroll down and tap <strong>Add to Home Screen</strong> <span className="inline-block bg-gray-100 p-1 rounded">➕</span></li>
+          </ol>
         </div>
       )}
 

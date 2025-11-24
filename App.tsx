@@ -10,10 +10,11 @@ import { Onboarding } from './components/Onboarding';
 import { Settings } from './components/Settings';
 import { Login } from './components/Login';
 import { Button } from './components/Button';
-import { Sparkles, Loader2 } from 'lucide-react';
+import { Sparkles, Loader2, Download } from 'lucide-react';
 import { generateDailyQuestions } from './services/geminiService';
 import { onAuthStateChanged, signOut } from './services/authService';
 import { getUserProfile, updateUserProfile, saveGameResult } from './services/firestoreService';
+import { usePWAInstall } from './hooks/usePWAInstall';
 
 const App: React.FC = () => {
   const [view, setView] = useState<ViewState>(ViewState.LOGIN);
@@ -24,6 +25,7 @@ const App: React.FC = () => {
   const [completedSubjects, setCompletedSubjects] = useState<Subject[]>([]);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loadingQuestions, setLoadingQuestions] = useState(false);
+  const { isInstallable, install } = usePWAInstall();
 
   // Listen to Firebase auth state
   useEffect(() => {
@@ -342,6 +344,26 @@ const App: React.FC = () => {
               <span className="text-xs text-gray-400 font-bold uppercase">PTS</span>
             </div>
           </header>
+
+          {isInstallable && (
+            <button
+              onClick={install}
+              className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 text-white p-4 rounded-2xl shadow-lg mb-8 flex items-center justify-between group"
+            >
+              <div className="flex items-center gap-3">
+                <div className="bg-white/20 p-2 rounded-xl">
+                  <Download size={24} />
+                </div>
+                <div className="text-left">
+                  <div className="font-bold">Install App</div>
+                  <div className="text-xs text-indigo-100">Get offline access & better performance</div>
+                </div>
+              </div>
+              <div className="bg-white/20 px-3 py-1 rounded-lg text-sm font-semibold group-hover:bg-white/30 transition-colors">
+                Install
+              </div>
+            </button>
+          )}
 
           <div className="grid gap-4">
             <h2 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-2">Today's Quests</h2>
