@@ -34,14 +34,15 @@ const App: React.FC = () => {
     checkRedirectResult()
       .then(user => {
         if (user) {
-          alert(`Redirect success! User: ${user.email}`);
-        } else {
-          alert('Redirect result: No user found (Context lost?)');
+          // alert(`Redirect success! User: ${user.email}`);
         }
       })
       .catch(error => {
-        alert(`Redirect Error: ${error.message}`);
-        console.error(error);
+        console.error("Redirect Error:", error);
+        // Only alert real errors, not nulls
+        if (error.code !== 'auth/popup-closed-by-user') {
+          alert(`Authentication Error: ${error.message}`);
+        }
       });
   }, []);
 
@@ -49,7 +50,6 @@ const App: React.FC = () => {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(async (firebaseUser) => {
       setAuthLoading(true);
-      // alert(`Auth State Changed: ${firebaseUser ? firebaseUser.email : 'No User'}`);
 
       if (firebaseUser) {
         setFirebaseUser(firebaseUser);

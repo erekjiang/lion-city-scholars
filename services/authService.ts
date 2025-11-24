@@ -14,15 +14,7 @@ const googleProvider = new GoogleAuthProvider();
 
 export const signInWithGoogle = async (): Promise<User | void> => {
     try {
-        // Check for mobile device
-        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-        if (isMobile) {
-            await signInWithRedirect(auth, googleProvider);
-            // The page will redirect, so we don't return anything
-            return;
-        }
-
+        // Try popup first for all devices (preserves context better)
         const result = await signInWithPopup(auth, googleProvider);
         return result.user;
     } catch (error: any) {
