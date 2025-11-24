@@ -1,8 +1,9 @@
 
 import React, { useState } from 'react';
 import { Button } from './Button';
-import { ArrowLeft, Key, Save, AlertTriangle, GraduationCap } from 'lucide-react';
+import { ArrowLeft, Key, Save, AlertTriangle, GraduationCap, Download } from 'lucide-react';
 import { User, Grade } from '../types';
+import { usePWAInstall } from '../hooks/usePWAInstall';
 
 interface SettingsProps {
   user: User;
@@ -13,6 +14,7 @@ interface SettingsProps {
 export const Settings: React.FC<SettingsProps> = ({ user, onUpdateProfile, onBack }) => {
   const [grade, setGrade] = useState<Grade>(user.grade);
   const [saving, setSaving] = useState(false);
+  const { isInstallable, install } = usePWAInstall();
 
   const handleSave = async () => {
     if (grade === user.grade) return;
@@ -53,8 +55,8 @@ export const Settings: React.FC<SettingsProps> = ({ user, onUpdateProfile, onBac
                 key={g}
                 onClick={() => setGrade(g)}
                 className={`p-3 rounded-xl border-2 transition-all ${grade === g
-                    ? 'border-indigo-600 bg-indigo-50 text-indigo-700 font-bold'
-                    : 'border-gray-100 hover:border-gray-200 text-gray-600'
+                  ? 'border-indigo-600 bg-indigo-50 text-indigo-700 font-bold'
+                  : 'border-gray-100 hover:border-gray-200 text-gray-600'
                   }`}
               >
                 {g}
@@ -75,6 +77,21 @@ export const Settings: React.FC<SettingsProps> = ({ user, onUpdateProfile, onBac
           {saving ? 'Saving...' : 'Save Changes'}
         </Button>
       </div>
+
+      {isInstallable && (
+        <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 mb-6 slide-in">
+          <div className="flex items-center gap-3 mb-4 text-indigo-600">
+            <Download size={24} />
+            <h2 className="text-lg font-bold">Install App</h2>
+          </div>
+          <p className="text-gray-500 text-sm mb-4">
+            Install Lion City Scholars on your device for quick access and offline learning!
+          </p>
+          <Button fullWidth onClick={install}>
+            Install App
+          </Button>
+        </div>
+      )}
 
       <div className="bg-white p-6 rounded-3xl shadow-sm border border-gray-100 mb-6 slide-in">
         <div className="flex items-center gap-3 mb-4 text-indigo-600">
