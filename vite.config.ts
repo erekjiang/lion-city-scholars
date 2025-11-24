@@ -42,9 +42,8 @@ export default defineConfig(({ mode }) => {
     define: {
       'process.env.API_KEY': JSON.stringify(process.env.API_KEY || env.API_KEY || env.VITE_API_KEY || "")
     },
-    // Base path for GitHub Pages
-    // This assumes the repo name is the root of the path if not specified otherwise.
-    // Ideally, for https://user.github.io/repo/, this should be '/repo/'
+    // Base path for GitHub Pages & Vercel
+    // Using relative path './' allows deployment to any subdirectory or root
     base: './',
     build: {
       outDir: 'dist',

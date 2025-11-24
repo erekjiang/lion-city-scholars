@@ -4,7 +4,12 @@ export const generateDailyQuestions = async (subject: Subject, grade: Grade): Pr
 
   try {
     // Fetch from public/data folder
-    const response = await fetch(`/data/${key}.json`);
+    // Use import.meta.env.BASE_URL to handle GitHub Pages subpath
+    const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+      ? import.meta.env.BASE_URL
+      : `${import.meta.env.BASE_URL}/`;
+
+    const response = await fetch(`${baseUrl}data/${key}.json`);
 
     if (!response.ok) {
       throw new Error(`Failed to fetch questions for ${key}`);
