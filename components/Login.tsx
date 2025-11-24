@@ -16,8 +16,11 @@ export const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
         setError(null);
 
         try {
-            await signInWithGoogle();
-            onLoginSuccess();
+            const user = await signInWithGoogle();
+            if (user) {
+                onLoginSuccess();
+            }
+            // If no user returned, it means we're redirecting, so do nothing (loading state persists until unload)
         } catch (err: any) {
             console.error('Sign-in error:', err);
             setError(err.message || 'Failed to sign in. Please try again.');

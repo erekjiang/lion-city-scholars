@@ -1,5 +1,6 @@
 import {
     signInWithPopup,
+    signInWithRedirect,
     GoogleAuthProvider,
     signOut as firebaseSignOut,
     onAuthStateChanged as firebaseOnAuthStateChanged,
@@ -9,11 +10,27 @@ import { auth } from './firebase';
 
 const googleProvider = new GoogleAuthProvider();
 
-export const signInWithGoogle = async (): Promise<User> => {
+export const signInWithGoogle = async (): Promise<User | void> => {
     try {
+        // Check for mobile device
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+        if (isMobile) {
+            await signInWithRedirect(auth, googleProvider);
+            // The page will redirect, so we don't return anything
+            return;
+        }
+
         const result = await signInWithPopup(auth, googleProvider);
         return result.user;
-    } catch (error) {
+    } catch (error: any) {
+        // Fallback to redirect if popup fails (e.g. popup blocked)
+        if (error.code === 'auth/popup-blocked' || error.code === 'auth/popup-closed-by-user') {
+            console.warn('Popup blocked or closed, falling back to redirect');
+            await signInWithRedirect(auth, googleProvider);
+            return;
+        }
+
         console.error('Error signing in with Google:', error);
         throw error;
     }
