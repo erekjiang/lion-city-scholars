@@ -1,10 +1,12 @@
+
 import {
     signInWithPopup,
     signInWithRedirect,
     GoogleAuthProvider,
     signOut as firebaseSignOut,
     onAuthStateChanged as firebaseOnAuthStateChanged,
-    User
+    User,
+    getRedirectResult
 } from 'firebase/auth';
 import { auth } from './firebase';
 
@@ -32,6 +34,18 @@ export const signInWithGoogle = async (): Promise<User | void> => {
         }
 
         console.error('Error signing in with Google:', error);
+        throw error;
+    }
+};
+
+export const checkRedirectResult = async () => {
+    try {
+        const result = await getRedirectResult(auth);
+        return result?.user;
+    } catch (error: any) {
+        console.error('Redirect result error:', error);
+        // Alert the error so the user can see it on mobile
+        alert(`Authentication Error: ${error.message} `);
         throw error;
     }
 };

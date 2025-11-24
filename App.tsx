@@ -12,7 +12,7 @@ import { Login } from './components/Login';
 import { Button } from './components/Button';
 import { Sparkles, Loader2, Download } from 'lucide-react';
 import { generateDailyQuestions } from './services/geminiService';
-import { onAuthStateChanged, signOut } from './services/authService';
+import { onAuthStateChanged, signOut, checkRedirectResult } from './services/authService';
 import { getUserProfile, updateUserProfile, saveGameResult } from './services/firestoreService';
 import { storageService } from './services/storageService';
 import { usePWAInstall } from './hooks/usePWAInstall';
@@ -28,6 +28,11 @@ const App: React.FC = () => {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loadingQuestions, setLoadingQuestions] = useState(false);
   const { isInstallable, install } = usePWAInstall();
+
+  // Check for redirect result on mount (for mobile auth errors)
+  useEffect(() => {
+    checkRedirectResult().catch(console.error);
+  }, []);
 
   // Listen to Firebase auth state
   useEffect(() => {
