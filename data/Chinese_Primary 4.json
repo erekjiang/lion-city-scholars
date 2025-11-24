@@ -275,15 +275,15 @@
     "explanation": "“喜气洋洋”形容充满了欢喜的气氛，与过年贴春联的场景最匹配。“兴高采烈”形容个人情绪高昂。"
   },
   {
-    "questionText": "为了提高语文水平，我们应该多阅读（）优秀的课外读物。",
+    "questionText": "小华知道今天是星期天，他（）把功课都写完了，以便下午可以看电影。",
     "options": [
-      "本",
-      "张",
-      "篇",
-      "部"
+      "主动",
+      "移动",
+      "运动",
+      "电动"
     ],
-    "correctAnswerIndex": 4,
-    "explanation": "这个题目的选项设计有误，必须保证4个选项。正确选项是“本”。重新设计选项：A. 册 B. 块 C. 座 D. 份。 正确答案是A。我们应该多阅读（册）优秀的课外读物。 (Assuming 册 is preferred over 本 for measure word of books in formal context, but '本' is also fine. Let's stick to '本' as the most common P4 usage, and adjust the index)."
+    "correctAnswerIndex": 0,
+    "explanation": "这句的意思是小华自己愿意（不需要别人提醒）地把功课做完，以便去做别的事情。'主动'表示自发、自愿，用在这里表示小华自己愿意完成功课，符合语境。其他选项的意思分别是：移动位置、体育锻炼或电力驱动，都不符合句子的意思。"
   },
   {
     "questionText": "为了提高语文水平，我们应该多阅读（）优秀的课外读物。",
@@ -1991,15 +1991,15 @@
     "explanation": "句子使用“像……一样”将白云比作棉花糖，是比喻的手法，主要描绘了白云的白色和松软的形态。"
   },
   {
-    "questionText": "将下列短语排列成语意通顺的句子： (1) 阳光洒在荷叶上 (2) 荷叶上的露珠滚动着 (3) 像一颗颗晶莹的珍珠",
+    "questionText": "将下列短语排列成语意通顺的句子：\n(1) 它扇动着美丽的翅膀\n(2) 一只花蝴蝶飞到花朵上\n(3) 像一个跳舞的小仙女",
     "options": [
-      "(1)(3)(2)",
-      "(3)(2)(1)",
-      "(1)(2)(3)",
-      "(1)(3)(2)"
+      "(2) (1) (3)",
+      "(1) (2) (3)",
+      "(3) (1) (2)",
+      "(2) (3) (1)"
     ],
-    "correctAnswerIndex": 3,
-    "explanation": "正确的逻辑顺序应该是：先有环境/背景 (1) 阳光洒在荷叶上，然后出现主要描写对象 (2) 荷叶上的露珠滚动着，最后进行比喻或描述 (3) 像一颗颗晶莹的珍珠。故顺序为 (1)(2)(3)。 (Option C and D are identical in the provided structure, assuming a typo and selecting index 3 based on 1, 3, 2 which is grammatically sound, but 1, 2, 3 is the most logical flow. Re-checking the prompt requirements: If (1)(3)(2) is the intended arrangement, the logic is: Sunlight on leaves -> Dew rolling -> Like pearls. This sequence (1) -> (2) is interrupted by (3), making (1)(2)(3) or (3)(2) better. Let's assume the question requires finding the most fluid sequence: 阳光洒在荷叶上 (1)，荷叶上的露珠滚动着 (2)，像一颗颗晶莹的珍珠 (3). Option D (1)(3)(2) is incorrect. Option C (1)(2)(3) is the correct logical flow. Since the options provided are confusing/contain duplicates, sticking to the logically correct sequence (1)(2)(3) and selecting index 2."
+    "correctAnswerIndex": 0,
+    "explanation": "正确的语序应该是先介绍主体和发生的场景 (2)，接着描述主体的具体动作 (1)，最后用比喻的手法进行总结和形容 (3)。连起来是：一只花蝴蝶飞到花朵上，它扇动着美丽的翅膀，像一个跳舞的小仙女。"
   },
   {
     "questionText": "尽管他一向为人慷慨大方，_____这次却不肯借钱给朋友，令人感到不解。",
@@ -2563,15 +2563,15 @@
     "explanation": "“具备” (to possess/have the necessary skills) 更强调具有某种条件或能力，搭配“一身本领”比“掌握”或“拥有”更准确。选项D是语法错误，动词后面不常接“了”来描述已有的状态。"
   },
   {
-    "questionText": "老师的谆谆教______，让我明白了做人的道理。",
+    "questionText": "经过长时间的刻苦努______，小明终于在这次考试中取得了第一名。",
     "options": [
-      "诲",
-      "悔",
-      "诲",
-      "汇"
+      "力",
+      "立",
+      "办",
+      "励"
     ],
     "correctAnswerIndex": 0,
-    "explanation": "“谆谆教诲” (earnest instruction) 是固定搭配，意指恳切、耐心地教育。“诲”指教导、教育。"
+    "explanation": "正确的答案是“力”。“努力” (nǔ lì) 是一个常用的词语，意思是付出力量，下工夫。句子表达了小明因为付出了刻苦的努力，所以得到了好成绩。其他选项与“努”字无法组成合适的词语来表达努力学习的意思。"
   },
   {
     "questionText": "妹妹在表演时显得很紧张，声音有点______。",
@@ -2794,15 +2794,15 @@
     "explanation": "鼓舞 (gǔ wǔ) 意指激发士气，使人振作、向往更高目标。“深受鼓舞”指被激发了精神和斗志。“鼓励”侧重于支持和敦促。"
   },
   {
-    "questionText": "妹妹（ ）是班上的体育健将，在这次比赛中获得了第一名。",
+    "questionText": "老师看见小华的功课写得又整齐又干净，心想他昨晚（ ）很认真地完成了作业。",
     "options": [
-      "竟然",
-      "既然",
-      "竟然",
-      "竞然"
+      "一定",
+      "忽然",
+      "曾经",
+      "慢慢"
     ],
-    "correctAnswerIndex": 2,
-    "explanation": "竟然 (jìng rán) 表示出乎意料，在句子中起转折或强调作用。其他选项都是错别字或不符合语境。"
+    "correctAnswerIndex": 0,
+    "explanation": "答案是“一定”。“一定”表示“必定”或“确定地”，表示说话人根据眼前的事实（功课整齐干净）得出了一个确定的推论：小华昨天晚上“必定”是认真完成作业的。其他选项如“忽然”（表示突然发生）、“曾经”（表示过去发生过）、“慢慢”（表示速度缓慢）都不符合句子的逻辑和意思。"
   },
   {
     "questionText": "天上的星星一闪一闪的，就像（ ）。",
@@ -3355,15 +3355,15 @@
     "explanation": "（A）“出色”多形容人的表现优秀或事物特出，但爷爷坚持跑步体现的是毅力，不是“出色”。（B）“勉励” (to encourage/exhort) 指鼓励并督促，符合老师鼓励学生的语境。（C）“不禁”指忍不住，句中应使用“不免”（inevitably/unavoidably），表示无可避免地出现疲态。（D）“倾听”指细心听取，常用于声音或意见；此处应使用“热爱”或“喜爱”。"
   },
   {
-    "questionText": "他发现自己的皮包不见了，在原地（ ）了许久，不知该如何是好。",
+    "questionText": "小丽的妈妈还没来接她，放学后，她只好在校门口静静地（ ）着，心里有点着急。",
     "options": [
-      "踌躇",
-      "徘徊",
-      "徘徊",
-      "徘徊"
+      "站",
+      "跑",
+      "跳",
+      "战"
     ],
     "correctAnswerIndex": 0,
-    "explanation": "“踌躇” (chóu chú) 指犹豫不决，拿不定主意，符合句中不知所措的语境。“徘徊” (pái huái) 指在一个地方来回地走，表达的是行动，不完全是心理状态，但也可以接受。但是，选项中重复了三个“徘徊”，根据标准答题逻辑，应选择与“不知如何是好”的心理状态最贴切的“踌躇”。（注：P4级别需区分“踌躇”的心理犹豫和“徘徊”的物理走动）。"
+    "explanation": "这句话描述了小丽在校门口等待妈妈的情景。因为她感到着急但又不能离开，所以她需要保持在原地等待。'站' (zhàn) 的意思是站立，是最符合在门口安静等待的动作；'跑' (pǎo) 是跑步；'跳' (tiào) 是跳跃；'战' (zhàn) 是战争或战斗，都不符合语境。"
   },
   {
     "questionText": "他那（ ）的体魄和充满自信的神情，让他看起来格外引人注目。",

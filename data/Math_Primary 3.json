@@ -330,15 +330,15 @@
     "explanation": "Tom received 2/5 of the sweets, so 3/5 remained. Dick received 1/3 of the remainder, so he received (1/3)*(3/5) = 1/5 of the total sweets. Harry received the rest, so he received 1 - 2/5 - 1/5 = 2/5 of the sweets. Since Harry received 8 sweets, and 2/5 of the sweets is 8, then 1/5 of the sweets is 4. Tom received 2/5 of the sweets, so Tom received 2 * 4 = 8 sweets."
   },
   {
-    "questionText": "A rope is 36 m long. It is cut into two pieces. One piece is 4 times as long as the other piece. What is the length of the longer piece?",
+    "questionText": "Maya and Ben have 60 stickers altogether. Maya has 3 times as many stickers as Ben. How many stickers does Maya have?",
     "options": [
-      "7.2 m",
-      "9 m",
-      "27 m",
-      "28.8 m"
+      "45 stickers",
+      "15 stickers",
+      "20 stickers",
+      "30 stickers"
     ],
-    "correctAnswerIndex": 4,
-    "explanation": "Let the shorter piece be x. The longer piece is 4x. x + 4x = 36, 5x = 36, x = 36/5 = 7.2. The longer piece is 4x = 4*7.2 = 28.8 m."
+    "correctAnswerIndex": 0,
+    "explanation": "This problem requires us to determine the value of the 'units' involved. \n1. Let the number of stickers Ben has be 1 unit.\n2. Since Maya has 3 times as many as Ben, Maya has 3 units.\n3. The total number of units is 1 + 3 = 4 units.\n4. These 4 units equal the total number of stickers, which is 60.\n5. Value of 1 unit (Ben's stickers): 60 ÷ 4 = 15 stickers.\n6. We need the number Maya has (3 units): 3 × 15 = 45 stickers."
   },
   {
     "questionText": "Mrs. Tan bought 3 kg of flour. She used 700g to bake a cake and 550g to bake some cookies. How much flour had she left?",
@@ -627,15 +627,15 @@
     "explanation": "The difference between the children is 17 - 5 = 12. This is half the circle, so the whole circle is 12 * 2 = 24 children."
   },
   {
-    "questionText": "A number is 30 more than its half. What is the number?",
+    "questionText": "A baker made a batch of muffins. The total number of muffins is 15 more than half the total number of muffins. How many muffins did the baker make?",
     "options": [
-      "15",
       "30",
+      "15",
       "45",
       "60"
     ],
-    "correctAnswerIndex": 4,
-    "explanation": "Let the number be 'x'. x = (x/2) + 30 => x - (x/2) = 30 => x/2 = 30 => x = 60."
+    "correctAnswerIndex": 0,
+    "explanation": "If a number (the whole batch) is 15 more than its half, it means that the difference (15) is equal to the other half of the batch.\n\nFirst Half = 15\nSecond Half = 15\n\nTotal number of muffins = Half + Half = 15 + 15 = 30."
   },
   {
     "questionText": "A container has 48 litres of water. Sam pours out 1/4 of the water. Then he pours out 1/3 of the remaining water. How much water is left in the container?",
@@ -891,15 +891,15 @@
     "explanation": "The side length of the square is 28 cm / 4 = 7 cm. The area of the square is 7 cm * 7 cm = 49 cm²."
   },
   {
-    "questionText": "Ali, Ben and Carol shared $72. Ali received twice as much as Ben. Ben received three times as much as Carol. How much did Ben receive?",
+    "questionText": "David, Ethan, and Fiona shared a total of 63 stickers. Ethan received 4 times as many stickers as Fiona. David received half as many stickers as Ethan. How many stickers did Ethan receive?",
     "options": [
-      "$8",
-      "$12",
-      "$24",
-      "$36"
+      "36",
+      "18",
+      "9",
+      "21"
     ],
-    "correctAnswerIndex": 4,
-    "explanation": "Let Carol receive $x. Then Ben received $3x and Ali received $2 * 3x = $6x. The total amount is x + 3x + 6x = 10x = $72. Therefore, x = $7.2. Ben received 3x = 3 * $7.2 = $21.60. The answer is outside the options. Redo calculation: A=2B, B=3C. A+B+C=72. So 2B + B + C = 72. 3B + C = 72. B = 3C. 3(3C) + C = 72. 10C=72. C=7.20. B = 3*7.20 = 21.60. The answer is $21.6. Check the option selected, it is outside. The most likely is, B = 36 which is not correct. Ali received 2*36 = 72 and Carol received $0! Try B = 24. The Ali received 48, and Carol = 8. so 48+24+8 = 80 which is not 72. Let Carol receive x. Then Ben received 3x and Ali received 6x. x+3x+6x = 72. 10x = 72. Therefore, Ben = 3x = 3 * 7.20 = $21.60. Therefore answer $21.6 which is closest to the given options with $24, and is not one of the options."
+    "correctAnswerIndex": 0,
+    "explanation": "We use the unit method to represent the shares:\n1. Fiona (F) received 1 unit.\n2. Ethan (E) received 4 times Fiona's amount, so Ethan received 4 units.\n3. David (D) received half of Ethan's amount, so David received 0.5 * 4 = 2 units.\n\nTotal units = David + Ethan + Fiona = 2 + 4 + 1 = 7 units.\n\nSince the total number of stickers is 63, we find the value of 1 unit:\n7 units = 63 stickers\n1 unit = 63 ÷ 7 = 9 stickers.\n\nThe question asks for Ethan's share, which is 4 units:\nEthan's stickers = 4 units * 9 stickers/unit = 36 stickers."
   },
   {
     "questionText": "A baker baked 3 times as many muffins as cupcakes. He sold 2/5 of the muffins and 1/3 of the cupcakes. If he had 120 muffins left, how many cupcakes did he sell?",
@@ -2955,7 +2955,7 @@
       "$31",
       "$36"
     ],
-    "correctAnswerIndex": 3,
+    "correctAnswerIndex": 2,
     "explanation": "Cost for adults = 2 * $8 = $16. Cost for children = 3 * $5 = $15. Total cost = $16 + $15 = $31"
   },
   {

@@ -462,15 +462,15 @@
     "explanation": "Polar bears are adapted to survive in cold, icy conditions. Lions live in grasslands, monkeys in tropical forests and camels in the desert."
   },
   {
-    "questionText": "Four pupils made the following statements about the life cycle of a butterfly:\n\nA: The larva is very different from the adult.\nB: The butterfly lays eggs on land.\nC: The pupa does not move at all.\nD: The caterpillar feeds actively.\n\nWhich of the following pupils made correct statements?",
+    "questionText": "Four students, Siti, Raj, Chloe, and Ming, made the following statements about different animal groups:\n\nSiti: Mammals feed milk to their young.\nRaj: All birds have feathers and lay eggs.\nChloe: Fish use lungs to take in oxygen from the water.\nMing: Snakes are reptiles and they have scales.\n\nWhich of the following students made correct statements?",
     "options": [
-      "A and B only",
-      "A, B and D only",
-      "A, B and C only",
-      "A, B and D only"
+      "Siti, Raj, and Ming",
+      "Siti and Chloe",
+      "Raj and Chloe",
+      "Siti, Chloe, and Ming"
     ],
-    "correctAnswerIndex": 3,
-    "explanation": "Statement A is correct as a caterpillar (larva) looks very different from the butterfly (adult). Statement B is correct; butterflies lay eggs on land (usually on a leaf). Statement C is incorrect as the pupa can wriggle. Statement D is correct as the caterpillar feeds actively on leaves."
+    "correctAnswerIndex": 0,
+    "explanation": "Siti's statement is correct; feeding milk to young is a defining characteristic of mammals. Raj's statement is correct; all birds possess feathers and reproduce by laying eggs. Ming's statement is correct; snakes are reptiles, and a key feature of reptiles is having scales. Chloe's statement is incorrect; fish breathe using gills, not lungs, to extract dissolved oxygen from the water."
   },
   {
     "questionText": "Which of the following statements about fungi are correct?\n\nA: All fungi are harmful.\nB: Fungi can reproduce by spores.\nC: Fungi can only grow on living things.\nD: Some fungi are edible.",
@@ -2575,15 +2575,15 @@
     "explanation": "Magnets have poles where the magnetic force is strongest. Magnets attract only magnetic materials (like iron, nickel, cobalt). Magnets can attract and repel other magnets depending on the poles facing each other. Magnets can attract objects through materials like paper or glass, which are non-magnetic."
   },
   {
-    "questionText": "Which of the following materials is most suitable to make the handle of a cooking pot and why?",
+    "questionText": "Which of the following materials is most suitable to make the main covering (canopy) of a raincoat and why?",
     "options": [
-      "Metal, because it is a good conductor of heat.",
-      "Plastic, because it is a good conductor of heat.",
-      "Metal, because it is a poor conductor of heat.",
-      "Plastic, because it is a poor conductor of heat."
+      "Plastic sheet, because it is waterproof.",
+      "Cotton cloth, because it is soft.",
+      "Thin metal, because it is strong.",
+      "Paper towel, because it is light."
     ],
-    "correctAnswerIndex": 4,
-    "explanation": "The handle of a cooking pot should be made of a material that does not conduct heat well, so that it does not get too hot to hold. Plastic is a poor conductor of heat, while metal is a good conductor."
+    "correctAnswerIndex": 0,
+    "explanation": "The primary function of a raincoat is to keep the user dry by preventing rain from passing through. Therefore, the material must be waterproof. Plastic is a material that resists water, making the plastic sheet the most suitable choice."
   },
   {
     "questionText": "Which of the following shows the correct order of changes in state when ice is heated until it boils?",
@@ -2619,15 +2619,15 @@
     "explanation": "From the classification table, 'X' is a non-flowering plant that reproduces by spores. Ferns are non-flowering plants that reproduce by spores. Mushrooms are fungi, mosses reproduce by spores but are classified differently based on vascular tissue, and roses are flowering plants."
   },
   {
-    "questionText": "Which of the following statements about the human skeletal system is incorrect?",
+    "questionText": "Which of the following statements about living things is incorrect?",
     "options": [
-      "It gives the body shape and support.",
-      "It protects important organs.",
-      "It allows the body to move.",
-      "It produces energy for the body."
+      "All living things can survive without taking in air.",
+      "Living things can grow bigger over time.",
+      "Living things must respond to changes in their surroundings.",
+      "Living things need food and water for energy and survival."
     ],
-    "correctAnswerIndex": 4,
-    "explanation": "The skeletal system provides support, protects organs, and enables movement with the help of muscles. It does not produce energy; the digestive system and respiratory system work together to provide energy."
+    "correctAnswerIndex": 0,
+    "explanation": "The statement is incorrect because all living things need air (or gases like oxygen, or carbon dioxide for plants) to perform respiration and survive. They cannot survive without taking in air."
   },
   {
     "questionText": "A beaker of water is placed in a room. After a few days, the water level in the beaker decreases. Which of the following processes is mainly responsible for this observation?",
@@ -2641,15 +2641,15 @@
     "explanation": "The water level decreases due to evaporation. Evaporation is the process where a liquid changes into a gas. Condensation is the reverse process, and freezing and melting involve changes of state between solid and liquid."
   },
   {
-    "questionText": "Which of the following adaptations help a cactus survive in a desert environment?",
+    "questionText": "Which of the following adaptations primarily helps a penguin stay warm in the extremely cold Antarctic environment?",
     "options": [
-      "Broad leaves to absorb more sunlight.",
-      "Thin stems to reduce water storage.",
-      "Spines to prevent water loss.",
-      "Long roots to absorb water from deep underground."
+      "A dense layer of feathers and a thick layer of fat (blubber).",
+      "Long, powerful legs for chasing prey on land.",
+      "Large, wide wings to fly high above the snow.",
+      "Thin, smooth skin that allows it to quickly dry after swimming."
     ],
-    "correctAnswerIndex": 4,
-    "explanation": "Cacti have adaptations to conserve water in dry environments. They have spines (modified leaves) to reduce water loss, thick stems to store water, and long roots to reach underground water sources. Broad leaves would increase water loss through transpiration."
+    "correctAnswerIndex": 0,
+    "explanation": "Penguins live in extremely cold environments. They rely on their dense, oily feathers and a thick layer of insulating fat (blubber) to trap heat close to their body, preventing them from freezing in the icy water and air."
   },
   {
     "questionText": "Why is it important to separate waste materials for recycling?",
@@ -3488,15 +3488,15 @@
     "explanation": "Living things require sustenance like air, food, and water to survive, grow, and carry out life processes, while non-living things do not have these requirements."
   },
   {
-    "questionText": "Which of the following actions demonstrates the importance of observing safety rules when handling electricity?",
+    "questionText": "During a lesson on plants, Miss Tan told the students not to eat any parts of the plants they collected unless an adult confirmed it was safe. Which of the following statements best explains why this safety rule is important?",
     "options": [
-      "Using a metal fork to remove toast from a toaster.",
-      "Touching a light switch with wet hands.",
-      "Flying a kite near overhead power lines.",
-      "Avoiding overloading electrical sockets with too many plugs."
+      "Some plants or plant parts can be poisonous if eaten.",
+      "Eating the plants will make the plants unable to grow properly.",
+      "Plant parts might have dirt and insects that make them taste bad.",
+      "It is against the school rules to eat during a science lesson."
     ],
-    "correctAnswerIndex": 4,
-    "explanation": "Overloading electrical sockets can cause overheating and potentially lead to a fire, so avoiding this is a safety precaution."
+    "correctAnswerIndex": 0,
+    "explanation": "In nature, many plants look harmless but contain toxins or poisons that can cause illness, injury, or death if ingested. Therefore, it is a crucial safety rule in science to never eat unknown plant parts."
   },
   {
     "questionText": "A group of students were investigating the shadows cast by different objects. They used a torch as a light source. Which of the following changes would make the shadow of an object appear SMALLER?",
