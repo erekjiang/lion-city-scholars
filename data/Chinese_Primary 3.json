@@ -1,0 +1,4402 @@
+[
+  {
+    "questionText": "以下哪个句子使用了正确的量词？",
+    "options": [
+      "我吃了一张饭。",
+      "树上有一只花。",
+      "地上有一条水。",
+      "我买了一把尺。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "量词要和名词搭配正确。一把通常用来形容有柄的工具，例如尺子。一张通常形容平面物体，如纸。只通常形容动物，条通常形容长形物体，比如鱼或者路。水没有固定的量词，可以说一杯水，一瓶水等。"
+  },
+  {
+    "questionText": "以下哪个句子中的“便”字的意思与其他三个不同？",
+    "options": [
+      "他一生病，便不去上学了。",
+      "这家商店很方便。",
+      "妈妈做完饭，便开始洗碗。",
+      "我一写完功课，便去玩游戏。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "选项1，3，4中的“便”表示“就”，即“一……就……”的意思。选项2中的“方便”是“便利”的意思，指容易使用或接近。"
+  },
+  {
+    "questionText": "以下哪个词语最适合用来形容一位非常努力学习的学生？",
+    "options": [
+      "马马虎虎",
+      "力争上游",
+      "三心二意",
+      "游手好闲"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "力争上游：形容努力争取进步。马马虎虎：形容做事不认真。三心二意：形容心意不专一。游手好闲：形容无所事事，不务正业。因此，力争上游最适合形容努力学习的学生。"
+  },
+  {
+    "questionText": "以下哪个句子使用了正确的量词？",
+    "options": [
+      "我吃了一粒饭。",
+      "姐姐买了一件鱼。",
+      "妈妈喝了一杯水。",
+      "弟弟画了一张书。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "一杯通常用来计量液体，比如水。一粒饭应该说一碗饭或者一粒米。一件鱼不正确，应该说一条鱼。一张书不正确，应该说一本书。"
+  },
+  {
+    "questionText": "以下哪个词语的意思与“特别”最接近？",
+    "options": [
+      "普通",
+      "非常",
+      "一般",
+      "平常"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "特别的意思是非常，不普通。 普通、一般、平常的意思都与特别相反。"
+  },
+  {
+    "questionText": "根据课文，小明帮助老婆婆过马路，他的行为值得我们怎样？",
+    "options": [
+      "嘲笑",
+      "学习",
+      "忽略",
+      "批评"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "帮助别人是一种美德，小明帮助老婆婆过马路的行为值得我们学习。"
+  },
+  {
+    "questionText": "以下哪个句子中“望”字的意思是“向远处看”？",
+    "options": [
+      "盼望已久",
+      "一望无际",
+      "德高望重",
+      "看望病人"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "一望无际：一眼看去，看不尽头。这里的“望”是向远处看的意思。 盼望：希望。 德高望重：指有很高的道德和声望。 看望：探望。"
+  },
+  {
+    "questionText": "以下哪个成语形容非常危险的情况？",
+    "options": [
+      "一帆风顺",
+      "万事如意",
+      "千钧一发",
+      "一见钟情"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "千钧一发：比喻情况非常危急。一帆风顺：比喻非常顺利。万事如意：指一切都如心意。一见钟情：指初次见面就互相爱慕。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "弯弯的月亮像一只小船。",
+      "小丽今天穿了一件新裙子。",
+      "小明喜欢踢足球。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "弯弯的月亮像一只小船：把月亮比作小船，使用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "以下哪个词语不能用来形容高兴的心情？",
+    "options": [
+      "兴高采烈",
+      "愁眉苦脸",
+      "眉开眼笑",
+      "喜气洋洋"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "愁眉苦脸：形容忧愁的神色。兴高采烈、眉开眼笑、喜气洋洋：都形容高兴的心情。"
+  },
+  {
+    "questionText": "如果“明”字由“日”和“月”组成，那么以下哪个字的组成方式与它类似，并且能表达相关的意思？",
+    "options": [
+      "好",
+      "休",
+      "林",
+      "尖"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "休字由“人”和“木”组成，表达了人靠在树旁休息的意思。类似的，明字由“日”和“月”组成，表达光亮的意思。 好字由“女”和“子”组成，表达美好。林字由两个“木”组成，表达树木丛生。尖字由“小”和“大”组成，表达顶端细小的意思。"
+  },
+  {
+    "questionText": "以下哪个句子最适合形容时间过得很快？",
+    "options": [
+      "度日如年",
+      "一日三秋",
+      "光阴似箭",
+      "日月如梭"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "日月如梭：形容时间过得很快。度日如年：形容日子很难过。一日三秋：形容思念殷切。光阴似箭：形容时间过得很快，也符合题意，但是日月如梭更常用。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容小明第一次参加演讲比赛，既紧张又兴奋的心情？",
+    "options": [
+      "忐忑不安",
+      "心花怒放",
+      "胸有成竹",
+      "若无其事"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "忐忑不安 (tǎn tè bù ān) 形容心神不定，非常不安。心花怒放 (xīn huā nù fàng) 形容极其高兴。胸有成竹 (xiōng yǒu chéng zhú) 比喻做事之前已经有通盘的考虑和计划。若无其事 (ruò wú qí shì) 好像没有那回事一样。小明既紧张又兴奋，因此忐忑不安最合适。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "弟弟的脸红得像苹果一样。",
+      "今天的天气真好啊！",
+      "小鸟在树上唱歌。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "比喻是将一件事物比作另一件事物。弟弟的脸红得像苹果一样，将脸的颜色比作苹果的颜色，使用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是“帮助弱小的人，抵抗强大的敌人”？",
+    "options": [
+      "守株待兔",
+      "画蛇添足",
+      "扶弱抑强",
+      "亡羊补牢"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "扶弱抑强 (fú ruò yì qiáng) 指帮助弱小的人，抵抗强大的敌人。守株待兔 (shǒu zhū dài tù) 比喻不主动努力，而存万一的侥幸心理，希望得到意外的收获。画蛇添足 (huà shé tiān zú) 比喻做多余的事，反而弄巧成拙。亡羊补牢 (wáng yáng bǔ láo) 比喻出了问题以后想办法补救，可以防止继续受损失。"
+  },
+  {
+    "questionText": "以下哪个句子中的“骄傲”一词用得不恰当？",
+    "options": [
+      "小明取得了好成绩，感到很骄傲。",
+      "小丽骄傲地说自己是班里最好的学生。",
+      "我们为祖国的繁荣昌盛感到骄傲。",
+      "姐姐为弟弟取得的进步感到骄傲。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "第二个句子中的“骄傲”含有自满自大的意味，是不好的。“骄傲”可以指自豪，也可以指自满自大。小丽骄傲地说自己是班里最好的学生，带有炫耀和自满的意思，因此用得不恰当。"
+  },
+  {
+    "questionText": "以下哪个词语与“仔细”的意思最相近？",
+    "options": [
+      "马虎",
+      "认真",
+      "草率",
+      "随便"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "仔细 (zǐ xì) 是指细心认真。认真 (rèn zhēn) 也是指不马虎，严肃对待。马虎 (mǎ hu)、草率 (cǎo shuài) 和随便 (suí biàn) 都是不认真的意思，与“仔细”的意思相反。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容一个人的字写得非常漂亮？",
+    "options": [
+      "龙飞凤舞",
+      "字迹潦草",
+      "力透纸背",
+      "笔走龙蛇"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "笔走龙蛇 (bǐ zǒu lóng shé) 形容书法生动而有气势。龙飞凤舞 (lóng fēi fèng wǔ) 原形容山势的蜿蜒雄壮，后也形容书法笔势有力，灵活舒展。字迹潦草 (zì jì liáo cǎo) 指字写得不工整。力透纸背 (lì tòu zhǐ bèi) 形容书法遒劲有力，也形容文章深刻有力。笔走龙蛇更侧重于形容书法的气势和美观，所以更合适。"
+  },
+  {
+    "questionText": "以下哪个句子表达的意思与“与其在家看电视，不如出去运动”相同？",
+    "options": [
+      "在家看电视比出去运动更好。",
+      "出去运动比在家看电视更好。",
+      "在家看电视和出去运动一样好。",
+      "我喜欢在家看电视，也喜欢出去运动。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“与其……不如……”表示选择后者。“与其在家看电视，不如出去运动”表示选择出去运动更好。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容人非常害怕的样子？",
+    "options": [
+      "兴高采烈",
+      "眉飞色舞",
+      "惊慌失措",
+      "从容不迫"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "惊慌失措 (jīng huāng shī cuò) 指害怕慌张，不知如何是好。兴高采烈 (xīng gāo cǎi liè) 形容兴致高，情绪热烈。眉飞色舞 (méi fēi sè wǔ) 形容人得意兴奋的样子。从容不迫 (cóng róng bù pò) 指不慌不忙，镇定。"
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "今天天气晴朗，适合出去玩。",
+      "我喜欢吃苹果和香蕉等水果。",
+      "因为他努力学习，所以取得了优异的成绩。",
+      "经过努力，我终于克服了重重困难和障碍。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“困难”和“障碍”意思相近，重复使用，显得累赘，应该删除一个。因此，正确的说法是：经过努力，我终于克服了重重困难。或者：经过努力，我终于克服了重重障碍。"
+  },
+  {
+    "questionText": "选出正确的量词：一（ ）歌曲",
+    "options": [
+      "首",
+      "支",
+      "个",
+      "篇"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“首”通常用来形容歌曲或诗歌。 例如：一首歌曲，一首诗。"
+  },
+  {
+    "questionText": "以下哪个句子中，“望”的意思和其他三个不同？",
+    "options": [
+      "我每天都盼望新年快点到来。",
+      "他站在山上，望着远方的风景。",
+      "奶奶年纪大了，总是忘记事情。",
+      "妈妈希望我能考个好成绩。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "选项二中的“望”是“看”的意思，其他选项的“望”是“希望”的意思。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容“乌云密布”的天气？",
+    "options": [
+      "阳光明媚",
+      "风和日丽",
+      "倾盆大雨",
+      "昏天暗地"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "乌云密布，说明天空黑暗，因此“昏天暗地”最适合形容。"
+  },
+  {
+    "questionText": "如果“小明不小心把花瓶打碎了，但他主动向妈妈承认了错误”，用哪个成语形容小明的行为最合适？",
+    "options": [
+      "知错能改",
+      "掩耳盗铃",
+      "亡羊补牢",
+      "画蛇添足"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "知错能改的意思是知道自己错了就能够改正，符合题意。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "弟弟高兴得跳了起来。",
+      "弯弯的月亮像一只小船。",
+      "今天的天气真好啊！"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "选项三将月亮比作小船，使用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "根据“只要功夫深，铁杵磨成针”的意思，以下哪个选项最贴切？",
+    "options": [
+      "铁杵比针更坚硬。",
+      "坚持不懈就能成功。",
+      "针是用铁做的。",
+      "磨针需要很长时间。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "这句谚语说明只要坚持不懈地努力，即使是再困难的事情也能成功。"
+  },
+  {
+    "questionText": "以下哪个句子中的“更加”使用不正确？",
+    "options": [
+      "他今天比昨天更加开心。",
+      "经过努力，他的成绩更加进步了。",
+      "多做运动能让身体更加健康。",
+      "这道题更加很容易做。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "应该说“这道题很容易做”，或者“这道题更加容易做”."
+  },
+  {
+    "questionText": "选出意思最接近“焦急”的词语。",
+    "options": [
+      "开心",
+      "着急",
+      "放松",
+      "冷静"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "焦急和着急都有心情不安、急躁的意思。"
+  },
+  {
+    "questionText": "以下哪个词语不能用来形容“声音”？",
+    "options": [
+      "悦耳",
+      "刺耳",
+      "动听",
+      "鲜艳"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "鲜艳是用来形容颜色，不能用来形容声音。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“仔细地看”？",
+    "options": [
+      "观赏",
+      "浏览",
+      "观察",
+      "张望"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "观察是指为了了解情况或事物的发展变化而仔细地看。"
+  },
+  {
+    "questionText": "以下哪个句子最适合用来形容“秋天的景色”？",
+    "options": [
+      "春回大地，万物复苏。",
+      "烈日炎炎，酷暑难耐。",
+      "秋高气爽，落叶纷飞。",
+      "寒风刺骨，大雪纷飞。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "秋高气爽，落叶纷飞，都是秋天特有的景色。"
+  },
+  {
+    "questionText": "以下哪个句子中的“清”字，用得不正确？",
+    "options": [
+      "今天的天气真好，万里无云，天空十分清朗。",
+      "小丽的歌声清脆动听，大家都喜欢听她唱歌。",
+      "这条河里的水很清香，可以用来泡茶。",
+      "经过大家的努力，我们把课室打扫得很清 洁。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "清香通常用来形容气味，水应该是清澈的，而不是清香的。其他选项中的“清”字都用得正确。"
+  },
+  {
+    "questionText": "以下哪个词语最适合用来形容一位非常认真、一丝不苟的医生？",
+    "options": [
+      "马马虎虎",
+      "敷衍了事",
+      "全神贯注",
+      "粗心大意"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "全神贯注形容注意力高度集中，非常适合用来形容一位认真负责的医生。其他选项都表示不认真的态度。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "弟弟今天的心情很好。",
+      "天上的星星像一颗颗闪亮的宝石。",
+      "小明跑得很快。",
+      "我喜欢吃水果。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "句子“天上的星星像一颗颗闪亮的宝石”将星星比作宝石，使用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是“非常危险，好像一触即发”？",
+    "options": [
+      "风平浪静",
+      "千钧一发",
+      "水到渠成",
+      "一帆风顺"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "千钧一发形容情况非常危急，好像一根头发吊着千斤重的东西，随时都会断掉。其他选项的意思都与危险无关。"
+  },
+  {
+    "questionText": "以下哪个句子表达了“因为…所以…”的因果关系？",
+    "options": [
+      "如果明天下雨，我就不去野餐。",
+      "虽然他很努力，但是成绩还是不好。",
+      "因为他生病了，所以今天没来上学。",
+      "他一边唱歌，一边跳舞。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "句子“因为他生病了，所以今天没来上学”明确地表达了因为生病这个原因，导致没来上学的结果。"
+  },
+  {
+    "questionText": "以下哪个词语与“焦急”的意思最接近？",
+    "options": [
+      "开心",
+      "平静",
+      "着急",
+      "放松"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "焦急和着急都表示心里不安、急躁的意思。因此，着急与焦急的意思最接近。"
+  },
+  {
+    "questionText": "以下哪个句子中，“竟然”一词使用得最恰当？",
+    "options": [
+      "他竟然每天都迟到，真是个好学生。",
+      "他竟然得了第一名，真让人失望。",
+      "他竟然这么努力，难怪进步这么快。",
+      "他竟然不喜欢吃糖，真是太奇怪了。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“竟然”表示出乎意料。“他竟然不喜欢吃糖，真是太奇怪了”表达了对不喜欢吃糖这件事的意外和不解。"
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "我喜欢吃苹果和香蕉。",
+      "他不但学习好，而且乐于助人。",
+      "因为今天下雨，所以我们取消了今天的活动。",
+      "经过努力，我的成绩越来越退步。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "句子“经过努力，我的成绩越来越退步”有语病。“努力”和“退步”是矛盾的，应该改成“经过努力，我的成绩越来越进步”。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容一个人非常有才华？",
+    "options": [
+      "平庸",
+      "杰出",
+      "普通",
+      "一般"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "杰出 means outstanding. It best describes someone with a lot of talent. The other options refer to ordinariness."
+  },
+  {
+    "questionText": "“亡羊补牢”这个成语告诉我们什么道理？",
+    "options": [
+      "要及时改正错误，以免造成更大的损失。",
+      "羊很容易走丢，所以要小心。",
+      "有了牢房，羊就不会丢了。",
+      "亡羊是很可怕的事情。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "亡羊补牢比喻出了问题以后想办法补救，可以防止继续受损失。It emphasizes the importance of correcting mistakes promptly."
+  },
+  {
+    "questionText": "以下哪个词语最适合形容一个非常安静的地方？",
+    "options": [
+      "热闹非凡",
+      "鸦雀无声",
+      "人山人海",
+      "车水马龙"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "鸦雀无声 (yā què wú shēng) 形容非常安静，连乌鸦和麻雀的声音都没有。其他选项都形容热闹的场面。"
+  },
+  {
+    "questionText": "以下哪个句子使用了正确的量词？",
+    "options": [
+      "一辆花",
+      "一片房子",
+      "一只歌曲",
+      "一首歌曲"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“一首歌曲” (yī shǒu gē qǔ) 量词“首”通常用于歌曲、诗歌等。其他选项的量词使用不正确。"
+  },
+  {
+    "questionText": "“小明（ ）地走到奶奶身边，把礼物送给她。” 哪个词语最适合填在括号里？",
+    "options": [
+      "慢慢",
+      "快乐",
+      "高兴",
+      "悄悄"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“悄悄 (qiāo qiāo) 地”表示不发出声音，轻轻地，符合题意，更能体现小明不想打扰奶奶的心情。"
+  },
+  {
+    "questionText": "以下哪个词语的意思与其他三个不同？",
+    "options": [
+      "开心",
+      "快乐",
+      "悲伤",
+      "愉快"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "开心 (kāi xīn)、快乐 (kuài lè) 和愉快 (yú kuài) 都表示高兴的心情，而悲伤 (bēi shāng) 表示难过的心情。"
+  },
+  {
+    "questionText": "以下哪个成语形容做事非常认真仔细？",
+    "options": [
+      "马马虎虎",
+      "三心二意",
+      "一心一意",
+      "丢三落四"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "一心一意 (yī xīn yī yì) 形容做事非常专心，认真。其他选项都形容做事不认真。"
+  },
+  {
+    "questionText": "如果今天是星期三，后天是星期几？",
+    "options": [
+      "星期四",
+      "星期五",
+      "星期六",
+      "星期日"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "后天 (hòu tiān) 指的是两天之后。 星期三之后两天是星期五。"
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "我喜欢吃苹果和香蕉。",
+      "今天的天气真好啊！",
+      "他跑得很快地回家。",
+      "小鸟在树上唱歌。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“他跑得很快地回家” (Tā pǎo de hěn kuài de huí jiā) 应该改为 “他很快地跑回家” (Tā hěn kuài de pǎo huí jiā) 或 “他跑得很快回家” (Tā pǎo de hěn kuài huí jiā)。"
+  },
+  {
+    "questionText": "“同学们在图书馆里安静地（ ）书。” 哪个词语最适合填在括号里？",
+    "options": [
+      "玩",
+      "看",
+      "跑",
+      "跳"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "图书馆是阅读的地方，所以“看 (kàn) 书”最合适。其他选项不符合图书馆的环境。"
+  },
+  {
+    "questionText": "以下哪个词语是形容下雨的？",
+    "options": [
+      "阳光明媚",
+      "倾盆大雨",
+      "万里无云",
+      "风和日丽"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "倾盆大雨 (qīng pén dà yǔ) 形容雨下得非常大。 其他选项形容晴朗的天气。"
+  },
+  {
+    "questionText": "以下哪个词语和“保护”的意思最接近？",
+    "options": [
+      "破坏",
+      "爱护",
+      "攻击",
+      "伤害"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "爱护 (ài hù) 和保护 (bǎo hù) 都有珍惜和保护的意思。其他选项的意思相反。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容一位做事非常仔细，连最小的细节都不放过的人？",
+    "options": [
+      "马马虎虎",
+      "粗心大意",
+      "一丝不苟",
+      "敷衍了事"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“一丝不苟”形容做事非常认真、仔细，连一点儿也不马虎。其他选项都表示粗心或者不认真。"
+  },
+  {
+    "questionText": "如果你的朋友考试没考好，你应该对他说什么安慰的话？",
+    "options": [
+      "没关系，下次努力！",
+      "你真笨，考这么差！",
+      "这有什么大不了的？",
+      "谁叫你不认真复习？"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“没关系，下次努力！”是最合适的安慰，鼓励朋友下次做得更好。其他选项会伤害朋友的感情。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "小明跑得很快。",
+      "天上的星星像一颗颗闪亮的宝石。",
+      "今天天气真好啊！",
+      "我喜欢吃苹果。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“天上的星星像一颗颗闪亮的宝石。”将星星比作宝石，使用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "“川流不息”的意思是：",
+    "options": [
+      "河流停止流动。",
+      "河流的水很干净。",
+      "像河流一样连续不断。",
+      "河流的水很少。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“川流不息”形容像河流一样连续不断，多用来形容人、车、船等往来不绝。"
+  },
+  {
+    "questionText": "以下哪个词语与“开心”的意思最接近？",
+    "options": [
+      "难过",
+      "伤心",
+      "快乐",
+      "生气"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“快乐”和“开心”都表示高兴、愉悦的心情。其他选项都表示不愉快的心情。"
+  },
+  {
+    "questionText": "以下哪个成语形容非常危险的情况？",
+    "options": [
+      "一帆风顺",
+      "万事如意",
+      "千钧一发",
+      "心想事成"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“千钧一发”形容非常危险的情况，就像一千钧的重物只用一根头发系着一样。其他选项都表示顺利、如意。"
+  },
+  {
+    "questionText": "根据课文，以下哪种行为是“助人为乐”的表现？",
+    "options": [
+      "小华把自己的玩具藏起来不让别人玩。",
+      "小丽主动帮助同学打扫教室。",
+      "小明只顾自己玩游戏，不理别人。",
+      "小红考试作弊。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“助人为乐”是指帮助别人，自己也感到快乐。小丽帮助同学打扫教室是帮助别人的行为。"
+  },
+  {
+    "questionText": "以下哪个句子是正确的？",
+    "options": [
+      "我昨天去了公园，玩得很开。",
+      "我昨天去了公园，玩得很心。",
+      "我昨天去了公园，玩得很兴。",
+      "我昨天去了公园，玩得很开心。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“开心”是一个完整的词语，表示高兴、愉悦。其他选项都不是正确的用法。"
+  },
+  {
+    "questionText": "“亡羊补牢”的故事告诉我们什么道理？",
+    "options": [
+      "羊死了就不用再修补羊圈了。",
+      "亡羊补牢，为时已晚。",
+      "犯了错误及时改正，还不算晚。",
+      "羊是很脆弱的动物。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“亡羊补牢”的故事告诉我们，犯了错误及时改正，还不算晚，可以避免更大的损失。"
+  },
+  {
+    "questionText": "以下哪个词语不能用来形容美丽的景色？",
+    "options": [
+      "风景如画",
+      "美不胜收",
+      "脏乱不堪",
+      "赏心悦目"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“脏乱不堪”形容非常脏乱，不能用来形容美丽的景色。其他选项都形容美丽的景色。"
+  },
+  {
+    "questionText": "以下哪个句子中的“意思”和“意义”最接近？",
+    "options": [
+      "我不太明白这句话的意思。",
+      "这件礼物只是小意思，请你收下。",
+      "他这样做很有意思，值得我们学习。",
+      "这本书对我们很有意义，要好好阅读。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "选项D中的“意义”指的是价值和作用，和“意思”在表示重要性和价值时相近。其他选项中“意思”的含义不同。"
+  },
+  {
+    "questionText": "以下哪个词语最适合填在句子“弟弟（ ）地把玩具丢在地上。”的括号里？",
+    "options": [
+      "轻轻",
+      "慢慢",
+      "生气",
+      "高兴"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "弟弟生气时，更有可能用力地把玩具丢在地上，表达他的不满。所以“生气”最合适。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "妹妹的脸红得像苹果一样。",
+      "小明今天穿了一件新衣服。",
+      "公园里的花真漂亮啊！"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "选项B将妹妹的脸比作苹果，使用了比喻的修辞手法。其他选项没有用到比喻。"
+  },
+  {
+    "questionText": "“虽然天气很冷，（ ）我还是坚持去上学。”应该填入哪个关联词？",
+    "options": [
+      "但是",
+      "因为",
+      "所以",
+      "如果"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“虽然……但是……”是表示转折关系的关联词语。说明即使天气冷，也坚持上学。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是“看到了事物的一部分，就以为了解了全部”？",
+    "options": [
+      "画蛇添足",
+      "守株待兔",
+      "坐井观天",
+      "亡羊补牢"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“坐井观天”比喻眼界狭小，看不到事物的全貌，只看到一部分。"
+  },
+  {
+    "questionText": "以下哪个句子没有语病？",
+    "options": [
+      "我常常每天都跑步。",
+      "因为我喜欢吃水果，所以我买了苹果和香蕉等等。",
+      "听了他的话，我感到非常快乐极了。",
+      "在老师的帮助下，我的华文成绩进步了很多。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "选项D的句子结构完整，表达清晰，没有语病。A重复，B有“等等”就不能明确具体买了什么，C “非常”和“极了”重复。"
+  },
+  {
+    "questionText": "以下哪个词语不能用来形容“声音”？",
+    "options": [
+      "悦耳",
+      "响亮",
+      "刺耳",
+      "鲜艳"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“鲜艳”是用来形容颜色的，不能用来形容声音。其他三个词语都可以。"
+  },
+  {
+    "questionText": "“小明（ ）完成了老师布置的功课，（ ）帮妈妈做家务。” 应该填入哪个关联词？",
+    "options": [
+      "一边…一边",
+      "先…然后",
+      "不但…而且",
+      "因为…所以"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "事情有先后顺序，应选择“先...然后...”。表示小明先做功课，然后帮妈妈做家务。"
+  },
+  {
+    "questionText": "以下哪个词语的意思与“焦急”最相近？",
+    "options": [
+      "高兴",
+      "着急",
+      "平静",
+      "认真"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“焦急”和“着急”都表示心里不安，非常希望事情快点实现或发生。因此，两者意思最相近。"
+  },
+  {
+    "questionText": "以下哪个句子中“打”字的用法和其他三个不同？",
+    "options": [
+      "他把碗打碎了。",
+      "我们要打扫课室。",
+      "爸爸每天都打电话给爷爷。",
+      "弟弟很爱打游戏。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "选项A的“打”是“打破”的意思，选项B，C和D的“打”都是“做”的意思。打扫，打电话，打游戏。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容热闹的夜市？",
+    "options": [
+      "冷冷清清",
+      "门可罗雀",
+      "人山人海",
+      "鸦雀无声"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "人山人海 形容人非常多，像山和海一样，最适合形容热闹的夜市。"
+  },
+  {
+    "questionText": "小明（ ）地走到课室，因为他迟到了。",
+    "options": [
+      "慢慢",
+      "轻轻",
+      "急急忙忙",
+      "高高兴兴"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "急急忙忙 表示非常着急的样子，因为迟到了，所以应该急急忙忙地走。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪。",
+      "他的歌声像黄莺一样动听。",
+      "今天的天气真好啊！",
+      "小丽喜欢唱歌跳舞。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "他的歌声像黄莺一样动听。 将歌声比作黄莺，使用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是做事不认真，马马虎虎？",
+    "options": [
+      "一心一意",
+      "三心二意",
+      "专心致志",
+      "马马虎虎"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "马马虎虎 形容做事不认真，随便应付。"
+  },
+  {
+    "questionText": "以下哪个词语和“快乐”的意思最相近？",
+    "options": [
+      "悲伤",
+      "兴奋",
+      "安静",
+      "生气"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "兴奋 和 快乐 都有高兴的意思。"
+  },
+  {
+    "questionText": "妹妹（ ）地把地上的玩具捡起来。",
+    "options": [
+      "慢慢吞吞",
+      "手忙脚乱",
+      "迫不及待",
+      "整整齐齐"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "手忙脚乱 因为玩具很多，所以捡起来的样子会是手忙脚乱。"
+  },
+  {
+    "questionText": "以下哪个句子是正确的？",
+    "options": [
+      "我喜欢吃苹果和香蕉啊！",
+      "我喜欢吃苹果啊，香蕉。",
+      "我喜欢吃苹果，香蕉啊！",
+      "我喜欢吃苹果，和香蕉啊！"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "我喜欢吃苹果和香蕉啊！ 语气词啊 用在句尾，表示感叹或疑问。选项啊的位置错误，导致句子不通顺。"
+  },
+  {
+    "questionText": "以下哪个词语不能用来形容食物的味道？",
+    "options": [
+      "酸",
+      "甜",
+      "辣",
+      "亮"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "亮 是形容光线的，不能用来形容食物的味道。"
+  },
+  {
+    "questionText": "以下哪个句子中“看”的意思是“拜访”？",
+    "options": [
+      "我喜欢看书。",
+      "我每天都看电视。",
+      "明天我要去看爷爷。",
+      "请你看一看这个东西。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "明天我要去看爷爷。 这里的 看 是 拜访 的意思，表示去看望爷爷。"
+  },
+  {
+    "questionText": "“他很勇敢，一点也（ ）不怕。” 应该填入什么？",
+    "options": [
+      "不会",
+      "不能",
+      "不肯",
+      "毫不"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "毫不 意思是 一点也不，完全不。 毫不 不怕 形容他一点也不害怕。"
+  },
+  {
+    "questionText": "以下哪个句子使用了正确的量词？",
+    "options": [
+      "一辆阳光照进了房间。",
+      "一朵汽车停在路边。",
+      "一道彩虹挂在天空。",
+      "一颗房子真漂亮。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "一道 usually describes things like rainbows (彩虹), rays of light (光芒), or questions (问题)."
+  },
+  {
+    "questionText": "“张小明总是帮助别人，真是__________。”应该填入哪个词语？",
+    "options": [
+      "可恶",
+      "可笑",
+      "可贵",
+      "可怕"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "可贵 means praiseworthy or valuable. Since Zhang Xiaoming helps others, this is a praiseworthy quality."
+  },
+  {
+    "questionText": "以下哪个词语的意思是“非常认真仔细地看”？",
+    "options": [
+      "浏览",
+      "观看",
+      "观察",
+      "端详"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "端详 implies a very careful and detailed observation."
+  },
+  {
+    "questionText": "以下哪个成语的意思是“说话不算数”？",
+    "options": [
+      "一诺千金",
+      "自言自语",
+      "言行一致",
+      "食言而肥"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "食言而肥 means to break one's promise. It implies that someone benefits (gets fat) from not keeping their word."
+  },
+  {
+    "questionText": "以下哪个句子中，“好像”用得不正确？",
+    "options": [
+      "天上的云好像棉花糖一样。",
+      "他好像很喜欢吃冰淇淋。",
+      "这件衣服好像非常适合你。",
+      "他好像每天都生病，真可怜。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The other options use '好像' to indicate resemblance or seeming. The option '他好像每天都生病' should preferably be '他好像生病了' to mean appearing sick."
+  },
+  {
+    "questionText": "以下哪个词语和“安静”的意思最接近？",
+    "options": [
+      "喧闹",
+      "寂静",
+      "吵闹",
+      "热闹"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "寂静 means silent or quiet, which is closest in meaning to 安静 (quiet)."
+  },
+  {
+    "questionText": "“他（ ）地把地上的垃圾捡起来。”应该填入哪个词语最合适？",
+    "options": [
+      "慢慢",
+      "轻轻",
+      "顺手",
+      "随便"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "顺手 implies doing something conveniently or without extra effort. Picking up litter '顺手' makes sense."
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "我喜欢吃苹果和香蕉。",
+      "今天的天气真晴朗啊！",
+      "因为下雨，所以我们没去公园。",
+      "经过努力，他终于成功了难题。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "The sentence '经过努力，他终于成功了难题' is grammatically incorrect. It should be '经过努力，他终于解决了难题' or '他终于成功地解决了难题.'"
+  },
+  {
+    "questionText": "以下哪个词语不能用来形容“非常开心”？",
+    "options": [
+      "兴高采烈",
+      "愁眉苦脸",
+      "喜出望外",
+      "手舞足蹈"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "愁眉苦脸 means to look worried or distressed, which is the opposite of开心 (happy)."
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "小明今天穿了一件红色的衣服。",
+      "天上的星星像一颗颗闪亮的宝石。",
+      "小华跑得很快。",
+      "这本书真好看啊！"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "The sentence '天上的星星像一颗颗闪亮的宝石' compares the stars to shining gems using the word '像' (like), which is a simile, a type of metaphor."
+  },
+  {
+    "questionText": "以下哪个词语最适合形容一位非常专心听课的学生？",
+    "options": [
+      "三心二意",
+      "左顾右盼",
+      "聚精会神",
+      "心不在焉"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "聚精会神 means to concentrate one's attention. 三心二意 (fickle), 左顾右盼 (looking around), 心不在焉 (absent-minded) are not suitable for describing a focused student."
+  },
+  {
+    "questionText": "以下哪个句子使用了正确的量词？",
+    "options": [
+      "一粒树",
+      "一道课室",
+      "一片星星",
+      "一轮明月"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "A round bright moon uses the correct measure word. The rest are incorrect (棵树, 间课室, 颗星星)."
+  },
+  {
+    "questionText": "如果你的朋友不小心弄坏了你的玩具，你应该怎么做？",
+    "options": [
+      "大声责骂他",
+      "从此不再理他",
+      "告诉老师",
+      "原谅他，并告诉他以后小心"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "It's best to forgive your friend and tell them to be careful next time. The other options are either too harsh or avoid teaching the friend a lesson."
+  },
+  {
+    "questionText": "以下哪个成语形容做事非常迅速？",
+    "options": [
+      "慢条斯理",
+      "不慌不忙",
+      "雷厉风行",
+      "犹豫不决"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "雷厉风行 (léi lì fēng xíng) describes someone who does things quickly and efficiently. The other options describe slowness or indecision."
+  },
+  {
+    "questionText": "以下哪个词语的意思是“非常开心”？",
+    "options": [
+      "愁眉苦脸",
+      "闷闷不乐",
+      "兴高采烈",
+      "垂头丧气"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "兴高采烈 (xìng gāo cǎi liè) means in high spirits or very happy. The other options describe sadness or unhappiness."
+  },
+  {
+    "questionText": "以下哪个词语与“诚实”的意思相反？",
+    "options": [
+      "正直",
+      "善良",
+      "虚伪",
+      "老实"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "虚伪 (xū wěi) means hypocritical or insincere, which is the opposite of honest. The other words are similar in meaning to 'honest'."
+  },
+  {
+    "questionText": "小明在考试中取得了好成绩，他的父母应该怎么做？",
+    "options": [
+      "责骂他，让他下次更好",
+      "不理他，因为这是他应该做的",
+      "鼓励他，并让他继续努力",
+      "给他很多钱，让他骄傲"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "Parents should encourage their child and motivate them to continue working hard. The other options are negative or promote arrogance."
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星真亮啊！",
+      "他跑得真快！",
+      "他的声音像洪钟一样。",
+      "今天天气真好！"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“他的声音像洪钟一样” uses a simile (比喻), comparing his voice to a loud bell (洪钟)."
+  },
+  {
+    "questionText": "选出正确的词语填空：弟弟（ ）地把地上的垃圾捡起来。",
+    "options": [
+      "慢慢",
+      "轻轻",
+      "连忙",
+      "悄悄"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "连忙 (lián máng) means hurriedly or promptly. It is the most suitable word to describe picking up trash quickly."
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容一位乐于助人的人？",
+    "options": [
+      "自私自利",
+      "冷漠无情",
+      "助人为乐",
+      "斤斤计较"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "助人为乐 (zhù rén wéi lè) means finding joy in helping others, which describes a helpful person. The other options describe selfishness or indifference."
+  },
+  {
+    "questionText": "以下哪个句子使用了正确的量词？",
+    "options": [
+      "我买了一把西瓜。",
+      "弟弟吃了一粒饭。",
+      "树上停着一只鸟。",
+      "妈妈煮了一间汤。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "正确的量词是“只”，用于鸟类。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“非常高兴”？",
+    "options": [
+      "伤心",
+      "难过",
+      "兴高采烈",
+      "生气"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“兴高采烈”形容兴致高，情绪热烈，非常高兴。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "小明跑得很快。",
+      "天上的星星像一颗颗宝石。",
+      "我喜欢吃苹果。",
+      "今天天气真好！"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“天上的星星像一颗颗宝石”将星星比作宝石，使用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "以下哪个词语和“仔细”的意思相反？",
+    "options": [
+      "认真",
+      "马虎",
+      "细心",
+      "小心"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“马虎”形容做事不认真，粗心大意，和“仔细”的意思相反。"
+  },
+  {
+    "questionText": "以下哪个句子是正确的？",
+    "options": [
+      "他昨天去了我学校。",
+      "我昨天学校去了他。",
+      "昨天他去了我的学校。",
+      "学校我的昨天去了他。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "正确的语序是：时间+主语+谓语+宾语，所以“昨天他去了我的学校。”是正确的。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容“声音很大”？",
+    "options": [
+      "细声细语",
+      "鸦雀无声",
+      "震耳欲聋",
+      "轻声细语"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“震耳欲聋”形容声音非常大，几乎要震聋耳朵。"
+  },
+  {
+    "questionText": "选出正确的关联词填空：_______ 明天下雨，_______ 我们就不去动物园了。",
+    "options": [
+      "如果…就…",
+      "因为…所以…",
+      "虽然…但是…",
+      "不但…而且…"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“如果…就…”表示假设关系，如果明天下雨，那么我们就不去动物园了。"
+  },
+  {
+    "questionText": "“亡羊补牢”这个成语的意思是？",
+    "options": [
+      "羊死了才补羊圈",
+      "失去了羊才想起补羊圈",
+      "比喻事情出了差错后，及时想办法补救，可以防止继续受损失。",
+      "羊圈坏了要及时修理"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“亡羊补牢”比喻事情出了差错后，及时想办法补救，可以防止继续受损失。"
+  },
+  {
+    "questionText": "以下哪个词语不是形容颜色的？",
+    "options": [
+      "碧绿",
+      "金黄",
+      "鲜艳",
+      "仔细"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“仔细”形容认真，和颜色无关。"
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "我喜欢吃水果和蔬菜。",
+      "今天天气很晴朗。",
+      "因为我生病了，所以没去上学。",
+      "他不但学习好，而且他很喜欢运动。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“他不但学习好，而且他很喜欢运动。”重复使用了主语“他”，应该改为“他不但学习好，而且很喜欢运动。”"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容一位非常勤奋，每天努力学习的学生？",
+    "options": [
+      "懒惰",
+      "用功",
+      "马虎",
+      "骄傲"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "用功 (yòng gōng) 形容勤奋努力。懒惰 (lǎn duò) 是指不爱劳动，马虎 (mǎ hu) 是指粗心，骄傲 (jiāo ào) 是指自以为了不起。"
+  },
+  {
+    "questionText": "小明不小心把花瓶打碎了，他应该怎么做？",
+    "options": [
+      "逃跑",
+      "隐瞒",
+      "道歉",
+      "责怪别人"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "做错事应该勇敢承担责任，道歉 (dào qiàn) 是正确的做法。逃跑 (táo pǎo) 和隐瞒 (yǐn mán) 是不负责任的行为，责怪别人 (zé guài bié rén) 是推卸责任。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "太阳很大。",
+      "月亮像一个银盘。",
+      "今天很热。",
+      "我喜欢吃苹果。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "比喻 (bǐ yù) 是用一个事物来比作另一个事物。'月亮像一个银盘' 将月亮比作银盘，使用了比喻。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是 '非常高兴' ？",
+    "options": [
+      "伤心",
+      "难过",
+      "兴奋",
+      "生气"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "兴奋 (xīng fèn) 的意思是情绪高涨，非常高兴。伤心 (shāng xīn) 和难过 (nán guò) 是指悲伤，生气 (shēng qì) 是指愤怒。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容雨下得很大？",
+    "options": [
+      "毛毛细雨",
+      "倾盆大雨",
+      "微风细雨",
+      "风和日丽"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "倾盆大雨 (qīng pén dà yǔ) 形容雨下得非常大。毛毛细雨 (máo mao xì yǔ) 和微风细雨 (wēi fēng xì yǔ) 是指小雨，风和日丽 (fēng hé rì lì) 是指天气晴朗。"
+  },
+  {
+    "questionText": "以下哪个句子是正确的？",
+    "options": [
+      "我喜欢吃苹果，也喜欢吃香蕉。",
+      "我喜欢吃苹果、也喜欢吃香蕉。",
+      "我喜欢吃苹果。也喜欢吃香蕉",
+      "我喜欢吃苹果也喜欢吃香蕉。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "正确的句子是 '我喜欢吃苹果，也喜欢吃香蕉。'， 使用逗号分隔两个并列的成分。"
+  },
+  {
+    "questionText": "选出正确的量词： 一（ ）小鸟",
+    "options": [
+      "只",
+      "个",
+      "条",
+      "本"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "小鸟的量词是 '只' (zhī)。例如：一只小鸟。'个' (gè) 通常用于人或物, '条' (tiáo) 通常用于细长的事物, '本' (běn) 通常用于书。"
+  },
+  {
+    "questionText": "以下哪个词语和“热闹”的意思相反？",
+    "options": [
+      "安静",
+      "喧闹",
+      "繁华",
+      "拥挤"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "热闹 (rè nào) 意思是喧哗，人多，气氛活跃。安静 (ān jìng) 意思是平静，没有声音，是反义词。喧闹 (xuān nào)，繁华 (fán huá) 和拥挤 (yōng jǐ) 都与热闹意思相近。"
+  },
+  {
+    "questionText": "“明明_____完成了作业，就出去玩了。”应该填入哪个词？",
+    "options": [
+      "才",
+      "刚",
+      "就",
+      "都"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "这句话的意思是明明一完成作业，马上就出去玩了。 “就” (jiù) 表示紧接着发生。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容非常危险的情况？",
+    "options": [
+      "平安",
+      "安全",
+      "危急",
+      "稳定"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "危急 (wēi jí) 形容情况非常危险，紧急。平安 (píng ān) 和安全 (ān quán) 是指没有危险，稳定 (wěn dìng) 是指稳定，没有变化。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容一位认真听老师讲课的学生？",
+    "options": [
+      "三心二意",
+      "专心致志",
+      "马马虎虎",
+      "心不在焉"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "专心致志 指的是一心一意，集中精神。这个词语最能形容认真听课的学生。"
+  },
+  {
+    "questionText": "小明不小心把花瓶打碎了，他应该怎么做？",
+    "options": [
+      "悄悄藏起来",
+      "责怪小猫",
+      "勇敢地承认错误",
+      "不理不睬"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "诚实是重要的品德。打破花瓶后，应该勇敢承认错误并承担责任。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "他的脸红得像苹果一样。",
+      "小鸟在树上唱歌。",
+      "今天的天气真好！"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "比喻是用相似的事物来描述另一个事物。 \"他的脸红得像苹果一样\" 将脸的颜色比作苹果，使用了比喻。"
+  },
+  {
+    "questionText": "以下哪个成语形容做事非常顺利，毫不费力？",
+    "options": [
+      "画蛇添足",
+      "守株待兔",
+      "水到渠成",
+      "亡羊补牢"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "水到渠成 比喻条件成熟，事情自然会成功，毫不费力。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“非常开心”？",
+    "options": [
+      "愁眉苦脸",
+      "兴高采烈",
+      "闷闷不乐",
+      "垂头丧气"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "兴高采烈 指的是非常高兴，情绪高昂。"
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "我喜欢吃苹果和香蕉。",
+      "今天天气很晴朗。",
+      "他不但学习好，而且身体也健康。",
+      "因为下雨，所以我没去上学。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "应该是 \"因为下雨，所以没去上学。\"，需要添加 \"所以\"。"
+  },
+  {
+    "questionText": "以下哪个词语和“保护”的意思相反？",
+    "options": [
+      "爱护",
+      "摧毁",
+      "维护",
+      "保卫"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "摧毁 的意思是破坏，与 保护 的意思相反。"
+  },
+  {
+    "questionText": "以下哪个句子适合用来形容热闹的场面？",
+    "options": [
+      "鸦雀无声",
+      "门可罗雀",
+      "人山人海",
+      "万籁俱寂"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "人山人海 形容人非常多，场面非常热闹。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容一个人的字写得非常漂亮？",
+    "options": [
+      "龙飞凤舞",
+      "字迹潦草",
+      "笔走龙蛇",
+      "涂涂改改"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "笔走龙蛇 形容书法生动而有气势，笔迹非常漂亮。"
+  },
+  {
+    "questionText": "小华的妈妈生病了，他应该怎么做？",
+    "options": [
+      "继续玩游戏",
+      "帮妈妈做家务",
+      "不理不睬",
+      "大声吵闹"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "妈妈生病时，应该关心照顾妈妈，并帮妈妈做一些力所能及的家务。"
+  },
+  {
+    "questionText": "以下哪个句子中的“望”字，不是“看”的意思？",
+    "options": [
+      "我每天都望向窗外。",
+      "他站在山上，望得很远。",
+      "妈妈希望我考得好成绩。",
+      "我望着天空的星星。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "选项3中，“希望”不是“看”的意思，而是“期望”的意思。 其他选项中的“望”都含有“看”的意思。"
+  },
+  {
+    "questionText": "以下哪个词语搭配是不正确的？",
+    "options": [
+      "提高水平",
+      "培养习惯",
+      "发生事情",
+      "继续努力"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“发生”通常与不好的事情搭配，例如“发生意外”。可以说“发生问题”或“发生事故”，但“发生事情”不如 “发生意外”自然。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "小明的个子很高。",
+      "天上的云像棉花糖一样。",
+      "今天的天气真好啊！",
+      "他跑得很快。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "选项2将天上的云比作棉花糖，使用了“像”这个比喻词，说明云朵看起来软绵绵的，像棉花糖一样。"
+  },
+  {
+    "questionText": "以下哪个词语的意思与“仔细”最接近？",
+    "options": [
+      "马虎",
+      "认真",
+      "马马虎虎",
+      "粗心"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“仔细”是认真、细心的意思。“认真”是“仔细”的近义词。 其他选项都是“不认真”的意思。"
+  },
+  {
+    "questionText": "以下哪个句子是正确的？",
+    "options": [
+      "因为我生病，所以我不去学校。",
+      "虽然我不去学校，因为我生病。",
+      "因为我不去学校，虽然我生病。",
+      "我不去学校，因为虽然我生病。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“因为……所以……”是表示因果关系的关联词。选项1正确表达了因为生病，所以不去学校的原因。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容食物非常美味？",
+    "options": [
+      "津津有味",
+      "粗茶淡饭",
+      "食不下咽",
+      "饥肠辘辘"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“津津有味”形容吃东西时感到非常香甜可口。“粗茶淡饭”指简单的饭食。“食不下咽”指难以下咽。“饥肠辘辘”指肚子饿。"
+  },
+  {
+    "questionText": "选出正确的量词：一（ ）课室",
+    "options": [
+      "间",
+      "座",
+      "个",
+      "所"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "课室是房间，所以用“间”来形容。一间课室。"
+  },
+  {
+    "questionText": "以下哪个句子中的“就”字，表示“仅仅”的意思？",
+    "options": [
+      "我一回家就写作业。",
+      "他就要走了。",
+      "我只有十块钱，就买了这个面包。",
+      "你这样做就对了。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "选项3中的“就”表示“仅仅”、“只”的意思，说明用仅有的十块钱买了面包。 其他选项中的“就”表示“立刻”、“将要”、“便”等意思。"
+  },
+  {
+    "questionText": "以下哪个成语形容非常危险的情况？",
+    "options": [
+      "一帆风顺",
+      "一见如故",
+      "千钧一发",
+      "万事如意"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“千钧一发”形容情况非常危急。“一帆风顺”指非常顺利。“一见如故”指第一次见面就像老朋友一样。“万事如意”指一切顺利。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“自己照顾自己”？",
+    "options": [
+      "自力更生",
+      "自言自语",
+      "自由自在",
+      "自作主张"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“自力更生”的意思是不依赖别人，依靠自己的力量来生活和发展。 其他选项的意思分别是：自己跟自己说话、形容自由舒服、自己决定事情。"
+  },
+  {
+    "questionText": "以下哪个词语最适合用来形容一位非常节俭的人？",
+    "options": [
+      "挥金如土",
+      "一毛不拔",
+      "慷慨解囊",
+      "乐善好施"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "一毛不拔 形容非常吝啬，舍不得花钱。挥金如土 形容花钱大手大脚。慷慨解囊 形容慷慨解囊，帮助别人。乐善好施 形容喜欢做善事。"
+  },
+  {
+    "questionText": "小明不小心把花瓶打碎了，他应该怎么做？",
+    "options": [
+      "逃之夭夭",
+      "若无其事",
+      "勇于承认",
+      "推卸责任"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "勇于承认 是正确的做法，表示承担责任。逃之夭夭 表示逃跑。若无其事 表示假装没发生。推卸责任 表示把责任推给别人。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "他的脸红得像苹果一样。",
+      "今天天气真好啊！",
+      "小鸟在树上唱歌。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "他的脸红得像苹果一样。 将脸红比作苹果，使用了比喻。其他选项没有使用比喻。"
+  },
+  {
+    "questionText": "“亡羊补牢”这个成语告诉我们什么道理？",
+    "options": [
+      "亡羊要及时寻找。",
+      "羊圈一定要坚固。",
+      "出了问题要及时补救，防止再次发生。",
+      "羊很重要，要好好保护。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "亡羊补牢 比喻出了问题后及时补救，以免遭受更大的损失。"
+  },
+  {
+    "questionText": "以下哪个词语和“高兴”的意思最接近？",
+    "options": [
+      "悲伤",
+      "快乐",
+      "愤怒",
+      "平静"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "快乐 和 高兴 的意思最接近，都表示愉快的心情。其他选项意思相反或不相关。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容学习非常认真刻苦？",
+    "options": [
+      "马马虎虎",
+      "一心二用",
+      "废寝忘食",
+      "三天打鱼两天晒网"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "废寝忘食 形容非常专心努力，顾不上睡觉和吃饭。马马虎虎 形容做事不认真。一心二用 形容同时做两件事。三天打鱼两天晒网 形容做事没有恒心。"
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "我喜欢吃苹果和香蕉。",
+      "今天天气很晴朗。",
+      "因为下雨，所以我没去上学。",
+      "他不但学习好，而且不喜欢运动。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "他不但学习好，而且不喜欢运动。 “不但…而且…” 通常连接递进关系，但这里学习好和不喜欢运动之间没有递进关系，应该改为“虽然…但是…” 等转折关系。"
+  },
+  {
+    "questionText": "以下哪个字含有“水”这个部首？",
+    "options": [
+      "火",
+      "山",
+      "河",
+      "田"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "河 字含有“氵” (三点水) 这个部首，与水有关。火，山，田 没有水部首。"
+  },
+  {
+    "questionText": "以下哪个词语是形容声音非常大？",
+    "options": [
+      "鸦雀无声",
+      "窃窃私语",
+      "震耳欲聋",
+      "细声细气"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "震耳欲聋 形容声音非常大，几乎要把耳朵震聋。鸦雀无声 形容非常安静。窃窃私语 形容小声说话。细声细气 形容说话声音很小。"
+  },
+  {
+    "questionText": "如果你的朋友遇到困难，你应该怎么做？",
+    "options": [
+      "袖手旁观",
+      "幸灾乐祸",
+      "拔刀相助",
+      "落井下石"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "拔刀相助 比喻见义勇为，帮助别人。袖手旁观 形容置身事外。幸灾乐祸 形容看到别人倒霉而高兴。落井下石 形容乘人之危。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容“乌云密布，狂风大作”的天气？",
+    "options": [
+      "阳光明媚",
+      "风和日丽",
+      "风雨交加",
+      "万里无云"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“风雨交加”形容又是刮风又是下雨，与“乌云密布，狂风大作”的天气情况相符。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "小明的脸红红的。",
+      "天上的星星像一颗颗宝石。",
+      "今天真热啊！",
+      "他跑得很快。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "比喻是将一件事物比作另一件事物。“天上的星星像一颗颗宝石”将星星比作宝石。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是“非常专心，注意力高度集中”？",
+    "options": [
+      "三心二意",
+      "一心一意",
+      "七上八下",
+      "马马虎虎"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“一心一意”指心思专一，形容非常专心。"
+  },
+  {
+    "questionText": "以下哪个词语与“兴奋”的意思最接近？",
+    "options": [
+      "平静",
+      "激动",
+      "伤心",
+      "难过"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“激动”与“兴奋”都表示情绪激动，兴奋。"
+  },
+  {
+    "questionText": "以下哪个句子中，“望”的意思是“向远处看”？",
+    "options": [
+      "他很失望。",
+      "渴望得到礼物。",
+      "我希望能见到你。",
+      "站在山上，我们可以望见大海。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“站在山上，我们可以望见大海”中的“望”是眺望，向远处看的意思。"
+  },
+  {
+    "questionText": "以下哪个词语的反义词是“仔细”？",
+    "options": [
+      "马虎",
+      "认真",
+      "细心",
+      "周到"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“马虎”是不认真、粗心的意思，与“仔细”意思相反。"
+  },
+  {
+    "questionText": "“明华（ ）学习，每天都认真完成功课。”，括号里应该填入哪个词语最合适？",
+    "options": [
+      "因为",
+      "虽然",
+      "如果",
+      "为了"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“因为”表示原因，明华认真完成功课是因为要好好学习，所以用“因为”最合适。"
+  },
+  {
+    "questionText": "以下哪个句子是正确的？",
+    "options": [
+      "我喜欢吃苹果，和也喜欢吃香蕉。",
+      "我喜欢吃苹果，也喜欢吃香蕉。",
+      "我喜欢吃苹果，还也喜欢吃香蕉。",
+      "我喜欢吃苹果，还喜欢也吃香蕉。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“也”用于并列的句子中，表示同样的情况。正确的句子结构是“我喜欢吃苹果，也喜欢吃香蕉。”"
+  },
+  {
+    "questionText": "以下哪个词语不能用来形容声音很大？",
+    "options": [
+      "震耳欲聋",
+      "鸦雀无声",
+      "响彻云霄",
+      "惊天动地"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“鸦雀无声”形容非常安静，一点声音都没有，与声音大相反。"
+  },
+  {
+    "questionText": "小丽的妈妈很（ ），每天都把家里打扫得干干净净。",
+    "options": [
+      "马虎",
+      "懒惰",
+      "勤劳",
+      "安静"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“勤劳”指辛勤劳动，和小丽的妈妈每天打扫卫生相符。"
+  },
+  {
+    "questionText": "以下哪个句子使用了正确的量词？",
+    "options": [
+      "一头房子",
+      "一间牛",
+      "一辆山",
+      "一座桥"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“座”通常用来形容较大的固定建筑物，例如桥梁。“一座桥”是正确的量词搭配。"
+  },
+  {
+    "questionText": "哪个词语和“仔细”的意思最接近？",
+    "options": [
+      "马虎",
+      "草率",
+      "认真",
+      "随便"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“仔细”的意思是认真、细心。“认真”是四个选项中和“仔细”意思最接近的。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是形容非常危险？",
+    "options": [
+      "一帆风顺",
+      "一见如故",
+      "千钧一发",
+      "万事如意"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“千钧一发”比喻情况非常危急。其他成语的意思分别是：一帆风顺（旅途或工作顺利）、一见如故（初次见面就像老朋友一样）、万事如意（一切事情都顺利）。"
+  },
+  {
+    "questionText": "哪个词语可以用来形容天气非常冷？",
+    "options": [
+      "阳光明媚",
+      "风和日丽",
+      "寒风刺骨",
+      "万里无云"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“寒风刺骨”形容天气非常寒冷，风像针一样刺入皮肤。“阳光明媚”、“风和日丽”和“万里无云”都形容天气好。"
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "我喜欢吃苹果和香蕉。",
+      "今天的天气真晴朗啊！",
+      "他不但学习好，而且身体也很健康。",
+      "因为我昨天生病，所以今天我吃了药。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "句子“因为我昨天生病，所以今天我吃了药。”表达重复。应该说“因为我昨天生病，所以今天吃了药。”或者“因为我昨天生病了，所以今天我吃了药。”"
+  },
+  {
+    "questionText": "“望”字在“盼望”中是什么意思？",
+    "options": [
+      "看",
+      "希望",
+      "拜访",
+      "远方"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "在“盼望”中，“望”的意思是希望，期待。“盼望”就是期望，希望的意思。"
+  },
+  {
+    "questionText": "以下哪个词语不能用来形容高兴的心情？",
+    "options": [
+      "兴高采烈",
+      "愁眉苦脸",
+      "喜出望外",
+      "眉开眼笑"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“愁眉苦脸”形容忧愁的样子，不能用来形容高兴的心情。其他三个词语都表示高兴。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪。",
+      "妹妹像一只快乐的小鸟。",
+      "小明今天很高兴。",
+      "我家有一只小狗。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“妹妹像一只快乐的小鸟。”把妹妹比作小鸟，使用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "以下哪个词语和“安静”是反义词？",
+    "options": [
+      "喧闹",
+      "寂静",
+      "平静",
+      "幽静"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“喧闹”是吵闹的意思，和“安静”意思相反。“寂静”、“平静”和“幽静”都和“安静”意思相近。"
+  },
+  {
+    "questionText": "以下哪个句子表达了“如果…就…”的因果关系？",
+    "options": [
+      "他一边唱歌，一边跳舞。",
+      "因为下雨了，所以我不去公园了。",
+      "虽然他很努力，但是还是失败了。",
+      "他今天既没有吃饭，也没有喝水。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“因为下雨了，所以我不去公园了。”表达了因为下雨这个原因，导致不去公园这个结果，体现了因果关系。 “如果…就…” 和 “因为…所以…” 都可以表达因果关系。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容在炎热的夏天里喝冰水的感觉？",
+    "options": [
+      "寒冷刺骨",
+      "心旷神怡",
+      "热气腾腾",
+      "愁眉苦脸"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "心旷神怡: 形容心情舒畅，精神愉快。在炎热的夏天喝冰水能让人感到心情舒畅。"
+  },
+  {
+    "questionText": "小明不小心把花瓶打碎了，他感到非常（ ）。括号里应该填入哪个词语？",
+    "options": [
+      "得意",
+      "后悔",
+      "兴奋",
+      "骄傲"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "后悔: 因为做错了事或说错了话而懊悔。打碎花瓶后，小明会感到懊悔。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "他跑得像风一样快。",
+      "今天的天气真好啊！",
+      "小猫咪喜欢吃鱼。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "他跑得像风一样快: 将“跑”的速度比作“风”，使用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "选出意思最接近“仔细”的词语。",
+    "options": [
+      "马虎",
+      "认真",
+      "随便",
+      "大概"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "认真: 指严肃对待，不马虎。与“仔细”的意思相近。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是“非常危险”？",
+    "options": [
+      "一帆风顺",
+      "一见钟情",
+      "千钧一发",
+      "万事如意"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "千钧一发: 比喻情况非常危急。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容非常吵闹的声音？",
+    "options": [
+      "鸦雀无声",
+      "震耳欲聋",
+      "细声细语",
+      "轻声慢语"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "震耳欲聋: 形容声音非常大，几乎要震聋耳朵。"
+  },
+  {
+    "questionText": "如果今天下雨，（ ）。",
+    "options": [
+      "我们去游泳。",
+      "我们就去图书馆看书。",
+      "我们去跑步。",
+      "我们去晒太阳。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "我们就去图书馆看书: 下雨天不适合户外活动，去图书馆看书是合适的选择。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“很多人聚在一起”？",
+    "options": [
+      "独自一人",
+      "门可罗雀",
+      "人山人海",
+      "空无一人"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "人山人海: 形容人非常多，像山和海一样。"
+  },
+  {
+    "questionText": "以下哪个句子是正确的？",
+    "options": [
+      "他喜欢吃苹果，还喜欢吃香蕉。",
+      "他喜欢吃苹果，和喜欢吃香蕉。",
+      "他喜欢吃苹果，又喜欢吃香蕉。",
+      "他喜欢吃苹果，很喜欢吃香蕉。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "他喜欢吃苹果，还喜欢吃香蕉: 使用“还”字表示递进关系，句子结构正确。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容一个人的字写得非常漂亮？",
+    "options": [
+      "龙飞凤舞",
+      "鬼画符",
+      "马马虎虎",
+      "歪歪扭扭"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "龙飞凤舞：形容书法笔势生动活泼，也形容书法写得好。 "
+  },
+  {
+    "questionText": "以下哪个词语最适合形容一位非常专注地学习的学生？",
+    "options": [
+      "三心二意",
+      "一心一意",
+      "马马虎虎",
+      "心不在焉"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "一心一意 指的是专心致志，非常适合形容专注学习的学生。三心二意指不专心，马马虎虎指做事不认真，心不在焉指心思不集中。"
+  },
+  {
+    "questionText": "小明不小心把花瓶打破了，妈妈很生气地问他：\"你这样做，真是________！\" 空格里应该填入哪个成语？",
+    "options": [
+      "大快人心",
+      "大失所望",
+      "大功告成",
+      "大惊小怪"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "大失所望 指的是非常失望，妈妈因为花瓶被打破而生气，所以应该填入大失所望。大快人心指坏人受到惩罚，大家感到高兴，大功告成指事情圆满完成，大惊小怪指对不足为奇的事情感到惊讶。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "弟弟的脸红得像苹果一样。",
+      "今天的天气真好啊！",
+      "小鸟在树上唱歌。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "弟弟的脸红得像苹果一样。 使用了“像”字，将弟弟的脸比作苹果，所以是比喻句。 其他选项没有使用比喻的修辞手法。"
+  },
+  {
+    "questionText": "以下哪个词语的意思和“特别”最接近？",
+    "options": [
+      "普通",
+      "一般",
+      "尤其",
+      "平常"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "尤其 指的是特别，更加的意思，所以和“特别”意思最接近。普通、一般、平常 都是指不特别。"
+  },
+  {
+    "questionText": "以下哪个句子是正确的？",
+    "options": [
+      "我昨天吃了三个苹果，非常饱满了。",
+      "今天的天气晴朗，适合去郊游很。",
+      "他是一个很聪明的学生，学习很认真。",
+      "小猫喜欢吃鱼，它很可爱了。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "他是一个很聪明的学生，学习很认真。 句子结构完整，表达流畅。其他选项都有语病，例如“饱满了”不适合形容吃东西后的状态，“适合去郊游很”缺少连词，“很可爱了”表达不自然。"
+  },
+  {
+    "questionText": "以下哪个成语形容非常危险的情况？",
+    "options": [
+      "一帆风顺",
+      "万事如意",
+      "千钧一发",
+      "心想事成"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "千钧一发 形容极其危险的情况，就像千钧的重量系在一根头发上一样。一帆风顺指非常顺利，万事如意和心想事成指一切都如愿以偿。"
+  },
+  {
+    "questionText": "以下哪个词语和“热闹”的意思相反？",
+    "options": [
+      "喧闹",
+      "安静",
+      "繁华",
+      "拥挤"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "安静 和热闹的意思相反。喧闹指吵闹，繁华指繁荣热闹，拥挤指人或东西很多很挤。"
+  },
+  {
+    "questionText": "以下哪个句子使用了拟人的修辞手法？",
+    "options": [
+      "小草绿油油的。",
+      "风轻轻地吹着树叶。",
+      "月亮像一个银盘。",
+      "太阳公公笑眯眯地看着我们。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "太阳公公笑眯眯地看着我们。 将太阳比作人，说它笑眯眯地看着我们，所以是拟人句。其他选项没有将事物人格化。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容一个人的字写得非常漂亮？",
+    "options": [
+      "龙飞凤舞",
+      "字迹潦草",
+      "笔走龙蛇",
+      "马马虎虎"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "笔走龙蛇 形容书法生动而有气势，可以用来形容字写得非常漂亮。龙飞凤舞 指书法笔势活泼，字迹潦草指字写得很乱，马马虎虎指做事不认真。"
+  },
+  {
+    "questionText": "根据以下信息，选择正确的结论：小华比小丽高，小明比小华矮。",
+    "options": [
+      "小丽最高",
+      "小明最高",
+      "小华最高",
+      "小丽比小明高"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "根据题意，小华比小丽高，小明比小华矮，所以小华是最高的，小丽比小明高。"
+  },
+  {
+    "questionText": "以下哪个句子使用了正确的量词？",
+    "options": [
+      "我吃了一张饭。",
+      "地上有一条水。",
+      "姐姐买了一件衣服。",
+      "树上有一只花。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“件”是衣服的量词。一张是形容纸或者脸，一条是形容细长的东西，一只多用于动物。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“非常着急”？",
+    "options": [
+      "慢吞吞",
+      "心急如焚",
+      "不慌不忙",
+      "无精打采"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "心急如焚形容心里非常着急，像火烧一样。慢吞吞是很慢的意思，不慌不忙是不着急，无精打采是没有精神。"
+  },
+  {
+    "questionText": "以下哪个句子是比喻句？",
+    "options": [
+      "小明在学校里读书。",
+      "天上的星星像一颗颗宝石。",
+      "我喜欢吃苹果。",
+      "今天天气真好！"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "比喻句是用一个事物来比喻另一个事物，句子中用了“像”，将星星比喻成宝石。"
+  },
+  {
+    "questionText": "以下哪个词语和“热闹”的意思相反？",
+    "options": [
+      "安静",
+      "喧闹",
+      "开心",
+      "拥挤"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "热闹的反义词是安静。喧闹是热闹的近义词，开心是快乐，拥挤是人很多。"
+  },
+  {
+    "questionText": "“他（ ）生病了，（ ）没有来上学。”应该填入什么关联词？",
+    "options": [
+      "因为…所以…",
+      "虽然…但是…",
+      "如果…就…",
+      "一边…一边…"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "因为生病是原因，没有来上学是结果，所以应该用“因为…所以…”。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“仔细地看”？",
+    "options": [
+      "观看",
+      "张望",
+      "注视",
+      "浏览"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "注视是指集中注意力仔细地看。观看是看，张望是向四周看，浏览是粗略地看。"
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "我喜欢吃水果和蔬菜。",
+      "今天的天气很晴朗。",
+      "他跑得很快，像一支箭。",
+      "我把昨天买了新书。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“我把昨天买了新书。”应该改为“我昨天买了新书。”或者“我把新书买了。”"
+  },
+  {
+    "questionText": "以下哪个词语适合形容“非常伤心”？",
+    "options": [
+      "兴高采烈",
+      "愁眉苦脸",
+      "眉开眼笑",
+      "手舞足蹈"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "愁眉苦脸形容非常伤心，难过的样子。兴高采烈是高兴，眉开眼笑是高兴，手舞足蹈是高兴。"
+  },
+  {
+    "questionText": "选出正确的词语填空：公园里的花朵（ ）盛开了。",
+    "options": [
+      "渐渐地",
+      "慢慢地",
+      "轻轻地",
+      "静静地"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "渐渐地表示随着时间的推移，花朵逐渐开放。慢慢地表示速度慢，轻轻地表示动作轻，静静地表示安静。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是“帮助别人做好事不求回报”？",
+    "options": [
+      "助人为乐",
+      "拔苗助长",
+      "守株待兔",
+      "画蛇添足"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "助人为乐的意思是帮助别人就是快乐。拔苗助长是比喻用不恰当的方法反而把事情弄坏。守株待兔是比喻不主动努力，希望得到意外的收获。画蛇添足是比喻多此一举，反而坏事。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容一位非常勇敢，不怕困难的人？",
+    "options": [
+      "胆小如鼠",
+      "勇往直前",
+      "畏首畏尾",
+      "垂头丧气"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "勇往直前 (yǒng wǎng zhí qián) 形容勇敢地向前进，不怕困难。胆小如鼠是形容非常胆小，畏首畏尾是形容犹豫不决，垂头丧气是形容情绪低落。"
+  },
+  {
+    "questionText": "如果你的朋友考试不及格，感到非常难过，你应该怎么做？",
+    "options": [
+      "嘲笑他",
+      "安慰他并鼓励他下次努力",
+      "不理他",
+      "告诉老师"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "安慰他并鼓励他下次努力 (ān wèi tā bìng gǔ lì tā xià cì nǔ lì) 是最合适的做法。嘲笑和不理睬会伤害朋友的感情，告诉老师不是解决问题的最佳方法。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "小明跑得很快。",
+      "月亮像一个银盘。",
+      "今天的天气真好！",
+      "我喜欢吃苹果。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "月亮像一个银盘 (yuè liàng xiàng yī gè yín pán) 使用了比喻的修辞手法，将月亮比作银盘。其他句子没有使用比喻。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“仔细地看”？",
+    "options": [
+      "浏览",
+      "观察",
+      "阅读",
+      "观看"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "观察 (guān chá) 指仔细地看，以便了解情况。浏览是粗略地看，阅读是看书，观看是看表演或比赛。"
+  },
+  {
+    "questionText": "以下哪个句子是正确的？",
+    "options": [
+      "他高兴地跳起来了。",
+      "他高兴地跳起来了了。",
+      "他高兴的跳起来了。",
+      "他很高兴跳起来了。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "他高兴地跳起来了 (tā gāo xìng de tiào qǐ lái le) 是正确的句子。“地”用在形容词后，修饰动词。"
+  },
+  {
+    "questionText": "如果小华打破了花瓶，他应该怎么做？",
+    "options": [
+      "偷偷地藏起来",
+      "假装没看见",
+      "勇敢地承认错误并道歉",
+      "责怪别人"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "勇敢地承认错误并道歉 (yǒng gǎn de chéng rèn cuò wù bìng dào qiàn) 是正确的做法。其他选项都是不诚实的行为。"
+  },
+  {
+    "questionText": "以下哪个词语和“寒冷”的意思最接近？",
+    "options": [
+      "温暖",
+      "炎热",
+      "凉爽",
+      "冰冷"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "冰冷 (bīng lěng) 和寒冷的意思最接近。温暖和炎热是反义词，凉爽比寒冷程度轻。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是“非常专心，注意力集中”？",
+    "options": [
+      "三心二意",
+      "一心一意",
+      "东张西望",
+      "心不在焉"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "一心一意 (yī xīn yī yì) 的意思是专心致志，注意力集中。三心二意是形容不专心，东张西望是到处看，心不在焉是心思不集中。"
+  },
+  {
+    "questionText": "以下哪个句子表达了礼貌的请求？",
+    "options": [
+      "给我一杯水。",
+      "我要一杯水。",
+      "请给我一杯水。",
+      "倒一杯水。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "请给我一杯水 (qǐng gěi wǒ yī bēi shuǐ) 表达了礼貌的请求。加上“请”字表示礼貌。"
+  },
+  {
+    "questionText": "以下哪个词语适合形容雨后美丽的彩虹？",
+    "options": [
+      "五颜六色",
+      "黑白分明",
+      "单调乏味",
+      "黯淡无光"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "五颜六色 (wǔ yán liù sè) 形容色彩丰富，适合形容彩虹。黑白分明指颜色只有黑和白，单调乏味指缺乏变化，黯淡无光指没有光彩。"
+  },
+  {
+    "questionText": "以下哪个词语最适合用来形容一位非常专注地读书的孩子？",
+    "options": [
+      "三心二意",
+      "一心一意",
+      "心不在焉",
+      "左顾右盼"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "一心一意 指专心致志，非常适合形容专注读书的孩子。三心二意指不专心，心不在焉指心思不集中，左顾右盼指东张西望。"
+  },
+  {
+    "questionText": "小明（ ）地走到奶奶身边，把刚买的礼物送给她。",
+    "options": [
+      "快乐",
+      "兴奋",
+      "匆忙",
+      "亲切"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "亲切 指亲近而友善，更符合描述小明对待奶奶的态度。快乐、兴奋虽然可以是心情，但和奶奶的关系用亲切更合适。匆忙则表示动作很快，不一定包含情感。"
+  },
+  {
+    "questionText": "以下哪个句子中“热闹”用得不恰当？",
+    "options": [
+      "春节的时候，牛车水非常热闹。",
+      "运动会上，同学们为运动员们加油，场面十分热闹。",
+      "他生病了，家里显得十分热闹。",
+      "庙会上的表演非常热闹。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "热闹 指场面活跃，气氛活跃。生病的时候，家里通常是安静的，不适合用热闹来形容。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是“经历了很多困难”？",
+    "options": [
+      "一帆风顺",
+      "千辛万苦",
+      "马到成功",
+      "半途而废"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "千辛万苦 指经历了很多艰难困苦。一帆风顺指非常顺利，马到成功指一做就成功，半途而废指做事没有坚持到最后。"
+  },
+  {
+    "questionText": "选出正确的量词：一（ ）鲜花",
+    "options": [
+      "朵",
+      "束",
+      "个",
+      "棵"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "鲜花通常用“束”来量，例如：一束鲜花。“朵”通常指单朵花，例如：一朵玫瑰花。“个”和“棵”一般不用于鲜花。"
+  },
+  {
+    "questionText": "以下哪个词语和“仔细”的意思最接近？",
+    "options": [
+      "马虎",
+      "认真",
+      "草率",
+      "马马虎虎"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "认真 指做事仔细，不马虎，和“仔细”的意思最接近。马虎、草率、马马虎虎 都是指不认真，粗心大意。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "弟弟长得真像爸爸。",
+      "弯弯的月亮像小船。",
+      "今天的天气真好啊！"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "弯弯的月亮像小船 将月亮比作小船，使用了比喻的修辞手法。其他选项没有明显的比喻。"
+  },
+  {
+    "questionText": "以下哪个词语的搭配是不正确的？",
+    "options": [
+      "提高成绩",
+      "保持干净",
+      "发生事情",
+      "改进错误"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "通常说“发生事故”或者“发生意外”，而“发生事情”的说法不太常见。提高成绩，保持干净，改进错误都是常见的搭配。"
+  },
+  {
+    "questionText": "老师（ ）我们上课要专心听讲。",
+    "options": [
+      "希望",
+      "巴望",
+      "盼望",
+      "期望"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "希望 指心中所想达到的目的。在此句中，老师表达了对学生上课专心听讲的愿望，因此“希望”最合适。巴望、盼望 多用于期待较远的事情，期望 通常带有较重的期盼感。"
+  },
+  {
+    "questionText": "“虽然...但是...”应该填入哪个句子中？ “（ ）今天下雨了，（ ）我们还是要去动物园。”",
+    "options": [
+      "因为...所以...",
+      "如果...就...",
+      "虽然...但是...",
+      "不但...而且..."
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“虽然...但是...”表示转折关系，表示即使下雨，仍然要去动物园。“因为...所以...”表示因果关系，“如果...就...”表示假设关系，“不但...而且...”表示递进关系。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容一位认真学习的学生？",
+    "options": [
+      "马马虎虎",
+      "三心二意",
+      "专心致志",
+      "敷衍了事"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "专心致志 (zhuān xīn zhì zhì) 指的是一心一意，聚精会神，非常适合形容认真学习的学生。其他选项都是负面词汇。"
+  },
+  {
+    "questionText": "以下哪个句子使用了正确的量词？",
+    "options": [
+      "一辆星星",
+      "一条房子",
+      "一间小河",
+      "一颗珍珠"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "一颗 (yì kē) 是用于小而圆的物体的量词，例如珍珠。其他选项的量词使用不正确。星星应该用“颗”或者“粒”，房子用“座”或者“间”，小河用“条”。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是“比喻力量虽小，也能发挥作用”？",
+    "options": [
+      "杯水车薪",
+      "九牛一毛",
+      "聚沙成塔",
+      "画蛇添足"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "聚沙成塔 (jù shā chéng tǎ) 比喻积少成多，力量虽小，也能发挥作用。杯水车薪比喻力量太小，无济于事；九牛一毛比喻极其微小，无关紧要；画蛇添足比喻多此一举，反而坏事。"
+  },
+  {
+    "questionText": "如果“突然”的反义词是“渐渐”，那么“痛苦”的反义词是什么？",
+    "options": [
+      "快乐",
+      "伤心",
+      "难过",
+      "悲伤"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "痛苦 (tòng kǔ) 的反义词是快乐 (kuài lè)。 伤心、难过和悲伤都是痛苦的近义词。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容热闹的场面？",
+    "options": [
+      "冷冷清清",
+      "门可罗雀",
+      "人山人海",
+      "鸦雀无声"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "人山人海 (rén shān rén hǎi) 形容人非常多，场面非常热闹。冷冷清清和门可罗雀形容冷清的场面，鸦雀无声形容非常安静。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "今天天气真好！",
+      "他跑得真快！",
+      "月亮像一个银盘。",
+      "你喜欢吃苹果吗？"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "月亮像一个银盘。 (yuè liàng xiàng yī gè yín pán) 将月亮比作银盘，使用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "以下哪个词语的读音是正确的？",
+    "options": [
+      "睡觉 (shuì jiào)",
+      "高兴 (gāo xīng)",
+      "朋友 (péng you)",
+      "跑步 (páo bù)"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "睡觉 (shuì jiào) 的读音是正确的。 高兴 (gāo xìng)，跑步 (pǎo bù)。"
+  },
+  {
+    "questionText": "以下哪个句子表达了“后悔”的意思？",
+    "options": [
+      "亡羊补牢，为时未晚",
+      "机不可失，失不再来",
+      "早知今日，何必当初",
+      "三人行，必有我师焉"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "早知今日，何必当初 (zǎo zhī jīn rì, hé bì dāng chū) 表示如果早知道今天的结果，当初就不应该那样做，表达了后悔的意思。"
+  },
+  {
+    "questionText": "根据“先苦后甜”的意思，以下哪个故事最符合？",
+    "options": [
+      "拔苗助长",
+      "铁杵成针",
+      "守株待兔",
+      "叶公好龙"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "铁杵成针 (tiě chǔ chéng zhēn) 比喻只要有决心，肯下功夫，就能把困难的事情做成功，符合“先苦后甜”的含义。"
+  },
+  {
+    "questionText": "如果“明亮”可以替换成“光亮”，那么哪个词语可以替换“希望”？",
+    "options": [
+      "失望",
+      "期望",
+      "绝望",
+      "愿望"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "愿望 (yuàn wàng) 可以替换“希望 (xī wàng)”。它们是近义词。失望、绝望和期望，意思不相近。"
+  },
+  {
+    "questionText": "以下哪个句子使用了正确的量词？",
+    "options": [
+      "我买了一粒书。",
+      "我喝了一杯面包。",
+      "我吃了一片苹果。",
+      "我看到一头房子。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“片” 通常用来形容薄片状的东西，例如苹果片。"
+  },
+  {
+    "questionText": "哪个词语的意思和“立刻”最接近？",
+    "options": [
+      "慢慢地",
+      "赶紧",
+      "一会儿",
+      "总是"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“赶紧”表示抓紧时间，立即行动，和“立刻”意思相近。"
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "今天天气真好，我们去公园玩吧。",
+      "因为他生病了，所以没有来上课。",
+      "我喜欢吃苹果和香蕉或者橙子。",
+      "听了妈妈的话，我心里很高兴。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“苹果和香蕉或者橙子” 表达逻辑不清晰，不能同时选择“和”和“或者”。应改为“苹果、香蕉或橙子”。"
+  },
+  {
+    "questionText": "如果“小明”不小心把花瓶打碎了，他应该怎么做？",
+    "options": [
+      "责怪他的朋友",
+      "悄悄地把碎片藏起来",
+      "勇敢地告诉妈妈，并道歉",
+      "假装什么都没发生"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "诚实和承担责任是正确的做法。应该告诉妈妈并道歉。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容非常吵闹？",
+    "options": [
+      "静悄悄",
+      "鸦雀无声",
+      "震耳欲聋",
+      "轻声细语"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“震耳欲聋” 形容声音非常大，几乎要震聋耳朵。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的月亮圆圆的。",
+      "他跑得很快。",
+      "他的脸红得像苹果一样。",
+      "今天真热啊！"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "把脸红的程度比作苹果的颜色，使用了比喻。"
+  },
+  {
+    "questionText": "选出和“勤劳”意思相反的词语。",
+    "options": [
+      "努力",
+      "懒惰",
+      "认真",
+      "积极"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“懒惰” 指的是不爱劳动，和 “勤劳” 的意思相反。"
+  },
+  {
+    "questionText": "以下哪个成语形容非常危险的情况？",
+    "options": [
+      "一帆风顺",
+      "一见钟情",
+      "千钧一发",
+      "万事如意"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“千钧一发” 比喻情况非常危急。"
+  },
+  {
+    "questionText": "如果你的朋友考试考差了，你应该怎么做？",
+    "options": [
+      "嘲笑他",
+      "告诉他没关系，下次努力",
+      "不理他",
+      "告诉他他很笨"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "应该鼓励朋友，让他下次更加努力。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容清澈的湖水？",
+    "options": [
+      "浑浊",
+      "平静",
+      "波涛汹涌",
+      "清澈见底"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“清澈见底” 形容水非常清澈，可以看到底部。"
+  },
+  {
+    "questionText": "以下哪个句子中的“望”字，意思与其他三个不同？",
+    "options": [
+      "我每天都盼望新年快点到来。",
+      "他站在山顶上，望着远方的风景。",
+      "妈妈希望我能考到好成绩。",
+      "奶奶年纪大了，眼睛不好，需要用望远镜才能看清楚。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "选项B的“望”是“看”的意思，而其他选项的“望”都是“希望”或“盼望”的意思。"
+  },
+  {
+    "questionText": "以下哪个句子使用了错误的量词？",
+    "options": [
+      "我买了一件新衣服。",
+      "树上停着一群小鸟。",
+      "妈妈煮了一道美味的菜。",
+      "弟弟吃了一张面包。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "面包的量词应该是“片”，“一张面包”应该改为“一片面包”。"
+  },
+  {
+    "questionText": "以下哪个词语最适合用来形容一个非常吵闹的地方？",
+    "options": [
+      "鸦雀无声",
+      "门可罗雀",
+      "人山人海",
+      "人声鼎沸"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“人声鼎沸”形容人声喧闹，像水在鼎里沸腾一样。 “鸦雀无声”形容非常安静。“门可罗雀”形容门庭冷落，没有人来。“人山人海”形容人很多。"
+  },
+  {
+    "questionText": "以下哪个句子表达的意思最强烈？",
+    "options": [
+      "我喜欢吃水果。",
+      "我很喜欢吃水果。",
+      "我非常喜欢吃水果。",
+      "我简直太喜欢吃水果了！"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“简直太喜欢...了！”表示程度最深，表达的意思最强烈。"
+  },
+  {
+    "questionText": "以下哪个词语和“仔细”的意思最相近？",
+    "options": [
+      "马虎",
+      "认真",
+      "马马虎虎",
+      "草率"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“仔细”和“认真”都是指做事细心，不马虎。 “马虎”、“马马虎虎”和“草率”是“仔细”的反义词。"
+  },
+  {
+    "questionText": "以下哪个句子没有语病？",
+    "options": [
+      "因为他努力学习，所以考得好成绩。",
+      "因为他努力学习，因此他考得好成绩。",
+      "因为他努力学习，但是考得好成绩。",
+      "虽然他努力学习，所以考得好成绩。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“因为...，所以...”和“因为...，因此...”是正确的关联词搭配。“因为...，但是...”和“虽然...，所以...”搭配不正确。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是“比喻事情非常容易做到”？",
+    "options": [
+      "难如登天",
+      "易如反掌",
+      "水滴石穿",
+      "亡羊补牢"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“易如反掌”比喻事情非常容易做到。“难如登天”形容非常困难。“水滴石穿”比喻只要有恒心，就能成功。“亡羊补牢”比喻出了问题及时补救。"
+  },
+  {
+    "questionText": "以下哪个句子中“骄傲”一词的用法不恰当？",
+    "options": [
+      "他取得了好成绩，脸上露出了骄傲的笑容。",
+      "小明是一个非常骄傲的人，总是看不起别人。",
+      "这座高大的建筑物是这个城市的骄傲。",
+      "我们不应该因为取得一点成绩就骄傲自满。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "选项A中，取得好成绩露出笑容可以用“自豪”或“高兴”，用“骄傲”略有不妥，因为“骄傲”有时含有自满，看不起别人的意味。"
+  },
+  {
+    "questionText": "以下哪个句子最适合描写秋天的景色？",
+    "options": [
+      "绿树成荫，鸟语花香。",
+      "寒风呼啸，大雪纷飞。",
+      "春光明媚，万物复苏。",
+      "秋高气爽，落叶纷飞。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“秋高气爽，落叶纷飞”是秋天典型的景色描述。"
+  },
+  {
+    "questionText": "选出与“慷慨”意思相反的词语。",
+    "options": [
+      "大方",
+      "吝啬",
+      "热情",
+      "开朗"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“慷慨”是很大方的意思，“吝啬”是很小气，舍不得的意思，所以是反义词。"
+  },
+  {
+    "questionText": "以下哪个句子使用了正确的量词？",
+    "options": [
+      "一辆花",
+      "一朵车",
+      "一棵树",
+      "一只椅子"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“棵”通常用于树木。其他选项的量词搭配不正确。"
+  },
+  {
+    "questionText": "以下哪个词语的意思与“快乐”最相近？",
+    "options": [
+      "伤心",
+      "高兴",
+      "生气",
+      "害怕"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“高兴”和“快乐”都表示心情愉悦。"
+  },
+  {
+    "questionText": "以下哪个句子是完整的？",
+    "options": [
+      "小明在。",
+      "小明跑。",
+      "小明读书。",
+      "小明一个。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“小明读书”包含主语和谓语，表达了完整的意思。"
+  },
+  {
+    "questionText": "以下哪个词语是形容颜色的？",
+    "options": [
+      "跑",
+      "跳",
+      "红",
+      "吃"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“红”是用来形容颜色的词语。"
+  },
+  {
+    "questionText": "以下哪个句子中“的”用法正确？",
+    "options": [
+      "我的书包的",
+      "他的妈妈的",
+      "高兴的的",
+      "漂亮的衣服"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“漂亮的衣服”中“的”连接形容词和名词，表示修饰关系。"
+  },
+  {
+    "questionText": "以下哪个词语是关于天气的？",
+    "options": [
+      "桌子",
+      "椅子",
+      "下雨",
+      "苹果"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“下雨”是描述天气现象的词语。"
+  },
+  {
+    "questionText": "选出正确的反义词：仔细",
+    "options": [
+      "认真",
+      "马虎",
+      "小心",
+      "细心"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“仔细”的反义词是“马虎”，表示不认真。"
+  },
+  {
+    "questionText": "以下哪个词语与“医生”有关？",
+    "options": [
+      "老师",
+      "病人",
+      "学生",
+      "司机"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“病人”是医生治疗的对象，与医生相关。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "小明很高兴。",
+      "月亮像一个银盘。",
+      "今天天气很好。",
+      "小狗在跑。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“月亮像一个银盘”将月亮比作银盘，使用了比喻。"
+  },
+  {
+    "questionText": "以下哪个词语不能和“一起”搭配？",
+    "options": [
+      "玩",
+      "学习",
+      "睡觉",
+      "美丽"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“美丽”是形容词，不能和“一起”搭配。其他选项都可以搭配表示共同做某事。"
+  },
+  {
+    "questionText": "以下哪个句子中的“便”字用法与其他三个不同？",
+    "options": [
+      "他一生气，便不理人了。",
+      "我一写完功课，便去看电视。",
+      "这家商店很方便，就在我家附近。",
+      "奶奶一吃完饭，便去公园散步。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "选项A、B和D中的“便”表示“就”，而选项C中的“便”表示“便利、方便”。"
+  },
+  {
+    "questionText": "以下哪个词语最适合用来形容图画中的小猫非常可爱？",
+    "options": [
+      "凶猛",
+      "笨重",
+      "娇小",
+      "巨大"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "选项C“娇小”形容小巧可爱，最适合形容可爱的小猫。其他选项不符合。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "弟弟的脸红得像苹果一样。",
+      "今天的天气真好啊！",
+      "小丽跑得很快。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "选项B将弟弟的脸红比作苹果，使用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "以下哪个句子是正确的？",
+    "options": [
+      "我喜欢吃苹果，还喜欢吃香蕉也是。",
+      "我喜欢吃苹果，也喜欢吃香蕉。",
+      "我喜欢吃苹果，和喜欢吃香蕉。",
+      "我喜欢吃苹果，或者喜欢吃香蕉。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "选项B的句子结构最完整，表达“也”表示并列关系。"
+  },
+  {
+    "questionText": "“明亮的月光照在平静的湖面上”，这句话中哪个词语用得不恰当？",
+    "options": [
+      "明亮",
+      "平静",
+      "照",
+      "的"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“的”在这里没有实际意义，可以省略。"
+  },
+  {
+    "questionText": "以下哪个词语的意思与“焦急”最接近？",
+    "options": [
+      "高兴",
+      "着急",
+      "冷静",
+      "轻松"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“焦急”和“着急”都表示心里不安，非常渴望。"
+  },
+  {
+    "questionText": "以下哪个词语不能用来形容“声音”？",
+    "options": [
+      "悦耳",
+      "刺耳",
+      "香甜",
+      "响亮"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“香甜”通常用来形容味道，不能用来形容声音。"
+  },
+  {
+    "questionText": "以下哪个句子表达的意思与其他三个不同？",
+    "options": [
+      "这本书真好看啊！",
+      "这本书很有趣。",
+      "这本书太无聊了！",
+      "这本书很吸引人。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "选项A、B和D都表达了对书的正面评价，而选项C表达了负面评价。"
+  },
+  {
+    "questionText": "以下哪个句子中，“虽然…但是…”的用法是正确的？",
+    "options": [
+      "虽然我喜欢吃苹果，但是不喜欢吃香蕉。",
+      "虽然我喜欢吃苹果，因为不喜欢吃香蕉。",
+      "虽然我喜欢吃苹果，所以不喜欢吃香蕉。",
+      "虽然我喜欢吃苹果，不喜欢吃香蕉。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“虽然…但是…”表示转折关系。选项A正确地使用了这个关联词语。"
+  },
+  {
+    "questionText": "选出最合适的词语填空：弟弟（ ）地把礼物藏了起来。",
+    "options": [
+      "慢慢",
+      "轻轻",
+      "偷偷",
+      "高高"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“偷偷”表示不让别人知道，最符合语境，说明弟弟是私下藏礼物的。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容一位认真听老师讲课的学生？",
+    "options": [
+      "三心二意",
+      "专心致志",
+      "马马虎虎",
+      "心不在焉"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "专心致志 (zhuān xīn zhì zhì) 形容一心一意，精神集中。形容认真听讲最合适。"
+  },
+  {
+    "questionText": "如果今天下很大的雨，出门应该怎么做？",
+    "options": [
+      "穿短袖出门",
+      "带雨伞或穿雨衣",
+      "在外面玩水",
+      "不告诉父母就出门"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "下大雨时，为了不被雨淋湿，应该带雨伞或者穿雨衣。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "小明很开心。",
+      "天上的云像棉花糖。",
+      "我喜欢吃苹果。",
+      "今天天气真好。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "比喻是把一样事物比作另一样事物。 “天上的云像棉花糖” 将云比作棉花糖。"
+  },
+  {
+    "questionText": "选出正确的量词：一（ ）小鸟",
+    "options": [
+      "只",
+      "个",
+      "条",
+      "件"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "小鸟的量词是“只”。 一只小鸟。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“非常高兴”？",
+    "options": [
+      "伤心",
+      "难过",
+      "兴高采烈",
+      "生气"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "兴高采烈 (xìng gāo cǎi liè) 形容非常高兴。"
+  },
+  {
+    "questionText": "选出正确的句子：",
+    "options": [
+      "他快乐地上学去了。",
+      "他快地上学去了。",
+      "他很地上学去了。",
+      "他跑地上学去了。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "副词“快乐地”修饰动词“上学”，表达开心的状态。"
+  },
+  {
+    "questionText": "以下哪个词语和“寒冷”的意思相反？",
+    "options": [
+      "炎热",
+      "凉爽",
+      "温暖",
+      "冰冷"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "寒冷的反义词是温暖。寒冷是指温度低，温暖是指温度适宜。"
+  },
+  {
+    "questionText": "选出正确的句子：",
+    "options": [
+      "我们应该保护环境，不然会影响我们的生活。",
+      "我们应该保护环境，反而会影响我们的生活。",
+      "我们应该保护环境，然后会影响我们的生活。",
+      "我们应该保护环境，因为会影响我们的生活。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“不然”表示如果不这样做，就会产生某种后果。符合句意。"
+  },
+  {
+    "questionText": "小明（ ）地完成了作业。",
+    "options": [
+      "慢慢",
+      "慢慢儿",
+      "慢慢地",
+      "慢地"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "副词修饰动词时，通常用“...地”的结构。 例如： 慢慢地走, 认真地听."
+  },
+  {
+    "questionText": "以下哪个成语形容做事不认真，敷衍了事？",
+    "options": [
+      "一丝不苟",
+      "脚踏实地",
+      "敷衍塞责",
+      "身体力行"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "敷衍塞责 (fū yǎn sè zé) 形容做事不认真，只是表面应付。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容小明帮助老奶奶过马路的行为？",
+    "options": [
+      "A. 勇敢 (yǒng gǎn)",
+      "B. 善良 (shàn liáng)",
+      "C. 勤劳 (qín láo)",
+      "D. 诚实 (chéng shí)"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "善良 (shàn liáng) 最适合形容帮助别人的行为，表示心地好。"
+  },
+  {
+    "questionText": "“他_______地把地上的垃圾捡起来。” 空格里应该填入哪个词语？",
+    "options": [
+      "A. 慢慢 (màn màn)",
+      "B. 连忙 (lián máng)",
+      "C. 悄悄 (qiāo qiāo)",
+      "D. 经常 (jīng cháng)"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "连忙 (lián máng) 表示赶紧、立刻的意思，形容迅速捡起垃圾的动作。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "A. 天上的星星一闪一闪的。",
+      "B. 弟弟的脸像红苹果一样。",
+      "C. 小鸟在树上唱歌。",
+      "D. 我喜欢吃冰淇淋。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "B 使用了“像”字，把弟弟的脸比作红苹果，是比喻的修辞手法。"
+  },
+  {
+    "questionText": "“虽然天气很热，_______大家都坚持训练。” 空格里应该填入哪个词语？",
+    "options": [
+      "A. 但是 (dàn shì)",
+      "B. 所以 (suǒ yǐ)",
+      "C. 因为 (yīn wèi)",
+      "D. 如果 (rú guǒ)"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "虽然 (suī rán) 和 但是 (dàn shì) 通常搭配使用，表示转折关系。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“非常开心”？",
+    "options": [
+      "A. 难过 (nán guò)",
+      "B. 兴奋 (xīng fèn)",
+      "C. 害怕 (hài pà)",
+      "D. 生气 (shēng qì)"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "兴奋 (xīng fèn) 表示激动、开心，是“非常开心”的意思。"
+  },
+  {
+    "questionText": "“小华的成绩很好，同学们都_______他学习。” 空格里应该填入哪个词语？",
+    "options": [
+      "A. 讨厌 (tǎo yàn)",
+      "B. 羡慕 (xiàn mù)",
+      "C. 批评 (pī píng)",
+      "D. 帮助 (bāng zhù)"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "羡慕 (xiàn mù) 表示看到别人有好的东西，希望自己也有，适合形容同学们对小华成绩好的感受。"
+  },
+  {
+    "questionText": "以下哪个句子是正确的？",
+    "options": [
+      "A. 我吃了苹果一个。",
+      "B. 一个苹果我吃了。",
+      "C. 我吃了一个苹果。",
+      "D. 苹果我吃了一个。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "C 是正确的语序，符合中文的表达习惯。“我吃了一个苹果。”"
+  },
+  {
+    "questionText": "以下哪个词语不是表示颜色的？",
+    "options": [
+      "A. 红色 (hóng sè)",
+      "B. 白色 (bái sè)",
+      "C. 快乐 (kuài lè)",
+      "D. 绿色 (lǜ sè)"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "快乐 (kuài lè) 表示心情，不是颜色。"
+  },
+  {
+    "questionText": "“他的房间_______得很干净。” 空格里应该填入哪个词语？",
+    "options": [
+      "A. 整理 (zhěng lǐ)",
+      "B. 整理了 (zhěng lǐ le)",
+      "C. 整理得 (zhěng lǐ dé)",
+      "D. 整理地 (zhěng lǐ de)"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "整理得 (zhěng lǐ dé) 表示整理的结果，与“干净”相呼应。"
+  },
+  {
+    "questionText": "以下哪个词语和“热闹 (rè nào)”的意思相反？",
+    "options": [
+      "A. 吵闹 (chǎo nào)",
+      "B. 安静 (ān jìng)",
+      "C. 快乐 (kuài lè)",
+      "D. 喜欢 (xǐ huan)"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "热闹 (rè nào) 表示人多、气氛活跃，安静 (ān jìng) 表示没有声音，与热闹相反。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容小明第一次上台演讲，既紧张又渴望成功的复杂心情？",
+    "options": [
+      "心花怒放",
+      "忐忑不安",
+      "兴高采烈",
+      "若无其事"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "忐忑不安：形容心神不定，心里不踏实。最能表达小明紧张又期待的心情。心花怒放：形容非常高兴。兴高采烈：形容兴致高，情绪热烈。若无其事：好像没有发生什么事一样。这三项都不符合题意。"
+  },
+  {
+    "questionText": "以下哪句成语使用是正确的？",
+    "options": [
+      "这场比赛他输了，但他再接再厉，终于获得了冠军。",
+      "他学习很努力，总是半途而废，所以成绩不好。",
+      "这里风景优美，真是寸草不生啊！",
+      "他总是自言自语，真是出口成章！"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "再接再厉：指继续努力。半途而废：指做事不能坚持到底。寸草不生：形容土地贫瘠。出口成章：形容文思敏捷。只有“再接再厉”用在此处是恰当的。"
+  },
+  {
+    "questionText": "“明明（ ）答应了帮我，现在却反悔了，真让我失望。” 括号里应该填入哪个词语？",
+    "options": [
+      "偶然",
+      "显然",
+      "竟然",
+      "当然"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "显然：表示非常明显，理所当然。符合题意，表示明明原本答应帮忙，现在却反悔了，令人失望。偶然：表示不是必然的。竟然：表示出乎意料。当然：表示理应如此。都不符合题意。"
+  },
+  {
+    "questionText": "以下哪个句子中“望”字的意思是“看”？",
+    "options": [
+      "他很失望，感到绝望。",
+      "他站在山顶，遥望远方。",
+      "我们希望他能取得好成绩。",
+      "他很有名望。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "遥望远方：指从远处看。失望、绝望：指失去希望。希望：指期望。名望：指名誉和声望。"
+  },
+  {
+    "questionText": "“他的画栩栩如生，（ ）让人赞叹不已。” 括号里应该填入哪个关联词？",
+    "options": [
+      "甚至",
+      "因为",
+      "所以",
+      "然后"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "甚至：表示更进一层的意思。符合题意，他的画非常逼真，到了让人赞叹的地步。因为：表示原因。所以：表示结果。然后：表示先后顺序。都不符合题意。"
+  },
+  {
+    "questionText": "“骄兵必败”的意思是？",
+    "options": [
+      "骄傲的士兵一定会打败敌人",
+      "骄傲的士兵必定会失败",
+      "士兵必须骄傲才能胜利",
+      "骄傲的士兵喜欢打败仗"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "骄兵必败：指骄傲自满的军队必定会失败。告诫人们要谦虚谨慎，不能骄傲自满。"
+  },
+  {
+    "questionText": "以下哪个词语和“安静”的意思最相近？",
+    "options": [
+      "吵闹",
+      "喧哗",
+      "寂静",
+      "热闹"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "寂静：指没有声音，非常安静。吵闹、喧哗、热闹：都指声音很大，不安静。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "他跑得真快啊！",
+      "弯弯的月亮像小船。",
+      "今天的天气真好！"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "弯弯的月亮像小船：把月亮比作小船，使用了比喻的修辞手法。其他句子没有使用比喻。"
+  },
+  {
+    "questionText": "“他（ ）地完成了老师布置的作业。” 括号里应该填入哪个词语？",
+    "options": [
+      "慢慢",
+      "马虎",
+      "认真",
+      "草率"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "认真：指仔细、不马虎。符合题意，表示他很认真地完成了作业。马虎、草率：指不认真。慢慢：指速度慢。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“形容非常危险”？",
+    "options": [
+      "一帆风顺",
+      "一见如故",
+      "千钧一发",
+      "万事如意"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "千钧一发：比喻情况非常危急。一帆风顺：指非常顺利。一见如故：指初次见面就像老朋友一样。万事如意：指一切顺利。"
+  },
+  {
+    "questionText": "以下哪个词语最适合用来形容小明考试得了满分后的心情？",
+    "options": [
+      "垂头丧气",
+      "兴高采烈",
+      "愁眉苦脸",
+      "闷闷不乐"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "兴高采烈形容非常高兴的样子，最适合形容得了满分后的心情。其他选项都是形容不高兴的心情。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "妹妹的脸红得像苹果一样。",
+      "今天的天气真好啊！",
+      "小猫喜欢吃鱼。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "比喻是用相似的事物来描写事物，使描写更生动。 \"妹妹的脸红得像苹果一样\" 将妹妹的脸比作苹果。"
+  },
+  {
+    "questionText": "以下哪个词语和“仔细”的意思最接近？",
+    "options": [
+      "马虎",
+      "认真",
+      "马马虎虎",
+      "粗心"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "仔细和认真的意思都是指做事非常认真，不马虎。"
+  },
+  {
+    "questionText": "选出正确的量词：一（ ）歌曲。",
+    "options": [
+      "首",
+      "个",
+      "只",
+      "条"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "歌曲的量词是“首”。 例如：一首歌，两首歌。"
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "我喜欢吃水果和蔬菜。",
+      "今天的天气晴朗。",
+      "他不但学习好，而且很乐于助人。",
+      "因为下雨，所以我没有上学。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“因为...所以...”是固定搭配，需要同时出现。正确的句子应该是：因为下雨，所以**我**没有去上学。或者：因为下雨，**他**没有去上学，这里的“我”需要根据上下文逻辑进行修改。"
+  },
+  {
+    "questionText": "以下哪个词语是形容声音的？",
+    "options": [
+      "五颜六色",
+      "热热闹闹",
+      "叮叮咚咚",
+      "干干净净"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "叮叮咚咚是形容声音的词语，通常用来形容乐器的声音或者清脆的声音。其他选项都是形容颜色或者状态的。"
+  },
+  {
+    "questionText": "以下哪个词语和“寒冷”的意思相反？",
+    "options": [
+      "炎热",
+      "温暖",
+      "凉爽",
+      "冰冷"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "寒冷的反义词是温暖。炎热是指非常热，凉爽是指稍微冷，冰冷和寒冷的意思相近。"
+  },
+  {
+    "questionText": "选出正确的标点符号：你喜欢吃苹果（ ）还是香蕉？",
+    "options": [
+      "。",
+      "？",
+      "！",
+      "，"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "这是一个选择疑问句，因此应该用问号结尾。"
+  },
+  {
+    "questionText": "以下哪个词语不能和“提高”搭配？",
+    "options": [
+      "成绩",
+      "水平",
+      "速度",
+      "身高"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "可以提高成绩、水平和速度，但是不能提高身高。我们通常说“长高”而不是“提高身高”。"
+  },
+  {
+    "questionText": "选出正确的句子：",
+    "options": [
+      "我昨天去了书店买一本书。",
+      "他非常喜欢吃苹果的水果。",
+      "同学们在操场上快乐地玩耍。",
+      "因为我生病，但是还是去上学。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "A的正确说法是“我昨天去书店买了一本书。”B的正确说法是“他非常喜欢吃苹果。”或者“他非常喜欢吃这种水果 - 苹果” D的正确说法是“虽然我生病了，但是还是去上学。”或者“因为我生病了，所以没去上学。”"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容在烈日下长时间工作的人？",
+    "options": [
+      "精力充沛",
+      "疲惫不堪",
+      "兴高采烈",
+      "神采奕奕"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "在烈日下长时间工作，身体会感到非常疲劳，所以“疲惫不堪”最适合。"
+  },
+  {
+    "questionText": "小明不小心把花瓶打碎了，他感到非常（ ）。",
+    "options": [
+      "愉快",
+      "后悔",
+      "兴奋",
+      "得意"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "打碎花瓶是不好的事情，应该感到后悔，而不是愉快、兴奋或得意。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "弟弟的脸红得像苹果一样。",
+      "今天的天气真好啊！",
+      "我喜欢吃冰淇淋。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "比喻是用一种事物来比作另一种事物。“弟弟的脸红得像苹果一样”把弟弟的脸比作苹果。"
+  },
+  {
+    "questionText": "以下哪个词语的意思与“立刻”最接近？",
+    "options": [
+      "慢慢地",
+      "赶紧",
+      "渐渐地",
+      "总是"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“立刻”表示立即、马上，与“赶紧”的意思最接近。"
+  },
+  {
+    "questionText": "以下哪个句子是完整的？",
+    "options": [
+      "因为下雨，所以。",
+      "小猫在。",
+      "姐姐喜欢唱歌。",
+      "昨天我。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "一个完整的句子应该包含主语、谓语和宾语。“姐姐喜欢唱歌”是一个完整的句子。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容非常吵闹的声音？",
+    "options": [
+      "鸦雀无声",
+      "震耳欲聋",
+      "细声细语",
+      "轻声慢语"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“震耳欲聋”形容声音非常大，几乎要震聋耳朵，所以最适合形容吵闹的声音。"
+  },
+  {
+    "questionText": "以下哪个词语与“寒冷”是反义词？",
+    "options": [
+      "炎热",
+      "凉爽",
+      "冰冷",
+      "寒风"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“寒冷”的反义词是“炎热”。"
+  },
+  {
+    "questionText": "“亡羊补牢”这个成语告诉我们什么道理？",
+    "options": [
+      "要及时改正错误，避免更大的损失。",
+      "要爱护小动物。",
+      "要经常放羊。",
+      "要努力学习。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "“亡羊补牢”比喻出了问题以后想办法补救，可以防止继续受损失。 它的道理是要及时改正错误，避免更大的损失。"
+  },
+  {
+    "questionText": "以下哪个词语可以形容一个人非常诚实，值得信任？",
+    "options": [
+      "狡猾",
+      "虚伪",
+      "老实",
+      "奸诈"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“老实”形容一个人诚实可靠，与“狡猾”、“虚伪”和“奸诈”的意思相反。"
+  },
+  {
+    "questionText": "以下哪个句子中使用了正确的标点符号？",
+    "options": [
+      "今天天气真好！",
+      "今天天气真好?",
+      "今天天气真好，",
+      "今天天气真好。"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "表达强烈的语气，应该用感叹号“！”。"
+  },
+  {
+    "questionText": "以下哪个句子中，“静”字的意思是“没有声音”？",
+    "options": [
+      "安静是一种美德。",
+      "请保持安静，不要吵闹。",
+      "他静静地坐在那里。",
+      "风平浪静，适合航行。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "选项B中，“安静”的意思是“没有声音，不吵闹”。其他选项中，“静”的意思是“平静”、“静止”等。"
+  },
+  {
+    "questionText": "以下哪个词语的意思与“焦急”最接近？",
+    "options": [
+      "快乐",
+      "兴奋",
+      "着急",
+      "冷静"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“焦急”的意思是“非常着急，心情不安”。选项C“着急”是近义词。其他选项意义相差较远。"
+  },
+  {
+    "questionText": "“小明（ ）地完成了作业，然后去玩了。”括号里应该填入哪个词语最合适？",
+    "options": [
+      "慢慢",
+      "马虎",
+      "认真",
+      "随便"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "根据句意，“完成作业”和“去玩”之间存在一种因果关系，表示认真完成作业后才能去玩。所以“认真”最合适。马虎和随便与“完成”形成矛盾。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "弯弯的月亮像小船。",
+      "今天的天气真好啊！",
+      "小红和小丽是好朋友。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "选项B中，把“月亮”比作“小船”，使用了比喻的修辞手法。“像”是比喻词。"
+  },
+  {
+    "questionText": "以下哪个词语的搭配是错误的？",
+    "options": [
+      "提高成绩",
+      "保持安静",
+      "发生意外",
+      "改进生活"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "“改进”通常搭配“方法”、“技术”等，而不是直接搭配“生活”。可以说“改善生活”。"
+  },
+  {
+    "questionText": "以下哪个句子表达的意思与其他三个不同？",
+    "options": [
+      "这真是一个好主意！",
+      "这个主意太棒了！",
+      "这个主意不太好。",
+      "这个主意真不错！"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "选项C表达的是否定态度，认为主意不好。其他三个选项都表达了肯定态度，认为主意好。"
+  },
+  {
+    "questionText": "选出正确的量词：一（ ）书",
+    "options": [
+      "个",
+      "本",
+      "只",
+      "位"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "书的量词是“本”，所以正确的答案是“一本”。"
+  },
+  {
+    "questionText": "根据下列词语的逻辑关系，选择合适的词填入括号：医生：病人 = （ ）：学生",
+    "options": [
+      "老师",
+      "校长",
+      "课本",
+      "学校"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "医生服务于病人，老师服务于学生，所以应该选择“老师”。"
+  },
+  {
+    "questionText": "“因为他努力学习，（ ），他取得了优异的成绩。” 括号里填入哪个关联词最合适？",
+    "options": [
+      "所以",
+      "但是",
+      "如果",
+      "虽然"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "句子表示因果关系，因为…所以…，表示因为努力学习，所以取得了优异的成绩。"
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "我喜欢吃苹果和香蕉。",
+      "他每天都坚持锻炼身体。",
+      "因为今天下雨，所以我没去上学。",
+      "经过努力，我的学习水平大大改进了。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "选项D的语病在于“学习水平”不能用“改进”，应改为“提高”或者“进步”。"
+  },
+  {
+    "questionText": "以下哪个句子中的“望”字的意思是“看”？",
+    "options": [
+      "他希望得到这份礼物。",
+      "我站在山上，望得很远。",
+      "中秋节时，我们一家人一起望月。",
+      "不要辜负父母的期望。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "选项二和三中的“望”都有“看”的意思。但题目要求是哪个句子，所以选择二。选项三是中秋节看月亮，带有特定节日含义，相较而言，站在山上望远更直接地表达了“看”的意思。"
+  },
+  {
+    "questionText": "以下哪个词语最适合用来形容“乌云密布”的天气？",
+    "options": [
+      "晴空万里",
+      "阳光明媚",
+      "昏天暗地",
+      "风和日丽"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“乌云密布”指天空布满乌云，光线暗淡。“昏天暗地”形容天色昏暗，也形容秩序混乱黑暗，最贴切地描述了乌云密布带来的压抑感。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "小丽很喜欢唱歌跳舞。",
+      "弯弯的月亮像小船。",
+      "今天的天气真好啊！",
+      "弟弟 வேகமாக地跑向我。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "比喻是将一件事物比作另一件事物。选项二将月亮比作小船，运用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "选出句子意思与其他三个不同的选项。",
+    "options": [
+      "今天我很开心。",
+      "今天我很高兴。",
+      "今天我很快乐。",
+      "今天我很伤心。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "前三个选项“开心”、“高兴”和“快乐”都是积极的情绪，而“伤心”则表达了悲伤的情绪，与其他三个选项的意思相反。"
+  },
+  {
+    "questionText": "以下哪个词语和“仔细”的意思最接近？",
+    "options": [
+      "马虎",
+      "认真",
+      "马上",
+      "马力"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“仔细”指认真细致。“认真”也表示严肃对待，不马虎，因此意思最接近。"
+  },
+  {
+    "questionText": "以下哪个句子中的“意思”用法与其他三个不同？",
+    "options": [
+      "这句话是什么意思？",
+      "这件礼物只是小意思。",
+      "他很有意思，大家都喜欢他。",
+      "这个故事很有意思。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "选项一的“意思”指“含义”。选项二、三和四的“意思”指的是“趣味”或“情趣” 所以选项一的用法不同。"
+  },
+  {
+    "questionText": "以下哪个成语形容非常危险的情况？",
+    "options": [
+      "一帆风顺",
+      "九牛一毛",
+      "千钧一发",
+      "万事如意"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“千钧一发”形容极其危险的情况，就像千钧重物系在一根头发上一样。 其他选项都不能形容危险。"
+  },
+  {
+    "questionText": "选出正确的量词：一（ ）树叶",
+    "options": [
+      "片",
+      "棵",
+      "张",
+      "堆"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "树叶是扁平的，用量词“片”。“一棵树”用于整棵树，“一张纸”用于纸，“一堆”用于堆积的东西。"
+  },
+  {
+    "questionText": "以下哪个句子没有语病？",
+    "options": [
+      "因为今天下雨，所以我就不去学校了。",
+      "我昨天参观了动物园，看到了大象，老虎和狮子它们。",
+      "他不但学习好，而且他也很爱帮助别人。",
+      "听了老师的话，我受到了很大的教育。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "选项一缺少连词，应改为“因为今天下雨，所以我才不去学校。”选项二 “他们” 是多余的。 选项三 “他” 是多余的。"
+  },
+  {
+    "questionText": "根据拼音选择正确的词语：妈妈买了一(shù)鲜花。",
+    "options": [
+      "束",
+      "数",
+      "树",
+      "术"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "根据语境，“一（束）鲜花”是最合适的。 “束”表示捆在一起的花。"
+  },
+  {
+    "questionText": "以下哪个词语最适合用来形容小明第一次参加歌唱比赛，感到既紧张又兴奋的心情？",
+    "options": [
+      "兴高采烈",
+      "忐忑不安",
+      "手舞足蹈",
+      "若无其事"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "忐忑不安 (tǎn tè bù ān) 形容心里不安。虽然兴奋，但比赛前紧张，所以'忐忑不安'最合适。"
+  },
+  {
+    "questionText": "以下哪句话使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "弟弟的脸红得像苹果一样。",
+      "今天的天气真晴朗啊！",
+      "我喜欢吃妈妈做的饭。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "比喻是将一件事物比作另一件事物。'弟弟的脸红得像苹果一样'将脸的颜色比作苹果，所以是比喻。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是做事犹豫不决，拿不定主意？",
+    "options": [
+      "当机立断",
+      "犹豫不决",
+      "三思而行",
+      "亡羊补牢"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "犹豫不决 (yóu yù bù jué) 指的是迟疑，拿不定主意。当机立断 (dāng jī lì duàn) 指抓住时机，立刻做出决定；三思而行 (sān sī ér háng) 指经过反复考虑再行动；亡羊补牢 (wáng yáng bǔ láo) 指出了问题后及时补救。"
+  },
+  {
+    "questionText": "选出与“仔细”意思相近的词语。",
+    "options": [
+      "马虎",
+      "粗心",
+      "认真",
+      "马马虎虎"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "仔细的意思是认真、细心。所以“认真”与“仔细”意思相近。马虎和粗心是反义词。"
+  },
+  {
+    "questionText": "以下哪个句子中“骄傲”一词用得不恰当？",
+    "options": [
+      "小华取得了好成绩，感到很骄傲。",
+      "我们为祖国的成就感到骄傲。",
+      "他骄傲地举起了奖杯。",
+      "小明很骄傲，从来不帮助别人。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "在“小明很骄傲，从来不帮助别人”中，“骄傲”带有贬义，指自高自大。 其他选项中的“骄傲”是自豪的意思，用得恰当。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容雨下得很大？",
+    "options": [
+      "毛毛细雨",
+      "倾盆大雨",
+      "淅淅沥沥",
+      "风和日丽"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "倾盆大雨 (qīng pén dà yǔ) 形容雨下得非常大。毛毛细雨 (máo máo xì yǔ) 指很小的雨；淅淅沥沥 (xī xī lì lì) 形容轻微的雨声；风和日丽 (fēng hé rì lì) 形容天气晴朗。"
+  },
+  {
+    "questionText": "选出正确的量词：一（ ）歌曲",
+    "options": [
+      "首",
+      "个",
+      "只",
+      "支"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "歌曲的量词通常用“首”。例如：一首歌。"
+  },
+  {
+    "questionText": "以下哪个句子表达的意思最完整？",
+    "options": [
+      "小明在。",
+      "小明在学校。",
+      "小明在学校学习。",
+      "小明在学校学习很开心。"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "虽然每个句子都说得通，但是“小明在学校学习很开心”提供了最多的信息，表达了小明在学校的活动和心情，因此最完整。"
+  },
+  {
+    "questionText": "以下哪个词语不能用来形容一个人的外貌？",
+    "options": [
+      "眉清目秀",
+      "炯炯有神",
+      "心旷神怡",
+      "亭亭玉立"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "心旷神怡 (xīn kuàng shén yí) 形容心情舒畅。 其他词语都用来形容外貌。眉清目秀 (méi qīng mù xiù) 形容容貌清秀；炯炯有神 (jiǒng jiǒng yǒu shén) 形容眼睛明亮有精神；亭亭玉立 (tíng tíng yù lì) 形容女子身材修长美丽。"
+  },
+  {
+    "questionText": "如果“突然”的意思是“出乎意料地”，那么哪个词语的意思与“果然”最接近？",
+    "options": [
+      "竟然",
+      "当然",
+      "果然",
+      "仍然"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "果然 (guǒ rán) 的意思是“果真是这样，与预料的一样”。 当然 (dāng rán) 是“应该这样”的意思； 竟然 (jìng rán)是“表示出乎意料”的意思； 仍然 (réng rán)是“还是”的意思。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容一位即使遇到困难也不轻易放弃的人？",
+    "options": [
+      "半途而废",
+      "持之以恒",
+      "三天打鱼，两天晒网",
+      "虎头蛇尾"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "持之以恒 指的是坚持不懈，有毅力，符合题意。其他选项都是形容做事没有恒心，容易放弃。"
+  },
+  {
+    "questionText": "小明不小心把花瓶打碎了，他应该怎么做？",
+    "options": [
+      "逃之夭夭",
+      "装作没看见",
+      "勇敢承认错误",
+      "责怪其他人"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "勇敢承认错误 是正确的做法。打破花瓶是不对的，但勇于承担责任更重要。其他选项都是不负责任的表现。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "他跑得像箭一样快。",
+      "今天的天气真好啊！",
+      "我喜欢吃苹果。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "他跑得像箭一样快。 使用了“像”字，把“跑”的速度比作“箭”，是比喻的修辞手法。其他句子没有使用比喻。"
+  },
+  {
+    "questionText": "以下哪个成语的意思是形容非常危险的情况？",
+    "options": [
+      "一帆风顺",
+      "千钧一发",
+      "万事如意",
+      "四季平安"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "千钧一发 形容非常危险，就像一千钧的重物系在一根头发上。其他成语都是形容顺利或美好的。"
+  },
+  {
+    "questionText": "以下哪个词语和“仔细”的意思最接近？",
+    "options": [
+      "马虎",
+      "认真",
+      "马马虎虎",
+      "马不停蹄"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "认真 和 仔细 的意思相近，都是指做事细心，不马虎。马虎 和 马马虎虎 是反义词，马不停蹄 是形容不停地赶路。"
+  },
+  {
+    "questionText": "“亡羊补牢”这个成语告诉我们什么道理？",
+    "options": [
+      "羊丢了就不用管了",
+      "犯了错误及时改正还不算晚",
+      "羊喜欢跑",
+      "牢房一定要坚固"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "亡羊补牢 比喻出了问题以后想办法补救，可以防止继续受损失。犯了错误及时改正还不算晚 最符合这个道理。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容一位勤奋学习的学生？",
+    "options": [
+      "游手好闲",
+      "不务正业",
+      "废寝忘食",
+      "好吃懒做"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "废寝忘食 形容专心致志，努力学习或工作。其他选项都是形容懒惰，不努力。"
+  },
+  {
+    "questionText": "以下哪个句子没有语病？",
+    "options": [
+      "我每天都看书报纸。",
+      "今天早上我吃了一个面包和牛奶。",
+      "因为今天下雨，所以我没有带雨伞因为。",
+      "我喜欢唱歌，而且跳舞，还有画画。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "今天早上我吃了一个面包和牛奶。 句子结构完整，表达清晰，没有语病。 其他句子都有重复或逻辑错误。"
+  },
+  {
+    "questionText": "根据课文，以下哪个选项最能体现李爷爷乐于助人的精神？",
+    "options": [
+      "李爷爷每天都去公园散步。",
+      "李爷爷经常帮助邻居修理电器。",
+      "李爷爷喜欢在家里看电视。",
+      "李爷爷养了很多花花草草。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "李爷爷经常帮助邻居修理电器 最能体现他乐于助人的精神，帮助别人解决困难。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“非常开心，高兴得不得了”？",
+    "options": [
+      "愁眉苦脸",
+      "兴高采烈",
+      "闷闷不乐",
+      "垂头丧气"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "兴高采烈 形容非常开心，高兴得不得了。其他选项都是形容不开心或沮丧。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容考试前既紧张又想赶快考完的心情？",
+    "options": [
+      "迫不及待",
+      "提心吊胆",
+      "心不在焉",
+      "百感交集"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "百感交集：多种感情交织在一起。在考试前，学生可能会感到紧张、期待、焦虑等多种情绪，因此“百感交集”最适合。"
+  },
+  {
+    "questionText": "小明打破了花瓶，妈妈非常生气，他的心情应该是怎样的？",
+    "options": [
+      "得意洋洋",
+      "心惊胆战",
+      "兴高采烈",
+      "若无其事"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "心惊胆战：形容非常害怕。因为打破了花瓶，妈妈生气，小明会感到害怕。"
+  },
+  {
+    "questionText": "以下哪个句子中，“望”字的意思是“盼望”？",
+    "options": [
+      "一望无际的草原真美啊！",
+      "我每天都望向窗外，盼着爸爸回家。",
+      "他很有名望，大家都尊敬他。",
+      "站在山上，我们可以望见远处的城市。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "句子“我每天都望向窗外，盼着爸爸回家。”中的“望”有盼望的意思。"
+  },
+  {
+    "questionText": "选出正确的量词：一（ ）鲜花",
+    "options": [
+      "朵",
+      "束",
+      "支",
+      "棵"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "鲜花通常用“束”来形容，例如“一束鲜花”。"
+  },
+  {
+    "questionText": "以下哪个词语不能用来形容非常开心？",
+    "options": [
+      "眉开眼笑",
+      "兴高采烈",
+      "愁眉苦脸",
+      "喜出望外"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "愁眉苦脸：形容忧愁的样子，和开心的意思相反。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "弯弯的月亮像一只小船。",
+      "小丽今天穿了一件红色的裙子。",
+      "小明和小华是好朋友。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "句子“弯弯的月亮像一只小船。”将月亮比喻成小船。"
+  },
+  {
+    "questionText": "以下哪个句子没有错别字？",
+    "options": [
+      "他每天坚持跑步鍛炼身体。",
+      "上课时要专心听讲，不能开小差。",
+      "今天的功课真多啊，我都作不完了。",
+      "我们应该爱惜粮食，不要狼費。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "选项1的“坚”应为“坚”， “鍛”应为“锻”；选项3的“作”应为“做”；选项4的“狼”应为“浪”， “費”应为“费”"
+  },
+  {
+    "questionText": "以下哪个词语的意思与“仔细”最接近？",
+    "options": [
+      "马虎",
+      "认真",
+      "草率",
+      "大概"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "认真：形容做事细心、负责。“仔细”和“认真”都有细致、不马虎的意思。"
+  },
+  {
+    "questionText": "选择正确的关联词填空：______今天下雨了，______我们不去动物园了。",
+    "options": [
+      "如果……就",
+      "因为……所以",
+      "虽然……但是",
+      "不但……而且"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "因为下雨是原因，不去动物园是结果，所以用“因为……所以”表示因果关系。"
+  },
+  {
+    "questionText": "以下哪个成语形容时间过得很快？",
+    "options": [
+      "度日如年",
+      "一日三秋",
+      "光阴似箭",
+      "日积月累"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "光阴似箭：形容时间过得飞快。"
+  },
+  {
+    "questionText": "以下哪个句子中的“望”字和“盼望”的“望”字意思最接近？",
+    "options": [
+      "我向窗外望去，看到一棵大树。",
+      "他很有名望，大家都尊敬他。",
+      "农夫望着田里的稻子，心里充满了喜悦。",
+      "这件事很有希望成功。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "盼望和望着都包含期待、希望的意思。选项3中的“望着”和“盼望”都表示期待稻子丰收。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容乌云密布的天空？",
+    "options": [
+      "阳光明媚",
+      "万里无云",
+      "风和日丽",
+      "天昏地暗"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "天昏地暗形容天空阴暗，符合乌云密布的景象。其他选项都形容晴朗的天气。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "小丽长得很高。",
+      "弯弯的月亮像一只小船。",
+      "今天的天气真好啊！",
+      "他飞快地跑向终点。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "选项2将月亮比作小船，使用了比喻的修辞手法，使描述更生动形象。"
+  },
+  {
+    "questionText": "以下哪个词语和“仔细”的意思相反？",
+    "options": [
+      "认真",
+      "马虎",
+      "细心",
+      "周到"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "仔细是认真、细心的意思，而马虎是粗心、不认真的意思，所以意思相反。"
+  },
+  {
+    "questionText": "以下哪个句子使用了“一边…一边…”的句式？",
+    "options": [
+      "他一会儿唱歌，一会儿跳舞。",
+      "他一边看书，一边听音乐。",
+      "他不但聪明，而且努力。",
+      "因为他生病了，所以没来上学。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“一边…一边…”表示同时进行两个动作。选项2符合这个句式。"
+  },
+  {
+    "questionText": "以下哪个词语的意思是“形容非常安静”？",
+    "options": [
+      "鸦雀无声",
+      "人山人海",
+      "热闹非凡",
+      "欢声笑语"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "鸦雀无声形容非常安静，连乌鸦和麻雀的声音都没有。其他选项都形容热闹的场面。"
+  },
+  {
+    "questionText": "以下哪个句子中，“骄傲”一词用得不恰当？",
+    "options": [
+      "小明考试得了第一名，感到很骄傲。",
+      "我们要谦虚，不能骄傲自满。",
+      "这只孔雀骄傲地展示着美丽的羽毛。",
+      "他取得了一点成绩，就骄傲得不得了。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "孔雀展示羽毛是自然行为，不涉及骄傲的情感。其他选项中，“骄傲”都表示自满、得意。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容雨后出现的美丽彩虹？",
+    "options": [
+      "色彩斑斓",
+      "漆黑一片",
+      "空空如也",
+      "洁白无瑕"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "色彩斑斓形容颜色多而鲜艳，适合形容彩虹的多种颜色。其他选项不适合形容彩虹。"
+  },
+  {
+    "questionText": "选出正确的量词填空：一（ ）鲜花",
+    "options": [
+      "朵",
+      "束",
+      "支",
+      "棵"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "鲜花通常用“束”来形容，例如：一束鲜花。"
+  },
+  {
+    "questionText": "以下哪个句子最能体现“助人为乐”的精神？",
+    "options": [
+      "小明每天认真完成作业。",
+      "小红帮助老奶奶过马路。",
+      "小华喜欢看动画片。",
+      "小丽有很多玩具。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "助人为乐是指帮助别人感到快乐。选项2中，小红帮助老奶奶过马路，体现了助人为乐的精神。"
+  },
+  {
+    "questionText": "以下哪个句子使用了正确的量词？",
+    "options": [
+      "一辆猫在睡觉。",
+      "一粒星星很亮。",
+      "一条树长得很高。",
+      "一双鱼在水里游。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "星星用“粒”来形容是正确的。其他选项的量词都不正确。“猫”用“只”，“树”用“棵”，“鱼”用“条”。"
+  },
+  {
+    "questionText": "选出意思最接近“焦急”的词语。",
+    "options": [
+      "开心",
+      "着急",
+      "冷静",
+      "轻松"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“焦急”和“着急”都表示心里很不安，很想事情快点发生。"
+  },
+  {
+    "questionText": "以下哪个词语的搭配是不正确的？",
+    "options": [
+      "清新的空气",
+      "香甜的蛋糕",
+      "明亮的乌云",
+      "安静的教室"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "乌云通常是阴暗的，所以用“明亮的”来形容是不正确的。其他选项的搭配都是正确的。"
+  },
+  {
+    "questionText": "以下哪个句子有语病？",
+    "options": [
+      "今天天气真好，我们去公园玩吧。",
+      "我喜欢吃苹果、香蕉和西瓜水果。",
+      "小明一边唱歌，一边跳舞。",
+      "奶奶每天都去公园散步。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“苹果、香蕉和西瓜”都属于水果，所以说“苹果、香蕉和西瓜水果”是重复的。"
+  },
+  {
+    "questionText": "“他（ ）把地上的垃圾捡起来，（ ）丢进垃圾桶里。”应该填入什么关联词？",
+    "options": [
+      "先…再…",
+      "因为…所以…",
+      "虽然…但是…",
+      "如果…就…"
+    ],
+    "correctAnswerIndex": 0,
+    "explanation": "表示先后顺序，应该用“先…再…”。"
+  },
+  {
+    "questionText": "选出不同类的词语。",
+    "options": [
+      "铅笔",
+      "橡皮",
+      "书包",
+      "故事"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "铅笔、橡皮和书包都是文具，而故事是书籍的内容，因此“故事”与其它词语不同类。"
+  },
+  {
+    "questionText": "以下哪个成语形容非常危险的情况？",
+    "options": [
+      "一帆风顺",
+      "九牛一毛",
+      "千钧一发",
+      "万事如意"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“千钧一发”比喻情况非常危急。其他成语的意思分别是：一帆风顺（事情顺利），九牛一毛（非常小），万事如意（一切顺利）。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的月亮又大又圆。",
+      "妹妹的脸像红苹果一样。",
+      "小鸟在树上唱歌。",
+      "今天真热啊！"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“妹妹的脸像红苹果一样”把妹妹的脸比作红苹果，使用了比喻的修辞手法。"
+  },
+  {
+    "questionText": "根据课文，以下哪个描述是不正确的？",
+    "options": [
+      "小明喜欢画画。",
+      "小丽的妈妈是医生。",
+      "小华住在组屋里。",
+      "老师教我们唱歌跳舞。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "需要根据具体的课文内容来判断哪个描述是不正确的。假设课文没有提到小丽的妈妈是医生，那么这个选项就是不正确的。"
+  },
+  {
+    "questionText": "选出正确的句子。",
+    "options": [
+      "我昨天吃了苹果一个。",
+      "他喜欢看书，而且也喜欢画画。",
+      "因为今天下雨，所以我们明天不去。",
+      "小狗高兴地跑跳。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "“他喜欢看书，而且也喜欢画画”是一个通顺且没有语病的句子。其他选项都有语病。"
+  },
+  {
+    "questionText": "以下哪个词语最适合形容小明考试得了满分后的心情？",
+    "options": [
+      "伤心",
+      "得意洋洋",
+      "闷闷不乐",
+      "提心吊胆"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "得意洋洋形容非常满足和高兴的样子，最符合得了满分的心情。伤心是难过，闷闷不乐是不高兴，提心吊胆是担心。"
+  },
+  {
+    "questionText": "以下哪个句子使用了比喻的修辞手法？",
+    "options": [
+      "天上的星星一闪一闪的。",
+      "他的脸红得像苹果一样。",
+      "小丽今天穿了一件新裙子。",
+      "弟弟跑得很快。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "比喻是用相似的事物来描写事物，使事物更生动形象。'他的脸红得像苹果一样' 将脸的颜色比作苹果，使用了比喻。"
+  },
+  {
+    "questionText": "以下哪个词语和“仔细”的意思最接近？",
+    "options": [
+      "马虎",
+      "认真",
+      "随便",
+      "粗心"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "仔细是认真、细致的意思。认真与仔细意思相近。马虎、随便、粗心都与仔细的意思相反。"
+  },
+  {
+    "questionText": "根据以下信息，哪个词语最适合描述这种情况：明明答应帮小红保管秘密，却告诉了其他人。",
+    "options": [
+      "一诺千金",
+      "背信弃义",
+      "守口如瓶",
+      "言行一致"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "背信弃义是指违背诺言，不讲道义。明明没有遵守承诺，所以用“背信弃义”最合适。一诺千金是形容承诺很珍贵，守口如瓶是形容保守秘密，言行一致是说的话和做的事情一致。"
+  },
+  {
+    "questionText": "以下哪个句子中“生气”的意思与其他三个不同？",
+    "options": [
+      "他听了这件事非常生气。",
+      "花园里的花长得很生气。",
+      "妈妈生气地批评了我。",
+      "小明因为考试不及格而生气。"
+    ],
+    "correctAnswerIndex": 1,
+    "explanation": "选项1、3、4中的“生气”都是指情绪上的愤怒。选项2中的“生气”是指有生命力、长势旺盛。"
+  },
+  {
+    "questionText": "以下哪个成语形容情况非常危急？",
+    "options": [
+      "一帆风顺",
+      "刻舟求剑",
+      "千钧一发",
+      "亡羊补牢"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "千钧一发形容情况非常危急，像一千钧的重物用一根头发系着。一帆风顺形容非常顺利，刻舟求剑形容做事方法不对，亡羊补牢是比喻出了问题及时补救。"
+  },
+  {
+    "questionText": "以下哪个词语可以用来形容雨后天空出现的景象？",
+    "options": [
+      "阳光明媚",
+      "乌云密布",
+      "风和日丽",
+      "彩虹高挂"
+    ],
+    "correctAnswerIndex": 3,
+    "explanation": "彩虹通常在雨后出现，因此“彩虹高挂”最适合形容雨后天空的景象。阳光明媚、风和日丽都是形容晴朗的天气，乌云密布形容阴暗的天气。"
+  },
+  {
+    "questionText": "以下哪个句子表达了“因为…所以…”的因果关系？",
+    "options": [
+      "虽然天气很冷，但是他还是坚持跑步。",
+      "如果明天不下雨，我们就去野餐。",
+      "因为他努力学习，所以考试取得了优异的成绩。",
+      "他一边唱歌，一边跳舞。"
+    ],
+    "correctAnswerIndex": 2,
+    "explanation": "“因为他努力学习，所以考试取得了优异的成绩” 明确表达了努力学习是原因，取得优异成绩是结果。其他选项没有明确的因果关系。"
+  }
+]
