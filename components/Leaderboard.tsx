@@ -117,7 +117,7 @@ export const Leaderboard: React.FC<LeaderboardProps> = ({ currentUserId, isGuest
           <p className="text-gray-500">No rankings yet. Be the first!</p>
         </div>
       ) : (
-        <div className="space-y-3 flex-1 overflow-auto">
+        <div className="space-y-3 flex-1 overflow-auto p-2">
           {entries.map((entry, index) => {
             const rank = index + 1;
             const isCurrentUser = entry.uid === currentUserId;
