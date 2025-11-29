@@ -220,7 +220,7 @@
     "explanation": "Moulds, like most microorganisms, thrive in warm, moist, and nutrient-rich environments. Refrigeration (low temperature) significantly slows down metabolic and growth rates, and low moisture inhibits spore germination and growth."
   },
   {
-    "questionText": "A student has four different objects: P (Steel nail), Q (Wooden pencil), R (Copper wire), S (Plastic ruler). Which two objects will be attracted to a strong bar magnet?",
+    "questionText": "A student has four different objects: P (Steel nail), Q (Wooden pencil), R (Iron paper clip), S (Plastic ruler). Which two objects will be attracted to a strong bar magnet?",
     "options": [
       "P and R only",
       "P and S only",
@@ -228,7 +228,7 @@
       "Q and S only"
     ],
     "correctAnswerIndex": 0,
-    "explanation": "Magnets attract magnetic materials, typically iron, steel (which contains iron), cobalt, and nickel. P (Steel nail) is highly magnetic. R (Copper wire) is non-magnetic, Q (Wood) and S (Plastic) are non-magnetic. Wait, this question needs careful check on R. Copper is non-magnetic. Let's adjust the options based on common P4 magnetic materials: Iron/Steel. Let's assume R is Nickel, or check the provided options again. If R is Copper, the answer must be adjusted. Assuming standard P4 difficulty where only Iron/Steel/Nickel/Cobalt are magnetic, and Copper is not, the only definite magnetic material listed is Steel (P). Let's change R to Nickel or assume the teacher meant a copper-coated steel wire. Given the need for a pair, let's change R to Nickel Coin instead of Copper Wire for clarity, OR change R to a Magnetic Material. Let's make R an iron paper clip. \nNew R: R (Iron paper clip).\nThus, P (Steel nail) and R (Iron paper clip) are magnetic."
+    "explanation": "Magnets attract magnetic materials, typically iron, steel (which contains iron), cobalt, and nickel. P (Steel nail) is magnetic. R (Iron paper clip) is also magnetic. Q (Wooden pencil) and S (Plastic ruler) are non-magnetic."
   },
   {
     "questionText": "A farmer observes that a certain pest insect damages his crops mainly during the larval stage. This insect undergoes complete metamorphosis. If the farmer wants to introduce a biological control agent (a predator) to specifically target the most destructive stage, which organism would the agent be targeting?",
@@ -800,7 +800,7 @@
       "S"
     ],
     "correctAnswerIndex": 3,
-    "explanation": "A boat propeller needs to be strong to withstand forces and magnetic (usually metal) so it can interact with the engine components. While it also needs to be waterproof and durable, strength and magnetism are the critical properties listed here for a propeller (often made of steel or brass alloy)."
+    "explanation": "A boat propeller needs to be strong to withstand forces and waterproof/corrosion-resistant to survive in water. While metals are often used, being magnetic is not a requirement for the propeller's function."
   },
   {
     "questionText": "During the water cycle, water vapour rises, cools down, and turns into tiny water droplets. This process is called:",
@@ -2068,7 +2068,7 @@
     "explanation": "A submarine window needs to be extremely strong (to withstand high water pressure) and transparent (to allow viewing). While M is transparent, K is described as strong and waterproof. In reality, strong, thick glass is used, but based on the limited options, K (strong and waterproof) is the best choice among the listed properties, assuming strength overrides flexibility for transparency in P4 context application problems."
   },
   {
-    "questionText": "Which of the following parts of a plant are primarily responsible for transporting water and stored food throughout the plant, respectively?",
+    "questionText": "Which of the following parts of a plant are primarily responsible for transporting water and producing food, respectively?",
     "options": [
       "Roots and Leaves",
       "Leaves and Stem",
@@ -3748,7 +3748,7 @@
       "A has a smaller surface area than B."
     ],
     "correctAnswerIndex": 1,
-    "explanation": "When objects feel 'warmer' or 'colder' than room temperature, it relates to how fast they transfer heat to or from your hand. If A feels warmer, it is conducting heat away from your hand faster than B. Therefore, A is a better conductor of heat than B. (Note: Both are at room temp, but the sensation is due to heat flow.)"
+    "explanation": "When objects feel 'warmer' or 'colder' than room temperature, it relates to how fast they transfer heat to or from your hand. If A feels warmer, it is conducting heat away from your hand slower than B (or not at all). Therefore, A is a poorer conductor (better insulator) of heat than B."
   },
   {
     "questionText": "A simple circuit contains a battery, a switch, and two bulbs, P and Q, connected in series. If bulb P blows (breaks the circuit), what happens to bulb Q and the flow of electricity?",

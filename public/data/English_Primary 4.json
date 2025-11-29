@@ -1422,7 +1422,7 @@
     "questionText": "Select the sentence with the correct use of 'there,' 'their,' or 'they're'.",
     "options": [
       "They're going to bring their books over their.",
-      "There going to bring there books over they're.",
+      "They're going to bring their books over there.",
       "Their going to bring they're books over there.",
       "They're going to bring there books over there."
     ],
@@ -3227,11 +3227,11 @@
     "options": [
       "Each of the students have a textbook.",
       "The team are playing well this season.",
-      "Neither the cat nor the dogs is eating.",
+      "Neither the cat nor the dogs are eating.",
       "My brother and I is going to the park."
     ],
     "correctAnswerIndex": 2,
-    "explanation": "When 'neither...nor' connects two singular nouns, the verb should be singular. 'Is eating' agrees with 'the cat' since it is closer to the verb."
+    "explanation": "When 'neither...nor' connects two nouns, the verb agrees with the noun closest to it. 'Dogs' is plural, so the plural verb 'are eating' is correct."
   },
   {
     "questionText": "Which of the following best replaces the underlined word to show a stronger emotion? 'He was angry about the broken vase.'",
@@ -3781,7 +3781,7 @@
       "have been"
     ],
     "correctAnswerIndex": 2,
-    "explanation": "When using 'neither... nor', the verb must agree in number with the subject closest to it. Since 'students' is plural, the verb should be plural ('were' or 'are'). However, in highly technical usage (common in top-school editing), if the subjects differ in number, the singular subject ('teacher') often dictates a singular verb if placed first, but here the standard rule dictates agreement with the second subject ('students' - plural). Wait, the second subject is plural ('students'). Let's re-examine this common P4 trap. If we use 'is', it implies we are treating the unit as one. However, the standard rule is often to agree with the nearest subject. Let's make the second subject singular to make 'is' the correct answer, as this is a classic P4 trap. REVISION: Neither the students nor the teacher ________ aware. The verb agrees with 'teacher'. So 'is' or 'was' is correct. Let's use 'is' as it is a general statement.  *Self-Correction: The original question was 'Neither the teacher nor the students'. To enforce a singular answer (a common tricky P4 question), I must swap the subjects or change the plural to singular. Let's change the question structure to ensure 'was' is the only logical answer.*  New Question: Neither the children nor their father ________ aware of the surprise party planned by the neighbours. (Answer must be 'was', agreeing with 'father')."
+    "explanation": "When using 'neither... nor', the verb must agree in number with the subject closest to it. 'Father' is singular, so the verb 'was' is required."
   },
   {
     "questionText": "Neither the children nor their father __________ aware of the surprise party planned by the neighbours.",
@@ -4136,7 +4136,7 @@
     "explanation": "This option correctly uses the cause-and-effect structure, linking the cancellation to the heavy rain using 'As a result of'."
   },
   {
-    "questionText": "Neither Sarah _____ her brother were able to attend the family gathering last weekend.",
+    "questionText": "Neither Sarah _____ her brother was able to attend the family gathering last weekend.",
     "options": [
       "nor",
       "or",
