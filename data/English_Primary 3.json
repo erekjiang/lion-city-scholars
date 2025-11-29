@@ -1763,7 +1763,7 @@
     "questionText": "Which of these sentences uses the correct form of the word 'lie'?",
     "options": [
       "He layed down for a nap.",
-      "The book is laying on the table.",
+      "The book is lying on the table.",
       "She lies down every afternoon.",
       "He lies the book on the table."
     ],
@@ -2875,7 +2875,7 @@
     "options": [
       "I will lay down for a nap.",
       "He lied on the sofa all day.",
-      "The book is laying on the table.",
+      "The book is lying on the table.",
       "She lies down when she is tired."
     ],
     "correctAnswerIndex": 3,
@@ -3534,7 +3534,7 @@
     "questionText": "Which of the following sentences demonstrates the correct use of 'there', 'their', or 'they're'?",
     "options": [
       "They're dog is very friendly.",
-      "There going to the park later.",
+      "They're going to the park later.",
       "Their is a cat on the roof.",
       "They're going to the park later."
     ],
